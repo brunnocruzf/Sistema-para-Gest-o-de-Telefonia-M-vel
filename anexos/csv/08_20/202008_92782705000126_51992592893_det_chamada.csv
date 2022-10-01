@@ -1,0 +1,20 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-07-01 12:58:59;51  998991526;94.0;Para Celulares Vivo;
+2020-07-01 10:01:22;51  997842173;5.0;Para Celulares Vivo;
+2020-07-01 09:11:59;51  997842173;6.0;Para Celulares Vivo;
+2020-07-30 18:14:23;51  997842173;22.0;Para Celulares Vivo;
+2020-07-30 10:05:59;51  997842173;19.0;Para Celulares Vivo;
+2020-07-24 10:20:26;51  991924824;8.0;Para Celulares Vivo;
+2020-07-23 17:40:00;51  998991526;9.0;Para Celulares Vivo;
+2020-07-23 17:38:11;51  996421125;13.0;Para Celulares Vivo;
+2020-07-22 09:36:10;51  997842173;33.0;Para Celulares Vivo;
+2020-07-22 09:33:02;51  998991526;28.0;Para Celulares Vivo;
+2020-07-17 18:23:43;51  997842173;14.0;Para Celulares Vivo;
+2020-07-16 14:25:33;51  997842173;22.0;Para Celulares Vivo;
+2020-07-13 17:13:07;51  996421125;99.0;Para Celulares Vivo;
+2020-07-11 17:12:57;51  997842173;13.0;Para Celulares Vivo;
+2020-07-09 11:11:03;51  996421125;5.0;Para Celulares Vivo;
+2020-07-04 12:01:00;51  992592729;11.0;Para Celulares Vivo;
+2020-07-03 12:46:57;51  992592729;20.0;Para Celulares Vivo;
+2020-07-02 16:59:12;51  997842173;16.0;Para Celulares Vivo;
+2020-07-02 16:57:29;51  992592729;13.0;Para Celulares Vivo;

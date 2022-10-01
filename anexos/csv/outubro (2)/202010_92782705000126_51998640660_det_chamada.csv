@@ -1,0 +1,24 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-09-08 22:25:58;51  999799613;6.3;Para Celulares Vivo;
+2020-09-17 22:29:03;51  999799613;2.8;Para Celulares Vivo;
+2020-09-23 22:31:00;51  999799613;5.6;Para Celulares Vivo;
+2020-09-26 17:53:15;51  998546893;0.5;Para Celulares Vivo;
+2020-09-29 12:34:44;51  997990571;1.6;Para Celulares Vivo;
+2020-09-29 12:56:20;51  997990571;1.2;Para Celulares Vivo;
+2020-09-29 22:10:32;51  999799613;12.1;Para Celulares Vivo;
+2020-09-14 13:22:04;51  33953111;3.7;Para Fixo Vivo;
+2020-09-15 17:51:57;51  21364100;6.2;Para Fixo Vivo;
+2020-09-19 12:42:31;51  982876533;16.7;Para Celulares de Outras Operadoras;
+2020-09-23 10:17:14;51  993326756;0.8;Para Celulares de Outras Operadoras;
+2020-09-07 12:12:47;51  40203113;7.5;Para Fixo de Outras Operadoras;
+2020-09-12 10:48:24;51  40203113;0.8;Para Fixo de Outras Operadoras;
+2020-09-12 10:49:44;51  40203113;0.8;Para Fixo de Outras Operadoras;
+2020-09-12 10:54:37;51  40203113;0.5;Para Fixo de Outras Operadoras;
+2020-09-13 15:40:27;51  34438691;2.7;Para Fixo de Outras Operadoras;
+2020-09-14 12:54:12;51  40203113;11.8;Para Fixo de Outras Operadoras;
+2020-09-14 13:26:17;51  34438691;6.7;Para Fixo de Outras Operadoras;
+2020-09-14 22:53:30;51  34442140;1.9;Para Fixo de Outras Operadoras;
+2020-09-15 19:31:09;51  30041104;1.6;Para Fixo de Outras Operadoras;
+2020-09-19 21:29:27;51  34436781;2.7;Para Fixo de Outras Operadoras;
+2020-09-04;"";2.0;INTERNET MOVEL 2;0.00
+2020-09-15;"";1.0;INTERNET MOVEL 2;0.00

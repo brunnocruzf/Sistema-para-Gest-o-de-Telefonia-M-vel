@@ -1,0 +1,12 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-03-19 14:58:49;51991943334;1.0;GRATIS-SMS;0.00
+2020-03-21 17:50:43;51  34631945;20.0;Para Fixo de Outras Operadoras;
+2020-03-02 07:43:27;51  984267732;9.0;Para Celulares de Outras Operadoras;
+2020-03-27 11:37:14;51  992518679;5.0;Para Celulares Vivo;
+2020-03-27 10:18:33;51  996741403;54.0;Para Celulares Vivo;
+2020-03-26 12:42:30;51  991943334;46.0;Para Celulares Vivo;
+2020-03-26 10:38:55;51  992518679;53.0;Para Celulares Vivo;
+2020-03-20 12:48:02;51  996805228;5.0;Para Celulares Vivo;
+2020-03-19 15:36:59;51  991943334;44.0;Para Celulares Vivo;
+2020-03-05 07:59:59;51  995112258;5.0;Para Celulares Vivo;
+2020-03-04 14:17:00;51  995112258;5.0;Para Celulares Vivo;

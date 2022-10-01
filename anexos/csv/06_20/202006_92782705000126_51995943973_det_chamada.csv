@@ -1,0 +1,9 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-05-27 07:52:00;51  989065481;12.0;Para Celulares de Outras Operadoras;
+2020-05-26 10:59:59;42  988714787;258.0;Para Celulares de Outras Operadoras;
+2020-05-26 10:45:44;42  988714787;18.0;Para Celulares de Outras Operadoras;
+2020-05-27 10:51:49;51  993320327;15.0;Para Celulares Vivo;
+2020-05-18;"";154636.2;INTERNET MOVEL 2;0.00
+2020-05-19;"";12468.8;INTERNET MOVEL 2;0.00
+2020-05-26;"";66216.9;INTERNET MOVEL 2;0.00
+2020-05-27;"";229204.7;INTERNET MOVEL 2;0.00

@@ -1,0 +1,31 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-03-11 11:01:45;"";1.0;ADICIONAL;0.00
+2020-03-10 11:18:19;"";1.0;ADICIONAL;0.00
+2020-03-10 09:43:04;"";1.0;ADICIONAL;0.00
+2020-03-07 16:58:45;"";1.0;ADICIONAL;0.00
+2020-03-07 16:56:00;"";1.0;ADICIONAL;0.00
+2020-03-06 09:59:00;"";1.0;ADICIONAL;0.00
+2020-03-03 12:58:22;"";1.0;ADICIONAL;0.00
+2020-03-11 10:04:18;51  996922316;6.0;Para Celulares Vivo;
+2020-03-11 08:29:30;51  996922316;6.0;Para Celulares Vivo;
+2020-03-09 17:31:26;51  996922316;10.0;Para Celulares Vivo;
+2020-03-09 16:47:53;51  992545119;5.0;Para Celulares Vivo;
+2020-03-06 10:31:16;51  996922316;5.0;Para Celulares Vivo;
+2020-03-11 10:04:18;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-03-11 08:29:30;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-03-09 17:31:26;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-03-09 16:47:53;51  992545119;0.0;Adicional por Ligacoes Realizadas;
+2020-03-08 06:40:01;98  991552267;0.0;Adicional por Ligacoes Realizadas;
+2020-03-06 10:31:16;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-03-05 15:56:57;98  988679754;0.0;Adicional por Ligacoes Realizadas;
+2020-03-11 11:01:45;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-10 11:18:19;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-10 09:43:04;    ;7.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-07 16:58:45;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-07 16:56:00;    ;7.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-06 09:59:00;    ;31.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-03 12:58:22;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-05 15:56:57;98  988679754;5.0;Para Celulares de Outras Operadoras;
+2020-03-08 06:40:01;98  991552267;19.0;Para Celulares Vivo;
+2020-03-05;"";12.0;INTERNET MOVEL 2;0.00
+2020-03-11;"";2.0;INTERNET MOVEL 2;0.00

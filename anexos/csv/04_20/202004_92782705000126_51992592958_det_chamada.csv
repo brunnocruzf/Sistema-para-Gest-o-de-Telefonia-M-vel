@@ -1,0 +1,57 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-03-19 17:13:23;"";1.0;ADICIONAL;0.00
+2020-03-19 14:39:27;"";1.0;ADICIONAL;0.00
+2020-03-18 16:05:54;"";1.0;ADICIONAL;0.00
+2020-03-18 15:26:13;"";1.0;ADICIONAL;0.00
+2020-03-13 11:42:38;"";1.0;ADICIONAL;0.00
+2020-03-13 10:10:34;"";1.0;ADICIONAL;0.00
+2020-03-12 14:38:32;"";1.0;ADICIONAL;0.00
+2020-03-12 12:06:11;"";1.0;ADICIONAL;0.00
+2020-03-12 10:30:46;"";1.0;ADICIONAL;0.00
+2020-03-12 09:46:06;"";1.0;ADICIONAL;0.00
+2020-03-10 08:45:56;"";1.0;ADICIONAL;0.00
+2020-03-06 12:02:43;"";1.0;ADICIONAL;0.00
+2020-03-06 08:17:27;"";1.0;ADICIONAL;0.00
+2020-03-04 09:25:52;"";1.0;ADICIONAL;0.00
+2020-03-26 18:12:47;888;1.0;VIVO WAP;0.00
+2020-03-01 13:03:19;53  997080089;0.0;Adicional por Ligacoes Realizadas;
+2020-03-19 14:41:16;51  993394636;6.0;Para Celulares Vivo;
+2020-03-19 14:10:24;51  993394636;15.0;Para Celulares Vivo;
+2020-03-19 12:55:50;53  997080089;47.0;Para Celulares Vivo;
+2020-03-13 09:21:58;51  993394636;5.0;Para Celulares Vivo;
+2020-03-11 15:56:34;51  993394636;5.0;Para Celulares Vivo;
+2020-03-11 09:54:02;51  993394636;6.0;Para Celulares Vivo;
+2020-03-01 13:03:19;53  997080089;255.0;Para Celulares Vivo;
+2020-03-19 14:41:16;51  993394636;0.0;Adicional por Ligacoes Realizadas;
+2020-03-19 14:10:24;51  993394636;0.0;Adicional por Ligacoes Realizadas;
+2020-03-19 12:55:50;53  997080089;0.0;Adicional por Ligacoes Realizadas;
+2020-03-13 09:21:58;51  993394636;0.0;Adicional por Ligacoes Realizadas;
+2020-03-12 05:57:17;*5  55;0.0;Adicional por Ligacoes Realizadas;
+2020-03-11 15:56:34;51  993394636;0.0;Adicional por Ligacoes Realizadas;
+2020-03-11 09:54:02;51  993394636;0.0;Adicional por Ligacoes Realizadas;
+2020-03-10 09:58:31;*5  55;0.0;Adicional por Ligacoes Realizadas;
+2020-03-10 09:50:54;*5  55;0.0;Adicional por Ligacoes Realizadas;
+2020-03-19 17:13:23;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-19 14:39:27;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-18 16:05:54;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-18 15:26:13;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-13 11:42:38;    ;14.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-13 10:10:34;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-12 14:38:32;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-12 12:06:11;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-12 10:30:46;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-12 09:46:06;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-10 08:45:56;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-06 12:02:43;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-06 08:17:27;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-04 09:25:52;    ;8.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-30 08:49:15;*5  55;5.0;"";
+2020-03-30 07:53:10;*5  55;5.0;"";
+2020-03-27 07:56:16;*5  55;5.0;"";
+2020-03-27 07:52:05;*5  55;5.0;"";
+2020-03-26 14:23:11;*5  55;5.0;"";
+2020-03-26 14:17:39;*5  55;5.0;"";
+2020-03-26 14:04:32;*5  55;5.0;"";
+2020-03-12 05:57:17;*5  55;5.0;"";
+2020-03-10 09:58:31;*5  55;5.0;"";
+2020-03-10 09:50:54;*5  55;5.0;"";

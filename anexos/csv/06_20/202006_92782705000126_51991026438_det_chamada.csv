@@ -1,0 +1,174 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-05-01 18:00:35;51  984462360;5.0;De Celulares Vivo;
+2020-05-01 16:42:50;51  984462360;5.0;De Celulares Vivo;
+2020-05-01 17:27:27;51  984462360;5.0;Para Celulares de Outras Operadoras;
+2020-05-22 13:02:23;48  991749164;5.0;Para Celulares Vivo;
+2020-05-18 11:46:19;47  996224142;37.0;Para Celulares Vivo;
+2020-05-14 16:07:49;48  991101055;49.0;Para Celulares Vivo;
+2020-05-22 08:30:42;54  991657869;56.0;Para Celulares de Outras Operadoras;
+2020-05-22 08:19:51;54  991657869;30.0;Para Celulares de Outras Operadoras;
+2020-05-30 19:56:37;51  984462360;5.0;De Celulares Vivo;
+2020-05-30 19:24:32;51  984462360;5.0;De Celulares Vivo;
+2020-05-30 19:10:04;51  984462360;5.0;De Celulares Vivo;
+2020-05-30 19:02:23;51  984462360;5.0;De Celulares Vivo;
+2020-05-30 18:57:06;51  984462360;5.0;De Celulares Vivo;
+2020-05-30 16:41:11;51  984462360;23.0;De Celulares Vivo;
+2020-05-04 13:17:04;*5  55;43.0;"";
+2020-05-08 10:22:13;51  21031323;28.0;Para Fixo de Outras Operadoras;
+2020-05-30 22:39:13;51  982185268;5.0;Para Celulares de Outras Operadoras;
+2020-05-30 12:28:10;51  982185268;6.0;Para Celulares de Outras Operadoras;
+2020-05-30 12:13:28;51  993101312;8.0;Para Celulares de Outras Operadoras;
+2020-05-30 11:09:50;51  982185268;17.0;Para Celulares de Outras Operadoras;
+2020-05-30 10:10:08;51  984462360;5.0;Para Celulares de Outras Operadoras;
+2020-05-29 16:24:56;51  994610494;5.0;Para Celulares de Outras Operadoras;
+2020-05-29 15:25:16;51  993155104;74.0;Para Celulares de Outras Operadoras;
+2020-05-28 13:42:56;51  993438384;24.0;Para Celulares de Outras Operadoras;
+2020-05-27 17:51:37;51  984462360;30.0;Para Celulares de Outras Operadoras;
+2020-05-27 13:31:18;51  991821279;25.0;Para Celulares de Outras Operadoras;
+2020-05-27 10:30:02;51  984991305;6.0;Para Celulares de Outras Operadoras;
+2020-05-27 07:47:45;51  985631775;67.0;Para Celulares de Outras Operadoras;
+2020-05-26 14:11:24;51  996314131;13.0;Para Celulares de Outras Operadoras;
+2020-05-26 14:09:21;51  993438384;11.0;Para Celulares de Outras Operadoras;
+2020-05-26 10:57:53;51  984462360;55.0;Para Celulares de Outras Operadoras;
+2020-05-26 10:54:13;51  993438384;5.0;Para Celulares de Outras Operadoras;
+2020-05-26 10:14:06;51  993438384;5.0;Para Celulares de Outras Operadoras;
+2020-05-26 05:47:48;51  991948262;5.0;Para Celulares de Outras Operadoras;
+2020-05-22 18:54:02;51  984462360;5.0;Para Celulares de Outras Operadoras;
+2020-05-22 17:40:01;51  992715740;8.0;Para Celulares de Outras Operadoras;
+2020-05-22 17:32:58;51  992715740;21.0;Para Celulares de Outras Operadoras;
+2020-05-22 16:15:33;51  984619982;8.0;Para Celulares de Outras Operadoras;
+2020-05-22 10:18:56;51  993416051;9.0;Para Celulares de Outras Operadoras;
+2020-05-22 08:10:48;51  981247107;5.0;Para Celulares de Outras Operadoras;
+2020-05-21 13:28:30;51  984462360;19.0;Para Celulares de Outras Operadoras;
+2020-05-21 13:13:45;51  993416051;16.0;Para Celulares de Outras Operadoras;
+2020-05-20 15:50:18;51  993438384;103.0;Para Celulares de Outras Operadoras;
+2020-05-20 10:17:58;51  993438384;14.0;Para Celulares de Outras Operadoras;
+2020-05-20 09:37:39;51  992715740;20.0;Para Celulares de Outras Operadoras;
+2020-05-19 17:00:22;51  981247107;5.0;Para Celulares de Outras Operadoras;
+2020-05-19 15:02:03;51  993438384;11.0;Para Celulares de Outras Operadoras;
+2020-05-19 13:12:52;51  985631775;15.0;Para Celulares de Outras Operadoras;
+2020-05-19 11:20:51;51  993251349;5.0;Para Celulares de Outras Operadoras;
+2020-05-19 08:23:02;51  991161001;24.0;Para Celulares de Outras Operadoras;
+2020-05-18 17:07:41;51  981247107;7.0;Para Celulares de Outras Operadoras;
+2020-05-18 09:46:24;51  984619982;10.0;Para Celulares de Outras Operadoras;
+2020-05-18 07:12:12;51  984991305;5.0;Para Celulares de Outras Operadoras;
+2020-05-15 15:38:56;51  984619982;5.0;Para Celulares de Outras Operadoras;
+2020-05-15 13:04:54;51  991258254;43.0;Para Celulares de Outras Operadoras;
+2020-05-15 09:01:00;51  993438384;5.0;Para Celulares de Outras Operadoras;
+2020-05-15 08:52:46;51  993438384;6.0;Para Celulares de Outras Operadoras;
+2020-05-14 11:38:44;51  984991305;7.0;Para Celulares de Outras Operadoras;
+2020-05-14 09:54:35;51  994610494;7.0;Para Celulares de Outras Operadoras;
+2020-05-14 07:51:42;51  984991305;5.0;Para Celulares de Outras Operadoras;
+2020-05-13 14:30:24;51  982185268;24.0;Para Celulares de Outras Operadoras;
+2020-05-13 11:03:36;51  993438384;12.0;Para Celulares de Outras Operadoras;
+2020-05-13 10:30:29;51  993251349;15.0;Para Celulares de Outras Operadoras;
+2020-05-12 15:28:50;51  981247107;5.0;Para Celulares de Outras Operadoras;
+2020-05-12 09:05:50;51  984431413;5.0;Para Celulares de Outras Operadoras;
+2020-05-12 08:33:02;51  993438384;11.0;Para Celulares de Outras Operadoras;
+2020-05-11 15:10:55;51  984125445;5.0;Para Celulares de Outras Operadoras;
+2020-05-11 11:12:39;51  993438384;5.0;Para Celulares de Outras Operadoras;
+2020-05-11 08:58:30;51  993438384;5.0;Para Celulares de Outras Operadoras;
+2020-05-09 22:26:53;51  985713730;7.0;Para Celulares de Outras Operadoras;
+2020-05-09 11:20:41;51  985713730;9.0;Para Celulares de Outras Operadoras;
+2020-05-09 10:50:00;51  984462360;16.0;Para Celulares de Outras Operadoras;
+2020-05-08 16:44:18;51  984462360;6.0;Para Celulares de Outras Operadoras;
+2020-05-08 13:47:30;51  984462360;11.0;Para Celulares de Outras Operadoras;
+2020-05-08 12:28:46;51  991161001;39.0;Para Celulares de Outras Operadoras;
+2020-05-08 12:03:26;51  984462360;55.0;Para Celulares de Outras Operadoras;
+2020-05-08 10:41:16;51  981866422;36.0;Para Celulares de Outras Operadoras;
+2020-05-07 14:57:07;51  991161001;97.0;Para Celulares de Outras Operadoras;
+2020-05-07 14:46:55;51  993438384;36.0;Para Celulares de Outras Operadoras;
+2020-05-07 12:58:06;51  981211690;25.0;Para Celulares de Outras Operadoras;
+2020-05-06 17:22:06;51  994610494;15.0;Para Celulares de Outras Operadoras;
+2020-05-06 13:51:32;51  993438384;13.0;Para Celulares de Outras Operadoras;
+2020-05-06 10:26:55;51  984462360;32.0;Para Celulares de Outras Operadoras;
+2020-05-06 09:16:06;51  993438384;6.0;Para Celulares de Outras Operadoras;
+2020-05-06 07:39:21;51  984991305;5.0;Para Celulares de Outras Operadoras;
+2020-05-05 18:20:30;51  986384543;10.0;Para Celulares de Outras Operadoras;
+2020-05-05 15:48:04;51  984991305;5.0;Para Celulares de Outras Operadoras;
+2020-05-05 15:28:46;51  984652480;5.0;Para Celulares de Outras Operadoras;
+2020-05-05 13:47:27;51  982185268;18.0;Para Celulares de Outras Operadoras;
+2020-05-05 11:17:29;51  992728347;14.0;Para Celulares de Outras Operadoras;
+2020-05-05 09:38:57;51  993438384;6.0;Para Celulares de Outras Operadoras;
+2020-05-04 17:26:42;51  981247107;5.0;Para Celulares de Outras Operadoras;
+2020-05-02 13:22:54;51  991154650;22.0;Para Celulares de Outras Operadoras;
+2020-05-02 11:39:20;51  984652480;5.0;Para Celulares de Outras Operadoras;
+2020-05-28 17:01:17;51  21313333;7.0;Para Fixo Vivo;
+2020-05-22 17:35:49;51  985371028;13.0;Para Fixo Vivo;
+2020-05-19 21:55:58;51  992334400;5.0;Para Fixo Vivo;
+2020-05-19 11:21:54;51  21313333;6.0;Para Fixo Vivo;
+2020-05-05 18:22:32;51  21313333;15.0;Para Fixo Vivo;
+2020-05-05 18:16:47;51  21313333;12.0;Para Fixo Vivo;
+2020-05-04 10:08:34;51  21313333;12.0;Para Fixo Vivo;
+2020-05-30 09:29:13;51  999907437;5.0;Para Celulares Vivo;
+2020-05-29 15:51:41;51  991919823;5.0;Para Celulares Vivo;
+2020-05-28 07:59:57;51  984362173;5.0;Para Celulares Vivo;
+2020-05-27 15:35:00;51  998373817;16.0;Para Celulares Vivo;
+2020-05-27 15:06:47;51  997437506;57.0;Para Celulares Vivo;
+2020-05-27 07:34:30;51  995112258;5.0;Para Celulares Vivo;
+2020-05-26 10:11:11;51  980530481;12.0;Para Celulares Vivo;
+2020-05-25 14:48:00;51  991919823;5.0;Para Celulares Vivo;
+2020-05-25 14:26:37;51  998398916;5.0;Para Celulares Vivo;
+2020-05-25 14:02:36;51  991919823;5.0;Para Celulares Vivo;
+2020-05-25 08:47:04;51  995112258;5.0;Para Celulares Vivo;
+2020-05-23 09:23:36;51  991919823;7.0;Para Celulares Vivo;
+2020-05-22 15:57:18;51  981119588;5.0;Para Celulares Vivo;
+2020-05-22 10:15:35;51  999866813;25.0;Para Celulares Vivo;
+2020-05-22 08:45:26;51  995105815;8.0;Para Celulares Vivo;
+2020-05-21 15:53:40;51  995112258;5.0;Para Celulares Vivo;
+2020-05-21 12:29:04;51  995112258;5.0;Para Celulares Vivo;
+2020-05-20 08:24:02;51  999907437;21.0;Para Celulares Vivo;
+2020-05-18 15:53:12;51  984362173;15.0;Para Celulares Vivo;
+2020-05-18 09:43:41;51  981119588;6.0;Para Celulares Vivo;
+2020-05-16 08:17:49;51  995112258;7.0;Para Celulares Vivo;
+2020-05-15 15:11:04;51  999976794;10.0;Para Celulares Vivo;
+2020-05-14 17:06:38;51  995075357;5.0;Para Celulares Vivo;
+2020-05-14 16:05:11;51  995075357;11.0;Para Celulares Vivo;
+2020-05-14 13:23:03;51  996197420;11.0;Para Celulares Vivo;
+2020-05-14 11:40:28;51  981119588;9.0;Para Celulares Vivo;
+2020-05-14 07:40:23;51  980530481;8.0;Para Celulares Vivo;
+2020-05-13 08:08:35;51  980530481;11.0;Para Celulares Vivo;
+2020-05-12 16:58:35;51  997437506;65.0;Para Celulares Vivo;
+2020-05-09 07:01:52;51  997990571;16.0;Para Celulares Vivo;
+2020-05-08 14:23:13;51  996168535;5.0;Para Celulares Vivo;
+2020-05-07 08:53:46;51  999907437;5.0;Para Celulares Vivo;
+2020-05-06 15:38:44;51  993360720;13.0;Para Celulares Vivo;
+2020-05-06 09:46:31;51  999907437;5.0;Para Celulares Vivo;
+2020-05-05 17:21:08;51  992518679;5.0;Para Celulares Vivo;
+2020-05-05 17:15:35;51  992518679;8.0;Para Celulares Vivo;
+2020-05-05 07:39:54;51  997360949;5.0;Para Celulares Vivo;
+2020-05-04 09:01:47;51  995112258;5.0;Para Celulares Vivo;
+2020-05-04 08:26:26;51  992518679;5.0;Para Celulares Vivo;
+2020-05-04 08:14:16;51  992518679;5.0;Para Celulares Vivo;
+2020-05-01;"";24213.1;INTERNET MOVEL 2;0.00
+2020-05-02;"";115238.6;INTERNET MOVEL 2;0.00
+2020-05-03;"";9559.3;INTERNET MOVEL 2;0.00
+2020-05-04;"";63519.2;INTERNET MOVEL 2;0.00
+2020-05-05;"";94093.5;INTERNET MOVEL 2;0.00
+2020-05-06;"";93317.2;INTERNET MOVEL 2;0.00
+2020-05-07;"";117378.8;INTERNET MOVEL 2;0.00
+2020-05-08;"";182882.8;INTERNET MOVEL 2;0.00
+2020-05-09;"";81800.6;INTERNET MOVEL 2;0.00
+2020-05-10;"";32662.3;INTERNET MOVEL 2;0.00
+2020-05-11;"";159559.6;INTERNET MOVEL 2;0.00
+2020-05-12;"";69663.5;INTERNET MOVEL 2;0.00
+2020-05-13;"";104334.8;INTERNET MOVEL 2;0.00
+2020-05-14;"";243782.9;INTERNET MOVEL 2;0.00
+2020-05-15;"";55546.1;INTERNET MOVEL 2;0.00
+2020-05-16;"";132542.6;INTERNET MOVEL 2;0.00
+2020-05-17;"";6380.0;INTERNET MOVEL 2;0.00
+2020-05-18;"";91200.0;INTERNET MOVEL 2;0.00
+2020-05-19;"";137715.3;INTERNET MOVEL 2;0.00
+2020-05-20;"";192714.7;INTERNET MOVEL 2;0.00
+2020-05-21;"";136719.2;INTERNET MOVEL 2;0.00
+2020-05-22;"";201767.2;INTERNET MOVEL 2;0.00
+2020-05-23;"";236575.6;INTERNET MOVEL 2;0.00
+2020-05-24;"";34976.6;INTERNET MOVEL 2;0.00
+2020-05-25;"";153752.5;INTERNET MOVEL 2;0.00
+2020-05-26;"";128802.2;INTERNET MOVEL 2;0.00
+2020-05-27;"";259513.4;INTERNET MOVEL 2;0.00
+2020-05-28;"";187428.8;INTERNET MOVEL 2;0.00
+2020-05-29;"";99856.3;INTERNET MOVEL 2;0.00
+2020-05-30;"";127830.9;INTERNET MOVEL 2;0.00
+2020-05-31;"";18363.7;INTERNET MOVEL 2;0.00
+2020-06-01;"";31.0;INTERNET MOVEL 2;0.00

@@ -1,0 +1,7 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-05-19 08:15:12;"";1.0;ADICIONAL;0.00
+2020-05-18 13:05:01;"";1.0;ADICIONAL;0.00
+2020-05-19 08:15:12;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-18 13:05:01;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-18;"";1872.0;INTERNET MOVEL 2;0.00
+2020-05-19;"";1001.0;INTERNET MOVEL 2;0.00

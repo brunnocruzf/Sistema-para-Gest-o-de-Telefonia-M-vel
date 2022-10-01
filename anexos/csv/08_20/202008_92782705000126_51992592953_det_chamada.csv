@@ -1,0 +1,18 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-07-30 09:00:33;51  981421393;8.0;Para Celulares de Outras Operadoras;
+2020-07-27 11:09:16;51  991931287;151.0;Para Celulares de Outras Operadoras;
+2020-07-03 11:08:24;51  991931287;143.0;Para Celulares de Outras Operadoras;
+2020-07-16 16:28:49;51  992592887;77.0;Para Celulares Vivo;
+2020-07-10 14:21:23;51  992592888;28.0;Para Celulares Vivo;
+2020-07-10 13:39:06;51  992592888;47.0;Para Celulares Vivo;
+2020-07-09 18:21:24;51  992592817;102.0;Para Celulares Vivo;
+2020-07-02 09:54:23;51  992592724;29.0;Para Celulares Vivo;
+2020-07-02;"";3.0;INTERNET MOVEL 2;0.00
+2020-07-07;"";1.0;INTERNET MOVEL 2;0.00
+2020-07-08;"";1.0;INTERNET MOVEL 2;0.00
+2020-07-09;"";2.0;INTERNET MOVEL 2;0.00
+2020-07-14;"";1.0;INTERNET MOVEL 2;0.00
+2020-07-15;"";1.0;INTERNET MOVEL 2;0.00
+2020-07-17;"";1.0;INTERNET MOVEL 2;0.00
+2020-07-22;"";6.0;INTERNET MOVEL 2;0.00
+2020-07-31;"";1.0;INTERNET MOVEL 2;0.00

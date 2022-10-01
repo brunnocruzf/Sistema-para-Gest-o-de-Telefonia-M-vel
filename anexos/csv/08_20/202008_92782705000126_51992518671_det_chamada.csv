@@ -1,0 +1,101 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-07-31 16:29:51;51  30442606;8.0;Para Fixo de Outras Operadoras;
+2020-07-20 12:16:01;51  30442606;14.0;Para Fixo de Outras Operadoras;
+2020-07-31 17:01:14;51  983217423;5.0;Para Celulares de Outras Operadoras;
+2020-07-31 16:25:54;51  994172535;6.0;Para Celulares de Outras Operadoras;
+2020-07-31 16:18:05;51  994172535;12.0;Para Celulares de Outras Operadoras;
+2020-07-31 14:53:43;51  985601400;6.0;Para Celulares de Outras Operadoras;
+2020-07-31 10:59:36;51  989434872;6.0;Para Celulares de Outras Operadoras;
+2020-07-31 10:55:51;51  989434872;9.0;Para Celulares de Outras Operadoras;
+2020-07-30 08:20:09;51  989434872;5.0;Para Celulares de Outras Operadoras;
+2020-07-29 20:28:04;51  994172535;14.0;Para Celulares de Outras Operadoras;
+2020-07-25 09:42:21;51  991476471;10.0;Para Celulares de Outras Operadoras;
+2020-07-25 09:40:51;51  994172535;8.0;Para Celulares de Outras Operadoras;
+2020-07-24 17:20:38;51  994172535;5.0;Para Celulares de Outras Operadoras;
+2020-07-24 11:07:40;51  985601400;7.0;Para Celulares de Outras Operadoras;
+2020-07-23 16:45:04;51  992477479;6.0;Para Celulares de Outras Operadoras;
+2020-07-23 08:05:23;51  992797780;39.0;Para Celulares de Outras Operadoras;
+2020-07-22 18:49:29;51  992477479;5.0;Para Celulares de Outras Operadoras;
+2020-07-22 18:40:14;51  992516278;5.0;Para Celulares de Outras Operadoras;
+2020-07-22 18:38:09;51  992516278;9.0;Para Celulares de Outras Operadoras;
+2020-07-20 20:24:59;51  994172535;22.0;Para Celulares de Outras Operadoras;
+2020-07-20 16:05:11;51  992797780;15.0;Para Celulares de Outras Operadoras;
+2020-07-18 16:07:33;51  991120751;5.0;Para Celulares de Outras Operadoras;
+2020-07-18 15:44:47;51  991120751;10.0;Para Celulares de Outras Operadoras;
+2020-07-16 19:49:09;51  994172535;52.0;Para Celulares de Outras Operadoras;
+2020-07-16 18:06:08;51  992477479;15.0;Para Celulares de Outras Operadoras;
+2020-07-15 17:51:36;51  991120751;16.0;Para Celulares de Outras Operadoras;
+2020-07-14 19:05:31;51  994172535;6.0;Para Celulares de Outras Operadoras;
+2020-07-12 19:48:56;51  994172535;20.0;Para Celulares de Outras Operadoras;
+2020-07-11 16:24:49;51  991120751;8.0;Para Celulares de Outras Operadoras;
+2020-07-11 16:16:25;51  991120751;12.0;Para Celulares de Outras Operadoras;
+2020-07-11 16:15:42;51  991120751;5.0;Para Celulares de Outras Operadoras;
+2020-07-11 10:20:49;51  994172535;6.0;Para Celulares de Outras Operadoras;
+2020-07-11 10:07:51;51  984594705;8.0;Para Celulares de Outras Operadoras;
+2020-07-09 19:58:32;51  994172535;18.0;Para Celulares de Outras Operadoras;
+2020-07-08 19:05:49;51  991120751;9.0;Para Celulares de Outras Operadoras;
+2020-07-08 15:08:32;51  994172535;14.0;Para Celulares de Outras Operadoras;
+2020-07-08 07:57:20;51  991989705;11.0;Para Celulares de Outras Operadoras;
+2020-07-07 20:24:40;51  994172535;25.0;Para Celulares de Outras Operadoras;
+2020-07-07 18:24:28;51  992477479;14.0;Para Celulares de Outras Operadoras;
+2020-07-07 18:22:16;51  991120751;5.0;Para Celulares de Outras Operadoras;
+2020-07-07 18:10:03;51  991120751;7.0;Para Celulares de Outras Operadoras;
+2020-07-05 11:45:12;51  992477479;10.0;Para Celulares de Outras Operadoras;
+2020-07-03 21:11:19;51  991120751;5.0;Para Celulares de Outras Operadoras;
+2020-07-03 21:10:06;51  991120751;5.0;Para Celulares de Outras Operadoras;
+2020-07-03 21:05:40;51  991120751;7.0;Para Celulares de Outras Operadoras;
+2020-07-03 21:04:02;51  991120751;11.0;Para Celulares de Outras Operadoras;
+2020-07-03 16:22:08;51  991120751;12.0;Para Celulares de Outras Operadoras;
+2020-07-02 20:20:27;51  994172535;7.0;Para Celulares de Outras Operadoras;
+2020-07-30 08:56:53;51  985371028;6.0;Para Fixo Vivo;
+2020-07-30 15:58:46;51  998851856;27.0;Para Celulares Vivo;
+2020-07-30 11:07:46;51  998851856;9.0;Para Celulares Vivo;
+2020-07-30 10:58:04;51  998851856;23.0;Para Celulares Vivo;
+2020-07-30 08:46:16;51  995112258;5.0;Para Celulares Vivo;
+2020-07-30 08:40:13;51  998851856;27.0;Para Celulares Vivo;
+2020-07-30 08:21:26;51  995112258;19.0;Para Celulares Vivo;
+2020-07-28 17:47:24;51  998851856;22.0;Para Celulares Vivo;
+2020-07-28 08:38:00;51  991026438;13.0;Para Celulares Vivo;
+2020-07-27 17:34:55;51  998851856;9.0;Para Celulares Vivo;
+2020-07-24 11:53:23;51  995112258;5.0;Para Celulares Vivo;
+2020-07-24 11:47:32;51  998851856;17.0;Para Celulares Vivo;
+2020-07-24 11:17:34;51  998851856;5.0;Para Celulares Vivo;
+2020-07-24 10:13:56;51  998851856;52.0;Para Celulares Vivo;
+2020-07-22 17:06:05;51  998851856;17.0;Para Celulares Vivo;
+2020-07-22 15:54:29;51  995112258;7.0;Para Celulares Vivo;
+2020-07-14 08:21:05;51  991026438;13.0;Para Celulares Vivo;
+2020-07-13 14:59:27;51  998851856;20.0;Para Celulares Vivo;
+2020-07-09 15:38:03;51  991026438;7.0;Para Celulares Vivo;
+2020-07-07 08:58:27;51  991026438;5.0;Para Celulares Vivo;
+2020-06-30;"";8397.7;INTERNET MOVEL 2;0.00
+2020-07-01;"";50205.9;INTERNET MOVEL 2;0.00
+2020-07-02;"";57366.1;INTERNET MOVEL 2;0.00
+2020-07-03;"";47436.9;INTERNET MOVEL 2;0.00
+2020-07-04;"";30575.3;INTERNET MOVEL 2;0.00
+2020-07-05;"";66094.6;INTERNET MOVEL 2;0.00
+2020-07-06;"";98986.2;INTERNET MOVEL 2;0.00
+2020-07-07;"";519836.0;INTERNET MOVEL 2;0.00
+2020-07-08;"";168426.7;INTERNET MOVEL 2;0.00
+2020-07-09;"";80096.4;INTERNET MOVEL 2;0.00
+2020-07-10;"";82798.2;INTERNET MOVEL 2;0.00
+2020-07-11;"";84661.7;INTERNET MOVEL 2;0.00
+2020-07-12;"";6133.9;INTERNET MOVEL 2;0.00
+2020-07-13;"";81712.2;INTERNET MOVEL 2;0.00
+2020-07-14;"";72262.2;INTERNET MOVEL 2;0.00
+2020-07-15;"";89214.9;INTERNET MOVEL 2;0.00
+2020-07-16;"";115842.4;INTERNET MOVEL 2;0.00
+2020-07-17;"";52989.8;INTERNET MOVEL 2;0.00
+2020-07-18;"";105678.5;INTERNET MOVEL 2;0.00
+2020-07-19;"";175522.9;INTERNET MOVEL 2;0.00
+2020-07-20;"";93531.2;INTERNET MOVEL 2;0.00
+2020-07-21;"";106120.1;INTERNET MOVEL 2;0.00
+2020-07-22;"";135178.4;INTERNET MOVEL 2;0.00
+2020-07-23;"";48663.8;INTERNET MOVEL 2;0.00
+2020-07-24;"";54395.1;INTERNET MOVEL 2;0.00
+2020-07-25;"";91228.5;INTERNET MOVEL 2;0.00
+2020-07-26;"";63629.6;INTERNET MOVEL 2;0.00
+2020-07-27;"";142504.5;INTERNET MOVEL 2;0.00
+2020-07-28;"";104378.3;INTERNET MOVEL 2;0.00
+2020-07-29;"";51520.8;INTERNET MOVEL 2;0.00
+2020-07-30;"";158566.4;INTERNET MOVEL 2;0.00
+2020-07-31;"";113583.4;INTERNET MOVEL 2;0.00

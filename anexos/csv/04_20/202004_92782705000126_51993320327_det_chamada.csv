@@ -1,0 +1,47 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-03-16 10:19:47;"";1.0;ADICIONAL;0.00
+2020-03-03 10:44:44;1149990232;1.0;ADICIONAL;0.00
+2020-03-18 09:12:46;51  34158000;50.0;Para Fixo de Outras Operadoras;
+2020-03-16 09:54:45;51  34158000;117.0;Para Fixo de Outras Operadoras;
+2020-03-30 15:53:44;11  984719726;53.0;Para Celulares Vivo;
+2020-03-30 14:26:55;51  993319514;88.0;Para Celulares Vivo;
+2020-03-27 16:58:32;51  993119416;47.0;Para Celulares Vivo;
+2020-03-27 10:40:41;51  993119416;121.0;Para Celulares Vivo;
+2020-03-25 10:06:09;51  992592873;97.0;Para Celulares Vivo;
+2020-03-25 09:56:01;51  992592873;9.0;Para Celulares Vivo;
+2020-03-23 13:44:14;51  993119416;39.0;Para Celulares Vivo;
+2020-03-20 15:54:10;48  991535384;29.0;Para Celulares Vivo;
+2020-03-19 16:42:01;51  993119416;50.0;Para Celulares Vivo;
+2020-03-18 17:49:22;51  992592629;8.0;Para Celulares Vivo;
+2020-03-18 17:46:56;51  992592629;20.0;Para Celulares Vivo;
+2020-03-17 09:43:17;51  992592629;24.0;Para Celulares Vivo;
+2020-03-17 09:39:38;51  992592954;14.0;Para Celulares Vivo;
+2020-03-17 07:58:19;51  980638938;5.0;Para Celulares Vivo;
+2020-03-12 14:06:35;51  992467904;8.0;Para Celulares Vivo;
+2020-03-12 13:39:04;51  992467904;5.0;Para Celulares Vivo;
+2020-03-09 12:40:17;48  991535384;59.0;Para Celulares Vivo;
+2020-03-09 11:40:06;51  993119416;44.0;Para Celulares Vivo;
+2020-03-09 11:39:04;48  991535384;5.0;Para Celulares Vivo;
+2020-03-03 11:04:05;51  993319514;48.0;Para Celulares Vivo;
+2020-03-16 09:54:45;51  34158000;0.0;Adicional por Ligacoes Realizadas;
+2020-03-14 19:14:57;48  991535384;0.0;Adicional por Ligacoes Realizadas;
+2020-03-13 00:20:28;48  991535384;0.0;Adicional por Ligacoes Realizadas;
+2020-03-03 11:04:05;51  993319514;0.0;Adicional por Ligacoes Realizadas;
+2020-03-02 20:26:14;48  991535384;0.0;Adicional por Ligacoes Realizadas;
+2020-03-10 14:56:51;48  991535384;22.0;Para Celulares Vivo;
+2020-03-16 10:19:47;    ;67.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-03 10:44:44;11  49990232;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-09 10:56:02;53  40044828;69.0;Para Fixo Vivo;
+2020-03-31 10:36:53;53  999983278;23.0;Para Celulares Vivo;
+2020-03-25 11:01:55;53  999983278;5.0;Para Celulares Vivo;
+2020-03-17 07:57:01;53  999983278;9.0;Para Celulares Vivo;
+2020-03-14 19:14:57;48  991535384;5.0;Para Celulares Vivo;
+2020-03-13 00:20:28;48  991535384;35.0;Para Celulares Vivo;
+2020-03-09 10:19:08;53  999983278;15.0;Para Celulares Vivo;
+2020-03-02 20:26:14;48  991535384;11.0;Para Celulares Vivo;
+2020-03-10 10:03:16;51  21313333;9.0;Para Fixo Vivo;
+2020-03-10 14:00:54;51  992592845;5.0;Para Celulares Vivo;
+2020-03-10 13:57:12;51  993320336;17.0;Para Celulares Vivo;
+2020-03-10 12:35:18;51  993119416;5.0;Para Celulares Vivo;
+2020-03-10 12:34:56;51  993119416;5.0;Para Celulares Vivo;
+2020-03-10 08:10:32;51  992592752;5.0;Para Celulares Vivo;

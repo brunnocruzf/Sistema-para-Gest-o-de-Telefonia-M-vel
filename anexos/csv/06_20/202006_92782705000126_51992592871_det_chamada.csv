@@ -1,0 +1,50 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-05-01 13:37:03;"";1.0;ADICIONAL;0.00
+2020-05-01 13:05:16;"";1.0;ADICIONAL;0.00
+2020-05-01 13:03:54;"";1.0;ADICIONAL;0.00
+2020-05-01 09:45:33;"";1.0;ADICIONAL;0.00
+2020-05-19 18:30:36;"";1.0;ADICIONAL;0.00
+2020-05-19 09:58:48;"";1.0;ADICIONAL;0.00
+2020-05-18 19:06:57;"";1.0;ADICIONAL;0.00
+2020-05-18 19:05:52;"";1.0;ADICIONAL;0.00
+2020-05-14 11:17:17;"";1.0;ADICIONAL;0.00
+2020-05-06 15:49:29;"";1.0;ADICIONAL;0.00
+2020-05-03 16:49:01;"";1.0;ADICIONAL;0.00
+2020-05-03 16:38:24;"";1.0;ADICIONAL;0.00
+2020-05-02 11:57:35;"";1.0;ADICIONAL;0.00
+2020-05-30 21:42:47;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-30 21:37:03;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-30 21:33:25;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-30 21:30:13;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-30 13:14:45;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-30 13:06:47;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-30 13:06:08;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-30 13:04:22;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-30 11:36:51;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-26 11:17:49;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-26 08:27:50;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-25 22:17:19;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-25 08:41:41;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-24 08:58:03;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-10 10:13:41;54999972987;1.0;GRATIS-SMS;0.00
+2020-05-20 17:45:19;51  995520713;66.0;Para Celulares Vivo;
+2020-05-18 19:04:08;53  999598518;76.0;Para Celulares Vivo;
+2020-05-14 12:14:40;53  999557168;44.0;Para Celulares Vivo;
+2020-05-09 09:27:33;54  999972987;26.0;Para Celulares Vivo;
+2020-05-20 17:45:19;51  995520713;0.0;Adicional por Ligacoes Realizadas;
+2020-05-18 19:04:08;53  999598518;0.0;Adicional por Ligacoes Realizadas;
+2020-05-14 12:14:40;53  999557168;0.0;Adicional por Ligacoes Realizadas;
+2020-05-09 09:27:33;54  999972987;0.0;Adicional por Ligacoes Realizadas;
+2020-05-19 18:30:36;    ;72.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-19 09:58:48;    ;46.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-18 19:06:57;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-18 19:05:52;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-14 11:17:17;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-06 15:49:29;    ;23.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-03 16:49:01;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-03 16:38:24;    ;31.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-02 11:57:35;    ;78.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-01 13:37:03;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-01 13:05:16;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-01 13:03:54;    ;12.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-01 09:45:33;    ;5.0;Chamadas de Longa Distancia para Outros Estados;

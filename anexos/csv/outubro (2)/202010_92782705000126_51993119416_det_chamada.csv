@@ -1,0 +1,88 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-09-16 14:00:17;42  991578973;2.3;Para Celulares Vivo;
+2020-09-16 14:56:56;13  996102111;6.9;Para Celulares Vivo;
+2020-09-02 07:32:10;51  998545903;4.0;Para Celulares Vivo;
+2020-09-03 16:30:51;54  999866536;7.3;Para Celulares Vivo;
+2020-09-03 16:38:45;54  999866536;1.2;Para Celulares Vivo;
+2020-09-04 09:30:07;65  999661744;0.5;Para Celulares Vivo;
+2020-09-08 15:18:16;67  998138636;3.9;Para Celulares Vivo;
+2020-09-08 15:58:19;13  996102111;8.6;Para Celulares Vivo;
+2020-09-03 10:43:40;51  993581912;6.3;Para Celulares de Outras Operadoras;
+2020-09-03 10:50:20;51  993581912;1.4;Para Celulares de Outras Operadoras;
+2020-09-14 12:27:38;51  991603708;2.1;Para Celulares Vivo;
+2020-09-19 15:00:17;51  35685651;0.5;Para Fixo Vivo;
+2020-09-22 19:01:39;51  993581912;20.2;Para Celulares de Outras Operadoras;
+2020-09-05 15:19:03;08  006021380;9.0;"";
+2020-09-05 15:28:15;08  006021380;3.5;"";
+2020-09-01 10:43:15;    ;3.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-01 10:47:04;    ;0.7;Chamadas de Longa Distancia para Outros Estados;
+2020-09-01 13:25:09;    ;2.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-01 19:06:23;    ;7.9;Chamadas de Longa Distancia para Outros Estados;
+2020-09-02 17:22:07;    ;4.1;Chamadas de Longa Distancia para Outros Estados;
+2020-09-03 13:29:15;    ;2.1;Chamadas de Longa Distancia para Outros Estados;
+2020-09-03 14:44:50;51  21313333;8.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-03 15:35:22;67  34535700;19.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-03 16:27:02;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-04 09:34:33;51  21313333;4.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-04 09:43:25;    ;2.8;Chamadas de Longa Distancia para Outros Estados;
+2020-09-09 09:33:39;    ;0.7;Chamadas de Longa Distancia para Outros Estados;
+2020-09-09 15:52:55;    ;5.7;Chamadas de Longa Distancia para Outros Estados;
+2020-09-10 20:27:49;    ;4.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-11 08:25:27;67  34535700;13.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-11 11:13:48;51  21313333;8.7;Chamadas de Longa Distancia para Outros Estados;
+2020-09-11 17:23:19;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-12 11:55:34;51  37231636;1.8;Chamadas de Longa Distancia para Outros Estados;
+2020-09-02 07:32:10;51  998545903;0.0;Adicional por Ligacoes Realizadas;
+2020-09-03 10:43:40;51  993581912;0.0;Adicional por Ligacoes Realizadas;
+2020-09-03 10:50:20;51  993581912;0.0;Adicional por Ligacoes Realizadas;
+2020-09-03 16:30:51;54  999866536;0.0;Adicional por Ligacoes Realizadas;
+2020-09-03 16:38:45;54  999866536;0.0;Adicional por Ligacoes Realizadas;
+2020-09-04 09:30:07;65  999661744;0.0;Adicional por Ligacoes Realizadas;
+2020-09-05 15:19:03;08  006021380;0.0;Adicional por Ligacoes Realizadas;
+2020-09-05 15:28:15;08  006021380;0.0;Adicional por Ligacoes Realizadas;
+2020-09-08 15:18:16;67  998138636;0.0;Adicional por Ligacoes Realizadas;
+2020-09-08 15:58:19;13  996102111;0.0;Adicional por Ligacoes Realizadas;
+2020-09-01 19:06:23;"";1.0;ADICIONAL;0.00
+2020-09-01 13:25:09;"";1.0;ADICIONAL;0.00
+2020-09-01 10:47:04;"";1.0;ADICIONAL;0.00
+2020-09-01 10:43:15;"";1.0;ADICIONAL;0.00
+2020-09-12 11:55:34;5137231636;1.0;ADICIONAL;0.00
+2020-09-11 17:23:19;"";1.0;ADICIONAL;0.00
+2020-09-11 11:13:48;5121313333;1.0;ADICIONAL;0.00
+2020-09-11 08:25:27;6734535700;1.0;ADICIONAL;0.00
+2020-09-10 20:27:49;"";1.0;ADICIONAL;0.00
+2020-09-09 15:52:55;"";1.0;ADICIONAL;0.00
+2020-09-09 09:33:39;"";1.0;ADICIONAL;0.00
+2020-09-04 09:43:25;"";1.0;ADICIONAL;0.00
+2020-09-04 09:34:33;5121313333;1.0;ADICIONAL;0.00
+2020-09-03 16:27:02;"";1.0;ADICIONAL;0.00
+2020-09-03 15:35:22;6734535700;1.0;ADICIONAL;0.00
+2020-09-03 14:44:50;5121313333;1.0;ADICIONAL;0.00
+2020-09-03 13:29:15;"";1.0;ADICIONAL;0.00
+2020-09-02 17:22:07;"";1.0;ADICIONAL;0.00
+2020-09-04 23:40:17;888;3.0;VIVO WAP;0.00
+2020-09-09 16:25:01;98991730576;1.0;GRATIS-SMS;0.00
+2020-09-01;"";4000.4;INTERNET MOVEL 2;0.00
+2020-09-02;"";18210.0;INTERNET MOVEL 2;0.00
+2020-09-03;"";91116.0;INTERNET MOVEL 2;0.00
+2020-09-04;"";150604.2;INTERNET MOVEL 2;0.00
+2020-09-05;"";93343.1;INTERNET MOVEL 2;0.00
+2020-09-06;"";1934.0;INTERNET MOVEL 2;0.00
+2020-09-07;"";118641.7;INTERNET MOVEL 2;0.00
+2020-09-08;"";300545.6;INTERNET MOVEL 2;0.00
+2020-09-09;"";280.0;INTERNET MOVEL 2;0.00
+2020-09-10;"";12212.0;INTERNET MOVEL 2;0.00
+2020-09-11;"";8949.2;INTERNET MOVEL 2;0.00
+2020-09-12;"";165849.0;INTERNET MOVEL 2;0.00
+2020-09-13;"";14126.5;INTERNET MOVEL 2;0.00
+2020-09-14;"";34313.7;INTERNET MOVEL 2;0.00
+2020-09-15;"";7601.4;INTERNET MOVEL 2;0.00
+2020-09-17;"";53544.9;INTERNET MOVEL 2;0.00
+2020-09-18;"";9859.0;INTERNET MOVEL 2;0.00
+2020-09-19;"";18011.4;INTERNET MOVEL 2;0.00
+2020-09-20;"";19649.6;INTERNET MOVEL 2;0.00
+2020-09-22;"";2587.0;INTERNET MOVEL 2;0.00
+2020-09-24;"";8.0;INTERNET MOVEL 2;0.00
+2020-09-26;"";58170.8;INTERNET MOVEL 2;0.00
+2020-09-27;"";1022.0;INTERNET MOVEL 2;0.00
+2020-09-29;"";7.0;INTERNET MOVEL 2;0.00

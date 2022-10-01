@@ -1,0 +1,18 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-05-18 08:59:29;13  34743539;23.0;Para Fixo de Outras Operadoras;
+2020-05-04 10:56:57;92  21230400;47.0;Para Fixo de Outras Operadoras;
+2020-05-04 10:55:19;92  21291900;13.0;Para Fixo de Outras Operadoras;
+2020-05-04 10:36:52;92  36440189;20.0;Para Fixo de Outras Operadoras;
+2020-05-04 10:31:30;92  36485751;28.0;Para Fixo de Outras Operadoras;
+2020-05-08 10:44:11;13  981188560;15.0;Para Celulares Vivo;
+2020-05-08 10:27:11;13  981188560;44.0;Para Celulares Vivo;
+2020-05-04 12:31:42;13  981188560;18.0;Para Celulares Vivo;
+2020-05-04 10:54:00;92  992102275;8.0;Para Celulares Vivo;
+2020-05-27 16:50:48;54  981708461;15.0;Para Fixo Vivo;
+2020-05-18 16:03:51;53  32328708;17.0;Para Fixo Vivo;
+2020-05-02 12:06:55;*5  55;7.0;"";
+2020-05-25 09:04:09;51  35938633;21.0;Para Fixo de Outras Operadoras;
+2020-05-19 15:03:51;51  998347224;11.0;Para Celulares de Outras Operadoras;
+2020-05-18 17:14:12;51  998347224;40.0;Para Celulares de Outras Operadoras;
+2020-05-18 16:18:10;51  998347224;10.0;Para Celulares de Outras Operadoras;
+2020-05-06 11:05:29;51  35868800;39.0;Para Fixo Vivo;

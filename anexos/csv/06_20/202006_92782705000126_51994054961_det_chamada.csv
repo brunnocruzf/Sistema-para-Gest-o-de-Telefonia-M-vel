@@ -1,0 +1,18 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-05-20 13:53:22;51992592870;1.0;GRATIS-SMS;0.00
+2020-05-19 16:43:19;51992592752;1.0;GRATIS-SMS;0.00
+2020-05-14 09:09:11;11  950760797;189.0;Para Celulares de Outras Operadoras;
+2020-05-22 16:41:30;51  993542151;30.0;Para Celulares de Outras Operadoras;
+2020-05-22 16:18:06;51  993542151;17.0;Para Celulares de Outras Operadoras;
+2020-05-19 10:02:18;51  993542151;7.0;Para Celulares de Outras Operadoras;
+2020-05-28 15:29:44;51  996872609;5.0;Para Celulares Vivo;
+2020-05-27 14:14:52;51  993319514;5.0;Para Celulares Vivo;
+2020-05-26 15:46:53;51  992592752;5.0;Para Celulares Vivo;
+2020-05-25 18:02:38;51  992592752;6.0;Para Celulares Vivo;
+2020-05-25 09:32:39;51  992592752;6.0;Para Celulares Vivo;
+2020-05-21 11:11:47;51  992592870;27.0;Para Celulares Vivo;
+2020-05-20 16:26:31;51  995838788;12.0;Para Celulares Vivo;
+2020-05-15 13:49:11;51  992592752;8.0;Para Celulares Vivo;
+2020-05-05 17:30:47;51  996872609;87.0;Para Celulares Vivo;
+2020-05-04 10:29:14;51  991813564;17.0;Para Celulares Vivo;
+2020-05-04 09:29:53;51  994037351;6.0;Para Celulares Vivo;

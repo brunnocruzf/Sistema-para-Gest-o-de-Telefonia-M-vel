@@ -1,0 +1,141 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-05-30 18:58:30;"";1.0;ADICIONAL;0.00
+2020-05-30 10:03:30;"";1.0;ADICIONAL;0.00
+2020-05-25 18:35:14;"";1.0;ADICIONAL;0.00
+2020-05-21 10:47:52;"";1.0;ADICIONAL;0.00
+2020-05-21 08:18:36;"";1.0;ADICIONAL;0.00
+2020-05-20 07:25:15;"";1.0;ADICIONAL;0.00
+2020-05-19 14:53:23;"";1.0;ADICIONAL;0.00
+2020-05-19 14:12:19;"";1.0;ADICIONAL;0.00
+2020-05-18 10:02:21;"";1.0;ADICIONAL;0.00
+2020-05-17 12:33:46;"";1.0;ADICIONAL;0.00
+2020-05-14 17:43:06;"";1.0;ADICIONAL;0.00
+2020-05-14 10:26:46;"";1.0;ADICIONAL;0.00
+2020-05-13 17:08:14;"";1.0;ADICIONAL;0.00
+2020-05-13 16:47:31;"";1.0;ADICIONAL;0.00
+2020-05-13 14:47:03;"";1.0;ADICIONAL;0.00
+2020-05-12 10:44:50;"";1.0;ADICIONAL;0.00
+2020-05-08 15:34:37;"";1.0;ADICIONAL;0.00
+2020-05-06 17:00:46;"";1.0;ADICIONAL;0.00
+2020-05-05 16:48:07;"";1.0;ADICIONAL;0.00
+2020-05-04 09:14:51;"";1.0;ADICIONAL;0.00
+2020-05-02 09:13:37;"";1.0;ADICIONAL;0.00
+2020-05-02 08:16:45;"";1.0;ADICIONAL;0.00
+2020-05-29 12:47:31;64996080188;1.0;GRATIS-SMS;0.00
+2020-05-28 07:32:28;51999113369;1.0;GRATIS-SMS;0.00
+2020-05-19 12:01:39;53991216767;1.0;GRATIS-SMS;0.00
+2020-05-28 11:49:58;51  991146877;7.0;Para Celulares de Outras Operadoras;
+2020-05-26 18:02:52;65  992183573;5.0;Para Celulares de Outras Operadoras;
+2020-05-25 15:57:14;51  991146877;12.0;Para Celulares de Outras Operadoras;
+2020-05-25 11:55:57;51  991146877;16.0;Para Celulares de Outras Operadoras;
+2020-05-22 08:18:09;51  984035211;6.0;Para Celulares de Outras Operadoras;
+2020-05-20 07:38:42;65  992183573;47.0;Para Celulares de Outras Operadoras;
+2020-05-20 06:44:18;62  996698543;25.0;Para Celulares de Outras Operadoras;
+2020-05-18 11:52:02;51  991146877;62.0;Para Celulares de Outras Operadoras;
+2020-05-18 10:01:52;65  992183573;5.0;Para Celulares de Outras Operadoras;
+2020-05-14 16:16:41;51  991153364;19.0;Para Celulares de Outras Operadoras;
+2020-05-14 14:59:27;51  991153364;224.0;Para Celulares de Outras Operadoras;
+2020-05-14 11:52:40;51  991153364;208.0;Para Celulares de Outras Operadoras;
+2020-05-14 10:47:10;51  991153364;39.0;Para Celulares de Outras Operadoras;
+2020-05-14 09:10:58;51  991153364;124.0;Para Celulares de Outras Operadoras;
+2020-05-13 13:01:04;51  991146877;18.0;Para Celulares de Outras Operadoras;
+2020-05-21 10:53:51;51  995863683;40.0;Para Celulares Vivo;
+2020-05-18 13:46:04;51  995863683;46.0;Para Celulares Vivo;
+2020-05-14 17:54:22;51  995863683;16.0;Para Celulares Vivo;
+2020-05-14 17:45:58;51  995863683;74.0;Para Celulares Vivo;
+2020-05-12 11:51:11;51  995863683;44.0;Para Celulares Vivo;
+2020-05-04 09:12:07;51  995863683;5.0;Para Celulares Vivo;
+2020-05-30 11:33:10;08  007028787;0.0;Adicional por Ligacoes Realizadas;
+2020-05-29 11:27:41;08  007028787;0.0;Adicional por Ligacoes Realizadas;
+2020-05-28 17:45:45;08  007028787;0.0;Adicional por Ligacoes Realizadas;
+2020-05-28 17:44:44;08  007028787;0.0;Adicional por Ligacoes Realizadas;
+2020-05-28 11:49:58;51  991146877;0.0;Adicional por Ligacoes Realizadas;
+2020-05-26 18:02:52;65  992183573;0.0;Adicional por Ligacoes Realizadas;
+2020-05-25 19:02:34;65  36370207;0.0;Adicional por Ligacoes Realizadas;
+2020-05-25 15:57:14;51  991146877;0.0;Adicional por Ligacoes Realizadas;
+2020-05-25 11:55:57;51  991146877;0.0;Adicional por Ligacoes Realizadas;
+2020-05-22 08:18:09;51  984035211;0.0;Adicional por Ligacoes Realizadas;
+2020-05-21 10:53:51;51  995863683;0.0;Adicional por Ligacoes Realizadas;
+2020-05-20 07:38:42;65  992183573;0.0;Adicional por Ligacoes Realizadas;
+2020-05-20 06:44:18;62  996698543;0.0;Adicional por Ligacoes Realizadas;
+2020-05-18 13:46:04;51  995863683;0.0;Adicional por Ligacoes Realizadas;
+2020-05-18 11:52:02;51  991146877;0.0;Adicional por Ligacoes Realizadas;
+2020-05-18 10:01:52;65  992183573;0.0;Adicional por Ligacoes Realizadas;
+2020-05-16 20:56:33;66  999390897;0.0;Adicional por Ligacoes Realizadas;
+2020-05-14 17:54:22;51  995863683;0.0;Adicional por Ligacoes Realizadas;
+2020-05-14 17:45:58;51  995863683;0.0;Adicional por Ligacoes Realizadas;
+2020-05-14 16:16:41;51  991153364;0.0;Adicional por Ligacoes Realizadas;
+2020-05-14 14:59:27;51  991153364;0.0;Adicional por Ligacoes Realizadas;
+2020-05-14 11:52:40;51  991153364;0.0;Adicional por Ligacoes Realizadas;
+2020-05-14 10:47:10;51  991153364;0.0;Adicional por Ligacoes Realizadas;
+2020-05-14 09:10:58;51  991153364;0.0;Adicional por Ligacoes Realizadas;
+2020-05-13 13:01:04;51  991146877;0.0;Adicional por Ligacoes Realizadas;
+2020-05-12 11:51:11;51  995863683;0.0;Adicional por Ligacoes Realizadas;
+2020-05-12 10:23:19;64  992259755;0.0;Adicional por Ligacoes Realizadas;
+2020-05-07 12:22:06;64  992259755;0.0;Adicional por Ligacoes Realizadas;
+2020-05-04 09:12:07;51  995863683;0.0;Adicional por Ligacoes Realizadas;
+2020-05-03 11:00:23;64  999969019;0.0;Adicional por Ligacoes Realizadas;
+2020-05-02 12:26:08;64  36117500;0.0;Adicional por Ligacoes Realizadas;
+2020-05-30 11:33:10;08  007028787;5.0;"";
+2020-05-29 11:27:41;08  007028787;44.0;"";
+2020-05-28 17:45:45;08  007028787;5.0;"";
+2020-05-28 17:44:44;08  007028787;6.0;"";
+2020-05-30 18:58:30;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-30 10:03:30;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-25 18:35:14;    ;44.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-21 10:47:52;    ;29.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-21 08:18:36;    ;12.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-20 07:25:15;    ;61.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-19 14:53:23;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-19 14:12:19;    ;104.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-18 10:02:21;    ;71.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-17 12:33:46;    ;139.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-14 17:43:06;    ;24.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-14 10:26:46;    ;179.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-13 17:08:14;    ;34.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-13 16:47:31;    ;20.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-13 14:47:03;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-12 10:44:50;    ;59.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-08 15:34:37;    ;175.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-06 17:00:46;    ;22.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-05 16:48:07;    ;21.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-04 09:14:51;    ;12.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-02 09:13:37;    ;29.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-02 08:16:45;    ;70.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-25 19:02:34;65  36370207;5.0;Para Fixo de Outras Operadoras;
+2020-05-12 10:23:19;64  992259755;7.0;Para Celulares de Outras Operadoras;
+2020-05-07 12:22:06;64  992259755;5.0;Para Celulares de Outras Operadoras;
+2020-05-02 12:26:08;64  36117500;5.0;Para Fixo Vivo;
+2020-05-16 20:56:33;66  999390897;6.0;Para Celulares Vivo;
+2020-05-03 11:00:23;64  999969019;12.0;Para Celulares Vivo;
+2020-05-01;"";1262.0;INTERNET MOVEL 2;0.00
+2020-05-02;"";46946.8;INTERNET MOVEL 2;0.00
+2020-05-03;"";5268.0;INTERNET MOVEL 2;0.00
+2020-05-04;"";45284.2;INTERNET MOVEL 2;0.00
+2020-05-05;"";10556.4;INTERNET MOVEL 2;0.00
+2020-05-06;"";31231.5;INTERNET MOVEL 2;0.00
+2020-05-07;"";13588.4;INTERNET MOVEL 2;0.00
+2020-05-08;"";24804.2;INTERNET MOVEL 2;0.00
+2020-05-09;"";13120.0;INTERNET MOVEL 2;0.00
+2020-05-10;"";1598.0;INTERNET MOVEL 2;0.00
+2020-05-11;"";29447.4;INTERNET MOVEL 2;0.00
+2020-05-12;"";55348.1;INTERNET MOVEL 2;0.00
+2020-05-13;"";45350.0;INTERNET MOVEL 2;0.00
+2020-05-14;"";98955.3;INTERNET MOVEL 2;0.00
+2020-05-15;"";66796.7;INTERNET MOVEL 2;0.00
+2020-05-16;"";56951.0;INTERNET MOVEL 2;0.00
+2020-05-17;"";114952.5;INTERNET MOVEL 2;0.00
+2020-05-18;"";58761.1;INTERNET MOVEL 2;0.00
+2020-05-19;"";37982.8;INTERNET MOVEL 2;0.00
+2020-05-20;"";86844.4;INTERNET MOVEL 2;0.00
+2020-05-21;"";70609.2;INTERNET MOVEL 2;0.00
+2020-05-22;"";85100.9;INTERNET MOVEL 2;0.00
+2020-05-23;"";44370.6;INTERNET MOVEL 2;0.00
+2020-05-24;"";48001.0;INTERNET MOVEL 2;0.00
+2020-05-25;"";84914.5;INTERNET MOVEL 2;0.00
+2020-05-26;"";45416.9;INTERNET MOVEL 2;0.00
+2020-05-27;"";5671.0;INTERNET MOVEL 2;0.00
+2020-05-28;"";23382.0;INTERNET MOVEL 2;0.00
+2020-05-29;"";3039.0;INTERNET MOVEL 2;0.00
+2020-05-30;"";6998.1;INTERNET MOVEL 2;0.00
+2020-05-31;"";1102.0;INTERNET MOVEL 2;0.00

@@ -1,0 +1,51 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-07-29 09:24:55;51991395658;1.0;GRATIS-SMS;0.00
+2020-07-16 09:05:01;37991484555;1.0;GRATIS-SMS;0.00
+2020-07-13 14:11:55;51991395658;1.0;GRATIS-SMS;0.00
+2020-07-06 10:58:34;31983262368;1.0;GRATIS-SMS;0.00
+2020-07-02 09:33:57;31988566579;1.0;GRATIS-SMS;0.00
+2020-07-02 08:31:00;51991395658;1.0;GRATIS-SMS;0.00
+2020-07-02 08:22:53;31998143430;1.0;GRATIS-SMS;0.00
+2020-07-31 09:34:31;31  33518243;6.0;Para Fixo de Outras Operadoras;
+2020-07-20 15:44:17;31  38012075;63.0;Para Fixo de Outras Operadoras;
+2020-07-31 08:44:06;49  999802557;5.0;Para Celulares de Outras Operadoras;
+2020-07-30 13:55:15;31  998143430;144.0;Para Celulares de Outras Operadoras;
+2020-07-30 08:46:36;31  988566579;46.0;Para Celulares de Outras Operadoras;
+2020-07-30 08:30:25;31  987461501;159.0;Para Celulares de Outras Operadoras;
+2020-07-29 17:44:34;31  988566579;80.0;Para Celulares de Outras Operadoras;
+2020-07-28 11:48:39;12  992399225;30.0;Para Celulares de Outras Operadoras;
+2020-07-28 11:36:59;31  987461501;79.0;Para Celulares de Outras Operadoras;
+2020-07-17 16:24:20;31  988566579;28.0;Para Celulares de Outras Operadoras;
+2020-07-16 07:48:15;49  999802557;103.0;Para Celulares de Outras Operadoras;
+2020-07-15 08:48:48;31  998143430;38.0;Para Celulares de Outras Operadoras;
+2020-07-15 08:44:41;31  998143430;14.0;Para Celulares de Outras Operadoras;
+2020-07-13 15:28:42;12  992399225;47.0;Para Celulares de Outras Operadoras;
+2020-07-13 09:08:05;31  998143430;101.0;Para Celulares de Outras Operadoras;
+2020-07-03 15:19:20;31  998143430;190.0;Para Celulares de Outras Operadoras;
+2020-07-03 15:18:27;31  998143430;5.0;Para Celulares de Outras Operadoras;
+2020-07-03 08:18:25;31  988566579;124.0;Para Celulares de Outras Operadoras;
+2020-07-02 09:42:56;31  988566579;22.0;Para Celulares de Outras Operadoras;
+2020-07-02 07:17:38;31  988566579;109.0;Para Celulares de Outras Operadoras;
+2020-07-01 11:38:54;31  988566579;121.0;Para Celulares de Outras Operadoras;
+2020-07-31 09:45:39;31  998265646;12.0;Para Celulares Vivo;
+2020-07-30 08:12:14;31  998265646;96.0;Para Celulares Vivo;
+2020-07-28 14:28:44;31  971107808;115.0;Para Celulares Vivo;
+2020-07-28 11:47:21;31  971107808;7.0;Para Celulares Vivo;
+2020-07-23 08:52:28;31  982033512;104.0;Para Celulares Vivo;
+2020-07-13 15:27:45;19  992743101;5.0;Para Celulares Vivo;
+2020-07-08 12:07:22;31  999041532;39.0;Para Celulares Vivo;
+2020-07-07 09:54:26;31  998265646;30.0;Para Celulares Vivo;
+2020-07-03 15:42:05;31  999041532;122.0;Para Celulares Vivo;
+2020-07-01 09:41:40;31  998265646;56.0;Para Celulares Vivo;
+2020-07-29 08:48:54;54  991382035;201.0;Para Celulares Vivo;
+2020-07-20 17:10:17;55  999518440;11.0;Para Celulares Vivo;
+2020-07-20 14:54:22;55  999518440;11.0;Para Celulares Vivo;
+2020-07-17 10:02:52;55  999269145;16.0;Para Celulares Vivo;
+2020-07-14 09:41:34;54  999933637;118.0;Para Celulares Vivo;
+2020-07-10 16:39:41;55  999518440;5.0;Para Celulares Vivo;
+2020-07-06 08:57:34;54  999588848;116.0;Para Celulares Vivo;
+2020-07-01 08:16:51;54  996530409;557.0;Para Celulares Vivo;
+2020-07-02 09:45:39;51  991395658;21.0;Para Celulares de Outras Operadoras;
+2020-07-22 17:32:51;51  996684577;168.0;Para Celulares Vivo;
+2020-07-06 17:01:43;51  996922316;6.0;Para Celulares Vivo;
+2020-07-02 14:44:03;51  999712222;5.0;Para Celulares Vivo;

@@ -1,0 +1,10 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-09-01 11:35:03;51  998115641;1.4;Para Celulares Vivo;
+2020-09-04 12:20:28;51  998115641;0.6;Para Celulares Vivo;
+2020-09-02 17:53:25;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-09 14:59:40;    ;1.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-04 12:20:28;51  998115641;0.0;Adicional por Ligacoes Realizadas;
+2020-09-01 11:35:03;51  998115641;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 14:59:40;"";1.0;ADICIONAL;0.00
+2020-09-02 17:53:25;"";1.0;ADICIONAL;0.00
+2020-09-17;"";1.0;INTERNET MOVEL 2;0.00

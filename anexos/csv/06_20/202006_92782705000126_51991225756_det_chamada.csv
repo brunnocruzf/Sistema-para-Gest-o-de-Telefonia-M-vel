@@ -1,0 +1,21 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-05-29 16:52:26;5121186899;1.0;ADICIONAL;0.00
+2020-05-28 11:26:54;"";1.0;ADICIONAL;0.00
+2020-05-28 09:33:40;5121186899;1.0;ADICIONAL;0.00
+2020-05-28 08:51:33;"";1.0;ADICIONAL;0.00
+2020-05-28 08:17:46;"";1.0;ADICIONAL;0.00
+2020-05-27 09:41:39;"";1.0;ADICIONAL;0.00
+2020-05-23 09:40:25;5121186899;1.0;ADICIONAL;0.00
+2020-05-22 08:34:50;5121186899;1.0;ADICIONAL;0.00
+2020-05-04 06:03:09;"";1.0;ADICIONAL;0.00
+2020-05-21 13:11:17;51  981861609;8.0;Para Celulares Vivo;
+2020-05-21 13:11:17;51  981861609;0.0;Adicional por Ligacoes Realizadas;
+2020-05-29 16:52:26;51  21186899;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-28 11:26:54;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-28 09:33:40;51  21186899;9.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-28 08:51:33;    ;9.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-28 08:17:46;    ;8.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-27 09:41:39;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-23 09:40:25;51  21186899;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-22 08:34:50;51  21186899;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-05-04 06:03:09;    ;5.0;Chamadas de Longa Distancia para Outros Estados;

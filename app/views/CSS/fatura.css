@@ -1,0 +1,126 @@
+
+/*Same as body*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Arial;
+    color: #333;
+}
+
+.fatura {
+}
+
+.fontes {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    font-size: 16px;
+}
+
+.titulo_superior {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+}
+
+.logotipo {
+    text-align: center;
+    width: 25%;
+    height: 100px;
+    float: left;
+}
+
+.pacotes_e_lancamentos {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.resumo {
+    line-height: 16px;
+    padding: 13px;
+}
+
+.gerenciamentos {
+}
+
+.gerenciamento_tipo {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.borda_redonda {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.dados_cliente_conta {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 25px;
+    min-height: 100px;
+    margin-top: 15px;
+}
+
+.dados_cliente {
+    width: 45%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 22px;
+}
+
+.dados_conta {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 22px;
+    margin-left: 25px;
+}
+
+.titulo1 {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-bottom-width: 1px;
+    line-height: 22px
+}
+
+.titulo2 {
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-bottom-width: 1px;
+    line-height: 22px
+}
+
+.titulo3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.registro {
+    font-size: 13px;
+}
+
+.registro_detalhe {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.valor_total {
+    font-size: 13px;
+    font-weight: bold;
+    border-top-style: solid;
+    border-top-color: #000000;
+    border-top-width: 1px;
+}

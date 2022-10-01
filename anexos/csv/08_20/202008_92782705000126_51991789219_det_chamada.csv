@@ -1,0 +1,8 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-07-25 21:06:25;9090;1.0;INTERATIVIDADE SMS;0.58
+2020-07-02 19:46:40;*5  55;6.0;"";
+2020-07-07 21:49:06;51  34392115;13.0;Para Fixo de Outras Operadoras;
+2020-06-30;"";157.0;INTERNET MOVEL 2;0.00
+2020-07-01;"";560.0;INTERNET MOVEL 2;0.00
+2020-07-02;"";1015.0;INTERNET MOVEL 2;0.00
+2020-07-03;"";542.0;INTERNET MOVEL 2;0.00

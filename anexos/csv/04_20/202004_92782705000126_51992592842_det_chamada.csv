@@ -1,0 +1,93 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-03-18 20:56:28;"";1.0;ADICIONAL;0.00
+2020-03-18 16:26:32;"";1.0;ADICIONAL;0.00
+2020-03-18 11:04:52;"";1.0;ADICIONAL;0.00
+2020-03-14 19:52:55;"";1.0;ADICIONAL;0.00
+2020-03-13 06:56:58;"";1.0;ADICIONAL;0.00
+2020-03-11 07:38:01;"";1.0;ADICIONAL;0.00
+2020-03-11 07:30:59;"";1.0;ADICIONAL;0.00
+2020-03-11 07:13:17;"";1.0;ADICIONAL;0.00
+2020-03-09 20:33:26;"";1.0;ADICIONAL;0.00
+2020-03-07 14:25:43;"";1.0;ADICIONAL;0.00
+2020-03-03 09:41:32;"";1.0;ADICIONAL;0.00
+2020-03-03 09:07:24;"";1.0;ADICIONAL;0.00
+2020-03-02 10:02:28;"";1.0;ADICIONAL;0.00
+2020-03-17 12:52:45;51  991146877;59.0;Para Celulares de Outras Operadoras;
+2020-03-10 06:45:59;51  991146877;72.0;Para Celulares de Outras Operadoras;
+2020-03-03 21:47:45;51  991146877;602.0;Para Celulares de Outras Operadoras;
+2020-03-03 21:44:55;51  991146877;25.0;Para Celulares de Outras Operadoras;
+2020-03-03 19:26:13;51  991146877;401.0;Para Celulares de Outras Operadoras;
+2020-03-17 08:40:30;51  992592796;29.0;Para Celulares Vivo;
+2020-03-16 11:27:09;51  995863683;78.0;Para Celulares Vivo;
+2020-03-16 11:23:56;51  992592796;27.0;Para Celulares Vivo;
+2020-03-14 21:49:40;74  999124877;18.0;Para Celulares Vivo;
+2020-03-11 09:21:12;77  998362196;6.0;Para Celulares Vivo;
+2020-03-10 15:47:38;51  992592796;37.0;Para Celulares Vivo;
+2020-03-10 14:03:38;51  992592796;52.0;Para Celulares Vivo;
+2020-03-03 08:04:39;51  995863683;40.0;Para Celulares Vivo;
+2020-03-03 08:01:18;51  992592796;19.0;Para Celulares Vivo;
+2020-03-02 09:58:06;51  995863683;41.0;Para Celulares Vivo;
+2020-03-02 08:04:28;51  995863683;96.0;Para Celulares Vivo;
+2020-03-17 12:52:45;51  991146877;0.0;Adicional por Ligacoes Realizadas;
+2020-03-17 08:40:30;51  992592796;0.0;Adicional por Ligacoes Realizadas;
+2020-03-16 11:27:09;51  995863683;0.0;Adicional por Ligacoes Realizadas;
+2020-03-16 11:23:56;51  992592796;0.0;Adicional por Ligacoes Realizadas;
+2020-03-14 21:49:40;74  999124877;0.0;Adicional por Ligacoes Realizadas;
+2020-03-11 09:21:12;77  998362196;0.0;Adicional por Ligacoes Realizadas;
+2020-03-10 15:47:38;51  992592796;0.0;Adicional por Ligacoes Realizadas;
+2020-03-10 14:03:38;51  992592796;0.0;Adicional por Ligacoes Realizadas;
+2020-03-10 06:45:59;51  991146877;0.0;Adicional por Ligacoes Realizadas;
+2020-03-03 21:47:45;51  991146877;0.0;Adicional por Ligacoes Realizadas;
+2020-03-03 21:44:55;51  991146877;0.0;Adicional por Ligacoes Realizadas;
+2020-03-03 19:26:13;51  991146877;0.0;Adicional por Ligacoes Realizadas;
+2020-03-03 08:04:39;51  995863683;0.0;Adicional por Ligacoes Realizadas;
+2020-03-03 08:01:18;51  992592796;0.0;Adicional por Ligacoes Realizadas;
+2020-03-02 09:58:06;51  995863683;0.0;Adicional por Ligacoes Realizadas;
+2020-03-02 08:04:28;51  995863683;0.0;Adicional por Ligacoes Realizadas;
+2020-03-22 19:04:50;66  984418090;16.0;Para Celulares de Outras Operadoras;
+2020-03-18 20:56:28;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-18 16:26:32;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-18 11:04:52;    ;30.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-14 19:52:55;    ;73.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-13 06:56:58;    ;100.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-11 07:38:01;    ;12.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-11 07:30:59;    ;21.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-11 07:13:17;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-09 20:33:26;    ;101.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-07 14:25:43;    ;106.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-03 09:41:32;    ;127.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-03 09:07:24;    ;18.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-02 10:02:28;    ;34.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-26 16:53:41;51  995863683;74.0;Para Celulares Vivo;
+2020-03-22 19:07:02;51  995863683;71.0;Para Celulares Vivo;
+2020-02-29;"";7720.6;INTERNET MOVEL 2;0.00
+2020-03-01;"";3650.0;INTERNET MOVEL 2;0.00
+2020-03-02;"";11785.7;INTERNET MOVEL 2;0.00
+2020-03-03;"";24643.8;INTERNET MOVEL 2;0.00
+2020-03-04;"";3967.0;INTERNET MOVEL 2;0.00
+2020-03-05;"";2541.0;INTERNET MOVEL 2;0.00
+2020-03-06;"";11947.0;INTERNET MOVEL 2;0.00
+2020-03-07;"";7625.0;INTERNET MOVEL 2;0.00
+2020-03-08;"";2931.0;INTERNET MOVEL 2;0.00
+2020-03-09;"";4166.1;INTERNET MOVEL 2;0.00
+2020-03-10;"";18816.6;INTERNET MOVEL 2;0.00
+2020-03-11;"";7937.0;INTERNET MOVEL 2;0.00
+2020-03-12;"";5885.0;INTERNET MOVEL 2;0.00
+2020-03-13;"";63842.0;INTERNET MOVEL 2;0.00
+2020-03-14;"";76462.8;INTERNET MOVEL 2;0.00
+2020-03-15;"";176360.3;INTERNET MOVEL 2;0.00
+2020-03-16;"";10301.9;INTERNET MOVEL 2;0.00
+2020-03-17;"";10087.2;INTERNET MOVEL 2;0.00
+2020-03-18;"";45452.1;INTERNET MOVEL 2;0.00
+2020-03-19;"";6563.0;INTERNET MOVEL 2;0.00
+2020-03-20;"";2750.0;INTERNET MOVEL 2;0.00
+2020-03-22;"";3573.0;INTERNET MOVEL 2;0.00
+2020-03-23;"";4407.0;INTERNET MOVEL 2;0.00
+2020-03-24;"";329.0;INTERNET MOVEL 2;0.00
+2020-03-25;"";271.0;INTERNET MOVEL 2;0.00
+2020-03-26;"";70.0;INTERNET MOVEL 2;0.00
+2020-03-27;"";133.0;INTERNET MOVEL 2;0.00
+2020-03-28;"";273.0;INTERNET MOVEL 2;0.00
+2020-03-29;"";499.0;INTERNET MOVEL 2;0.00
+2020-03-30;"";477.0;INTERNET MOVEL 2;0.00
+2020-03-31;"";156.0;INTERNET MOVEL 2;0.00

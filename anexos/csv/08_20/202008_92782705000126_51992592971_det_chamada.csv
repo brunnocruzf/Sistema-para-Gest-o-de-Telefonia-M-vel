@@ -1,0 +1,39 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-07-01 20:26:23;51  996217634;62.0;Para Celulares Vivo;
+2020-07-02 10:28:37;51  30038126;75.0;Para Fixo de Outras Operadoras;
+2020-07-31 16:17:10;51  991854580;36.0;Para Celulares de Outras Operadoras;
+2020-07-31 16:09:12;51  991854580;39.0;Para Celulares de Outras Operadoras;
+2020-07-28 10:36:49;51  991854580;48.0;Para Celulares de Outras Operadoras;
+2020-07-28 10:11:23;51  991854580;79.0;Para Celulares de Outras Operadoras;
+2020-07-28 09:55:14;51  991854580;22.0;Para Celulares de Outras Operadoras;
+2020-07-28 09:48:07;51  991854580;39.0;Para Celulares de Outras Operadoras;
+2020-07-28 09:40:06;51  991854580;5.0;Para Celulares de Outras Operadoras;
+2020-07-28 08:40:13;51  991854580;7.0;Para Celulares de Outras Operadoras;
+2020-07-25 10:39:02;51  982684054;5.0;Para Celulares de Outras Operadoras;
+2020-07-15 21:11:56;51  982684054;9.0;Para Celulares de Outras Operadoras;
+2020-07-03 12:56:02;51  985161705;12.0;Para Celulares de Outras Operadoras;
+2020-07-28 10:28:43;51  997985151;5.0;Para Celulares Vivo;
+2020-07-28 10:24:35;51  991813564;33.0;Para Celulares Vivo;
+2020-07-28 09:59:07;51  997985151;6.0;Para Celulares Vivo;
+2020-07-28 09:52:25;51  997985151;14.0;Para Celulares Vivo;
+2020-07-28 09:45:49;51  997985151;11.0;Para Celulares Vivo;
+2020-07-28 09:39:20;51  992592701;5.0;Para Celulares Vivo;
+2020-07-28 09:17:32;51  992592701;51.0;Para Celulares Vivo;
+2020-07-28 09:03:36;51  992592701;34.0;Para Celulares Vivo;
+2020-07-28 08:52:49;51  997985151;103.0;Para Celulares Vivo;
+2020-07-28 08:35:16;51  991943334;5.0;Para Celulares Vivo;
+2020-07-28 08:28:21;51  997985151;21.0;Para Celulares Vivo;
+2020-07-24 09:52:41;51  996684577;35.0;Para Celulares Vivo;
+2020-07-17 17:48:51;51  997152427;5.0;Para Celulares Vivo;
+2020-07-16 08:13:10;51  991943334;30.0;Para Celulares Vivo;
+2020-07-16 08:08:30;51  997985151;39.0;Para Celulares Vivo;
+2020-07-15 19:39:21;51  996684577;98.0;Para Celulares Vivo;
+2020-07-09 14:57:15;51  992592701;16.0;Para Celulares Vivo;
+2020-07-09 14:11:46;51  992592701;84.0;Para Celulares Vivo;
+2020-07-03 12:19:48;51  997152427;8.0;Para Celulares Vivo;
+2020-07-03 11:44:24;51  997152427;38.0;Para Celulares Vivo;
+2020-07-02 20:46:38;51  996217634;31.0;Para Celulares Vivo;
+2020-07-07;"";1.0;INTERNET MOVEL 2;0.00
+2020-07-08;"";1.0;INTERNET MOVEL 2;0.00
+2020-07-28;"";1.0;INTERNET MOVEL 2;0.00
+2020-07-31;"";1.0;INTERNET MOVEL 2;0.00

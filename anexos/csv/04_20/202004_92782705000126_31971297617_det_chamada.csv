@@ -1,0 +1,37 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-03-26 10:31:16;"";1.0;ADICIONAL;0.00
+2020-03-26 10:03:36;"";1.0;ADICIONAL;0.00
+2020-03-25 14:16:29;"";1.0;ADICIONAL;0.00
+2020-03-24 16:30:11;"";1.0;ADICIONAL;0.00
+2020-03-24 15:51:19;"";1.0;ADICIONAL;0.00
+2020-03-24 15:46:24;"";1.0;ADICIONAL;0.00
+2020-03-24 12:48:19;"";1.0;ADICIONAL;0.00
+2020-03-23 14:04:23;"";1.0;ADICIONAL;0.00
+2020-03-23 10:08:43;"";1.0;ADICIONAL;0.00
+2020-03-20 10:07:15;"";1.0;ADICIONAL;0.00
+2020-03-03 10:06:21;3123420483;1.0;ADICIONAL;0.00
+2020-03-01 21:37:17;94  992834040;0.0;Adicional por Ligacoes Realizadas;
+2020-03-01 21:37:17;94  992834040;13.0;Para Celulares Vivo;
+2020-03-31 11:14:45;31  983934517;19.0;Para Celulares Vivo;
+2020-03-31 11:13:44;31  983934517;5.0;Para Celulares Vivo;
+2020-03-25 13:53:29;31  983934517;28.0;Para Celulares Vivo;
+2020-03-24 08:05:06;31  983934517;37.0;Para Celulares Vivo;
+2020-03-23 08:55:46;31  983934517;74.0;Para Celulares Vivo;
+2020-03-23 08:50:16;31  971299534;22.0;Para Celulares Vivo;
+2020-03-31 11:14:45;31  983934517;0.0;Adicional por Ligacoes Realizadas;
+2020-03-31 11:13:44;31  983934517;0.0;Adicional por Ligacoes Realizadas;
+2020-03-25 13:53:29;31  983934517;0.0;Adicional por Ligacoes Realizadas;
+2020-03-24 13:23:22;*5  55;0.0;Adicional por Ligacoes Realizadas;
+2020-03-24 08:05:06;31  983934517;0.0;Adicional por Ligacoes Realizadas;
+2020-03-23 09:22:19;*5  55;0.0;Adicional por Ligacoes Realizadas;
+2020-03-23 08:55:46;31  983934517;0.0;Adicional por Ligacoes Realizadas;
+2020-03-23 08:50:16;31  971299534;0.0;Adicional por Ligacoes Realizadas;
+2020-03-17 08:28:58;94  992822615;0.0;Adicional por Ligacoes Realizadas;
+2020-03-16 12:14:36;94  992852266;0.0;Adicional por Ligacoes Realizadas;
+2020-03-08 19:37:32;03  003132421;57.0;"";
+2020-03-08 19:36:54;03  003132421;5.0;"";
+2020-03-08 17:31:33;03  003132421;19.0;"";
+2020-03-24 13:23:22;*5  55;8.0;"";
+2020-03-23 09:22:19;*5  55;8.0;"";
+2020-03-17 08:28:58;94  992822615;9.0;Para Celulares Vivo;
+2020-03-16 12:14:36;94  992852266;29.0;Para Celulares Vivo;

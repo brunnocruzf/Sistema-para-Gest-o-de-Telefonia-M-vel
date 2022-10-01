@@ -1,0 +1,23 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-03-30 11:37:36;51  34593797;5.0;Para Fixo de Outras Operadoras;
+2020-03-17 18:09:38;51  34593797;32.0;Para Fixo de Outras Operadoras;
+2020-03-19 11:34:17;51  982684054;6.0;Para Celulares de Outras Operadoras;
+2020-03-17 14:24:19;51  991854580;9.0;Para Celulares de Outras Operadoras;
+2020-03-03 14:19:54;51  993438384;18.0;Para Celulares de Outras Operadoras;
+2020-03-23 16:52:51;51  998523958;5.0;Para Celulares Vivo;
+2020-03-23 11:41:24;51  997152427;15.0;Para Celulares Vivo;
+2020-03-23 11:12:02;51  997152427;27.0;Para Celulares Vivo;
+2020-03-23 10:00:18;51  998778026;57.0;Para Celulares Vivo;
+2020-03-23 09:51:46;51  992592701;34.0;Para Celulares Vivo;
+2020-03-16 11:35:30;51  997152427;32.0;Para Celulares Vivo;
+2020-03-13 14:44:13;51  996684577;50.0;Para Celulares Vivo;
+2020-03-10 18:40:59;51  997152427;6.0;Para Celulares Vivo;
+2020-03-06 19:02:51;51  997152427;5.0;Para Celulares Vivo;
+2020-03-06 15:34:10;51  984274504;5.0;Para Celulares Vivo;
+2020-03-05 17:05:27;51  997152427;38.0;Para Celulares Vivo;
+2020-03-04 07:39:12;51  996684577;5.0;Para Celulares Vivo;
+2020-03-03 18:21:42;51  997152427;5.0;Para Celulares Vivo;
+2020-03-03 18:16:06;51  997152427;8.0;Para Celulares Vivo;
+2020-03-16;"";1.0;INTERNET MOVEL 2;0.00
+2020-03-23;"";1.0;INTERNET MOVEL 2;0.00
+2020-03-26;"";1.0;INTERNET MOVEL 2;0.00

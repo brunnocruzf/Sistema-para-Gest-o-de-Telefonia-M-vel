@@ -1,0 +1,97 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-07-30 13:38:19;1136301200;1.0;ADICIONAL;0.00
+2020-07-29 16:29:20;"";1.0;ADICIONAL;0.00
+2020-07-29 13:58:05;"";1.0;ADICIONAL;0.00
+2020-07-29 10:04:36;"";1.0;ADICIONAL;0.00
+2020-07-29 09:29:27;"";1.0;ADICIONAL;0.00
+2020-07-28 09:50:55;"";1.0;ADICIONAL;0.00
+2020-07-27 13:01:20;1136405600;1.0;ADICIONAL;0.00
+2020-07-25 14:14:48;1121401800;1.0;ADICIONAL;0.00
+2020-07-24 12:36:10;1121401800;1.0;ADICIONAL;0.00
+2020-07-24 10:08:48;1121401800;1.0;ADICIONAL;0.00
+2020-07-23 18:50:33;1121401800;1.0;ADICIONAL;0.00
+2020-07-23 16:21:43;1121401800;1.0;ADICIONAL;0.00
+2020-07-23 13:15:15;1126121100;1.0;ADICIONAL;0.00
+2020-07-23 11:57:26;"";1.0;ADICIONAL;0.00
+2020-07-23 11:17:38;11995463849;1.0;ADICIONAL;0.00
+2020-07-23 10:35:32;"";1.0;ADICIONAL;0.00
+2020-07-23 10:24:04;"";1.0;ADICIONAL;0.00
+2020-07-23 10:20:59;1126121100;1.0;ADICIONAL;0.00
+2020-07-23 10:09:01;"";1.0;ADICIONAL;0.00
+2020-07-23 09:41:09;"";1.0;ADICIONAL;0.00
+2020-07-23 08:47:45;"";1.0;ADICIONAL;0.00
+2020-07-23 08:13:13;"";1.0;ADICIONAL;0.00
+2020-07-22 18:05:44;1126121100;1.0;ADICIONAL;0.00
+2020-07-22 17:03:56;1126121100;1.0;ADICIONAL;0.00
+2020-07-22 13:53:55;1126121100;1.0;ADICIONAL;0.00
+2020-07-21 12:45:58;1126121100;1.0;ADICIONAL;0.00
+2020-07-21 12:01:21;1126121100;1.0;ADICIONAL;0.00
+2020-07-20 14:50:41;1126121100;1.0;ADICIONAL;0.00
+2020-07-18 11:52:44;1126121100;1.0;ADICIONAL;0.00
+2020-07-17 14:22:56;1126121100;1.0;ADICIONAL;0.00
+2020-07-16 19:08:41;1126121100;1.0;ADICIONAL;0.00
+2020-07-16 13:18:01;1126121100;1.0;ADICIONAL;0.00
+2020-07-08 17:17:52;"";1.0;ADICIONAL;0.00
+2020-07-30 09:26:33;51  996922316;15.0;Para Celulares Vivo;
+2020-07-29 16:25:34;51  996922316;34.0;Para Celulares Vivo;
+2020-07-29 15:56:39;51  996922316;8.0;Para Celulares Vivo;
+2020-07-29 14:15:11;51  996922316;5.0;Para Celulares Vivo;
+2020-07-29 10:42:11;51  996922316;9.0;Para Celulares Vivo;
+2020-07-29 10:21:50;51  996922316;15.0;Para Celulares Vivo;
+2020-07-29 10:15:04;51  996922316;18.0;Para Celulares Vivo;
+2020-07-29 09:38:30;51  996922316;6.0;Para Celulares Vivo;
+2020-07-23 10:25:08;51  996922316;8.0;Para Celulares Vivo;
+2020-07-22 11:37:51;51  996922316;6.0;Para Celulares Vivo;
+2020-07-20 19:55:31;51  996922316;5.0;Para Celulares Vivo;
+2020-07-16 14:07:33;51  996922316;27.0;Para Celulares Vivo;
+2020-07-02 16:36:08;51  998115641;13.0;Para Celulares Vivo;
+2020-07-02 08:13:18;51  996922316;12.0;Para Celulares Vivo;
+2020-07-30 09:26:33;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-29 16:25:34;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-29 15:56:39;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-29 14:15:11;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-29 10:42:11;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-29 10:21:50;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-29 10:15:04;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-29 09:38:30;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-23 10:25:08;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-22 11:37:51;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-20 19:55:31;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-16 14:07:33;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-02 16:36:08;51  998115641;0.0;Adicional por Ligacoes Realizadas;
+2020-07-02 08:13:18;51  996922316;0.0;Adicional por Ligacoes Realizadas;
+2020-07-30 13:38:19;11  36301200;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-29 16:29:20;    ;7.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-29 13:58:05;    ;13.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-29 10:04:36;    ;8.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-29 09:29:27;    ;8.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-28 09:50:55;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-27 13:01:20;11  36405600;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-25 14:14:48;11  21401800;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-24 12:36:10;11  21401800;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-24 10:08:48;11  21401800;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 18:50:33;11  21401800;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 16:21:43;11  21401800;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 13:15:15;11  26121100;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 11:57:26;    ;14.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 11:17:38;11  995463849;30.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 10:35:32;    ;7.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 10:24:04;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 10:20:59;11  26121100;10.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 10:09:01;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 09:41:09;    ;7.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 08:47:45;    ;10.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 08:13:13;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-22 18:05:44;11  26121100;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-22 17:03:56;11  26121100;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-22 13:53:55;11  26121100;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-21 12:45:58;11  26121100;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-21 12:01:21;11  26121100;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-20 14:50:41;11  26121100;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-18 11:52:44;11  26121100;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-17 14:22:56;11  26121100;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-16 19:08:41;11  26121100;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-16 13:18:01;11  26121100;10.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-08 17:17:52;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-14;"";5.0;INTERNET MOVEL 2;0.00
+2020-07-19;"";1.0;INTERNET MOVEL 2;0.00

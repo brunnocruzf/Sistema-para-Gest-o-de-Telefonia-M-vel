@@ -1,0 +1,14 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-03-24 14:25:10;51  31031883;26.0;Para Fixo de Outras Operadoras;
+2020-03-24 13:41:37;51  31031883;48.0;Para Fixo de Outras Operadoras;
+2020-03-23 16:02:57;51  34712888;13.0;Para Fixo de Outras Operadoras;
+2020-03-23 13:39:53;51  30418650;7.0;Para Fixo de Outras Operadoras;
+2020-03-23 13:17:09;51  30418650;54.0;Para Fixo de Outras Operadoras;
+2020-03-15 09:51:13;51  30046400;13.0;Para Fixo de Outras Operadoras;
+2020-03-10 13:00:55;51  33789995;62.0;Para Fixo de Outras Operadoras;
+2020-03-08 10:54:15;51  34557590;6.0;Para Fixo de Outras Operadoras;
+2020-03-23 13:24:29;51  40207191;5.0;Para Fixo Vivo;
+2020-02-29;"";25518.8;INTERNET MOVEL 2;0.00
+2020-03-01;"";97534.0;INTERNET MOVEL 2;0.00
+2020-03-02;"";170887.3;INTERNET MOVEL 2;0.00
+2020-03-03;"";148054.3;INTERNET MOVEL 2;0.00

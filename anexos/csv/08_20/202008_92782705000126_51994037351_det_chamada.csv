@@ -1,0 +1,46 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-07-29 11:21:26;5121313333;1.0;ADICIONAL;0.00
+2020-07-28 15:31:33;1321018108;1.0;ADICIONAL;0.00
+2020-07-27 13:37:19;5121313333;1.0;ADICIONAL;0.00
+2020-07-25 17:42:27;"";1.0;ADICIONAL;0.00
+2020-07-24 10:45:05;"";1.0;ADICIONAL;0.00
+2020-07-24 09:25:03;5121313333;1.0;ADICIONAL;0.00
+2020-07-23 18:08:49;"";1.0;ADICIONAL;0.00
+2020-07-23 15:37:48;5121313333;1.0;ADICIONAL;0.00
+2020-07-23 07:26:35;"";1.0;ADICIONAL;0.00
+2020-07-23 07:14:44;"";1.0;ADICIONAL;0.00
+2020-07-22 14:06:47;11995463849;1.0;ADICIONAL;0.00
+2020-07-21 16:14:36;"";1.0;ADICIONAL;0.00
+2020-07-21 13:42:27;"";1.0;ADICIONAL;0.00
+2020-07-16 15:54:36;"";1.0;ADICIONAL;0.00
+2020-07-02 09:39:43;"";1.0;ADICIONAL;0.00
+2020-07-23 16:40:46;51  989028545;88.0;Para Celulares Vivo;
+2020-07-21 16:39:04;51  992592629;36.0;Para Celulares Vivo;
+2020-07-21 10:48:05;51  992592754;28.0;Para Celulares Vivo;
+2020-07-21 09:22:56;51  992592754;5.0;Para Celulares Vivo;
+2020-07-21 09:19:32;51  992592754;12.0;Para Celulares Vivo;
+2020-07-15 13:29:09;51  991317721;11.0;Para Celulares Vivo;
+2020-07-23 16:40:46;51  989028545;0.0;Adicional por Ligacoes Realizadas;
+2020-07-21 16:39:04;51  992592629;0.0;Adicional por Ligacoes Realizadas;
+2020-07-21 10:48:05;51  992592754;0.0;Adicional por Ligacoes Realizadas;
+2020-07-21 09:22:56;51  992592754;0.0;Adicional por Ligacoes Realizadas;
+2020-07-21 09:19:32;51  992592754;0.0;Adicional por Ligacoes Realizadas;
+2020-07-15 13:29:09;51  991317721;0.0;Adicional por Ligacoes Realizadas;
+2020-07-29 11:21:26;51  21313333;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-28 15:31:33;13  21018108;120.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-27 13:37:19;51  21313333;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-25 17:42:27;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-24 10:45:05;    ;13.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-24 09:25:03;51  21313333;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 18:08:49;    ;7.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 15:37:48;51  21313333;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 07:26:35;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-23 07:14:44;    ;8.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-22 14:06:47;11  995463849;15.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-21 16:14:36;    ;29.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-21 13:42:27;    ;81.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-16 15:54:36;    ;16.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-02 09:39:43;    ;46.0;Chamadas de Longa Distancia para Outros Estados;
+2020-07-03;"";68867.0;INTERNET MOVEL 2;0.00
+2020-07-04;"";14599.0;INTERNET MOVEL 2;0.00
+2020-07-18;"";687.0;INTERNET MOVEL 2;0.00

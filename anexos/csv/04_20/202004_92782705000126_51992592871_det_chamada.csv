@@ -1,0 +1,35 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-03-23 20:11:22;"";1.0;ADICIONAL;0.00
+2020-03-23 15:46:26;"";1.0;ADICIONAL;0.00
+2020-03-22 13:31:20;"";1.0;ADICIONAL;0.00
+2020-03-05 10:18:04;"";1.0;ADICIONAL;0.00
+2020-03-03 16:17:02;"";1.0;ADICIONAL;0.00
+2020-03-03 16:09:22;"";1.0;ADICIONAL;0.00
+2020-03-03 15:06:12;"";1.0;ADICIONAL;0.00
+2020-03-01 13:30:22;53  999375261;0.0;Adicional por Ligacoes Realizadas;
+2020-03-01 13:29:37;53  999375261;0.0;Adicional por Ligacoes Realizadas;
+2020-03-25 21:28:01;53  999557168;125.0;Para Celulares Vivo;
+2020-03-21 18:55:00;64  999375833;170.0;Para Celulares Vivo;
+2020-03-20 10:34:13;53  999375261;53.0;Para Celulares Vivo;
+2020-03-15 13:04:51;53  999375261;81.0;Para Celulares Vivo;
+2020-03-15 13:03:52;53  999375261;5.0;Para Celulares Vivo;
+2020-03-01 13:30:22;53  999375261;51.0;Para Celulares Vivo;
+2020-03-01 13:29:37;53  999375261;5.0;Para Celulares Vivo;
+2020-03-25 21:28:01;53  999557168;0.0;Adicional por Ligacoes Realizadas;
+2020-03-21 18:55:00;64  999375833;0.0;Adicional por Ligacoes Realizadas;
+2020-03-20 10:34:13;53  999375261;0.0;Adicional por Ligacoes Realizadas;
+2020-03-15 13:04:51;53  999375261;0.0;Adicional por Ligacoes Realizadas;
+2020-03-15 13:03:52;53  999375261;0.0;Adicional por Ligacoes Realizadas;
+2020-03-14 11:46:40;91  981041686;0.0;Adicional por Ligacoes Realizadas;
+2020-03-14 11:42:28;91  982823237;0.0;Adicional por Ligacoes Realizadas;
+2020-03-14 09:25:10;91  982823237;0.0;Adicional por Ligacoes Realizadas;
+2020-03-23 20:11:22;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-23 15:46:26;    ;43.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-22 13:31:20;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-05 10:18:04;    ;5.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-03 16:17:02;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-03 16:09:22;    ;32.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-03 15:06:12;    ;14.0;Chamadas de Longa Distancia para Outros Estados;
+2020-03-14 11:46:40;91  981041686;9.0;Para Celulares de Outras Operadoras;
+2020-03-14 11:42:28;91  982823237;5.0;Para Celulares de Outras Operadoras;
+2020-03-14 09:25:10;91  982823237;5.0;Para Celulares de Outras Operadoras;

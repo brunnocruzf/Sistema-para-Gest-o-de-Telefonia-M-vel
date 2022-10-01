@@ -1,0 +1,12 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-05-07 08:45:57;51  35798811;68.0;Para Fixo de Outras Operadoras;
+2020-05-05 08:43:53;51  30251826;15.0;Para Fixo de Outras Operadoras;
+2020-05-05 16:11:39;51  991813459;12.0;Para Celulares de Outras Operadoras;
+2020-05-05 16:19:14;51  34707801;34.0;Para Fixo Vivo;
+2020-05-05 16:15:10;51  34707801;10.0;Para Fixo Vivo;
+2020-05-05 16:13:40;51  34707801;10.0;Para Fixo Vivo;
+2020-05-05 16:13:14;51  34707801;5.0;Para Fixo Vivo;
+2020-05-05 16:10:01;51  34707859;9.0;Para Fixo Vivo;
+2020-05-05;"";19056.6;INTERNET MOVEL 2;0.00
+2020-05-06;"";4270.0;INTERNET MOVEL 2;0.00
+2020-05-07;"";579.0;INTERNET MOVEL 2;0.00

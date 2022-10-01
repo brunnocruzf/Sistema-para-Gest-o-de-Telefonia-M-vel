@@ -1,0 +1,23 @@
+{
+    "require": {
+        "erandir/plug-route": "3.4",
+        "league/csv": "9.0",
+        "mpdf/mpdf": "^8.0",
+        "doctrine/orm": "^2.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app/",
+            "core\\" : "core/"
+        },
+        "files": [
+            "config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "brunno",
+            "email": "brunno.cruz@tmsa.ind.br"
+        }
+    ]
+}

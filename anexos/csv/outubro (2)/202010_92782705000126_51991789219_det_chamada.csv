@@ -1,0 +1,8 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-09-16 16:25:27;51  995554457;2.5;Para Celulares Vivo;
+2020-09-16 16:28:21;51  995554457;4.1;Para Celulares Vivo;
+2020-09-28 14:27:34;51  996730387;2.3;Para Celulares Vivo;
+2020-09-16 22:17:49;51  984902009;1.3;Para Celulares de Outras Operadoras;
+2020-09-30 11:57:35;51  992034515;18.3;Para Celulares de Outras Operadoras;
+2020-09-29 12:04:49;51  30607011;0.5;Para Fixo de Outras Operadoras;
+2020-09-29 12:31:13;51  30607011;0.5;Para Fixo de Outras Operadoras;

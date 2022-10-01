@@ -1,0 +1,11 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-07-05 11:32:30;*5  55;5.0;"";
+2020-07-31 15:39:53;51  30312377;69.0;Para Fixo de Outras Operadoras;
+2020-07-29 16:30:51;51  32904000;35.0;Para Fixo de Outras Operadoras;
+2020-07-29 16:27:01;51  32904000;5.0;Para Fixo de Outras Operadoras;
+2020-07-29 16:23:57;51  32904000;6.0;Para Fixo de Outras Operadoras;
+2020-07-29 16:14:06;51  32904000;36.0;Para Fixo de Outras Operadoras;
+2020-07-28 08:14:06;51  32904000;27.0;Para Fixo de Outras Operadoras;
+2020-07-04 18:09:08;51  991761740;7.0;Para Celulares de Outras Operadoras;
+2020-07-15 19:07:44;51  999013516;52.0;Para Celulares Vivo;
+2020-07-03 14:44:07;51  992592888;12.0;Para Celulares Vivo;

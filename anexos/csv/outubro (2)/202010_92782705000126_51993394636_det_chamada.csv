@@ -1,0 +1,427 @@
+data_hora_inicio;nro_telefone_chamado;duracao_ligacao;desc_categoria;valor_ligacao
+2020-09-11 10:29:22;98  988635921;0.5;Para Celulares de Outras Operadoras;
+2020-09-11 10:33:18;98  988635921;1.0;Para Celulares de Outras Operadoras;
+2020-09-11 14:08:26;98  981308654;0.5;Para Celulares de Outras Operadoras;
+2020-09-16 16:22:56;98  981308654;0.5;Para Celulares de Outras Operadoras;
+2020-09-17 17:17:09;98  981308654;0.6;Para Celulares de Outras Operadoras;
+2020-09-21 17:14:29;98  981308654;0.5;Para Celulares de Outras Operadoras;
+2020-09-22 08:20:40;98  981308654;0.9;Para Celulares de Outras Operadoras;
+2020-09-22 09:08:41;98  981308654;0.5;Para Celulares de Outras Operadoras;
+2020-09-22 09:09:44;98  988635921;0.5;Para Celulares de Outras Operadoras;
+2020-09-22 09:10:37;98  988635921;1.0;Para Celulares de Outras Operadoras;
+2020-09-22 09:20:01;98  988635921;0.5;Para Celulares de Outras Operadoras;
+2020-09-22 09:46:59;98  988635921;0.7;Para Celulares de Outras Operadoras;
+2020-09-22 09:48:27;98  981308654;0.5;Para Celulares de Outras Operadoras;
+2020-09-22 10:17:27;98  981308654;0.5;Para Celulares de Outras Operadoras;
+2020-09-22 10:36:42;98  988168841;0.5;Para Celulares de Outras Operadoras;
+2020-09-22 11:31:59;98  981308654;0.5;Para Celulares de Outras Operadoras;
+2020-09-22 11:33:04;98  981308654;0.5;Para Celulares de Outras Operadoras;
+2020-09-23 08:10:40;98  981308654;2.7;Para Celulares de Outras Operadoras;
+2020-09-07 11:07:40;08  007216527;1.8;"";
+2020-09-07 11:13:03;08  007216527;2.6;"";
+2020-09-01 08:58:05;    ;1.2;Chamadas de Longa Distancia para Outros Estados;
+2020-09-02 06:24:15;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-02 13:15:32;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-02 13:48:18;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-03 10:49:31;    ;0.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-05 16:57:27;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-05 17:46:04;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-09 08:02:35;    ;0.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-09 18:49:17;    ;0.7;Chamadas de Longa Distancia para Outros Estados;
+2020-09-10 07:57:30;    ;6.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-10 07:57:30;    ;2.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-10 08:47:44;    ;1.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-10 10:01:55;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-10 13:19:41;    ;0.8;Chamadas de Longa Distancia para Outros Estados;
+2020-09-10 16:07:59;    ;0.9;Chamadas de Longa Distancia para Outros Estados;
+2020-09-10 16:09:15;    ;0.9;Chamadas de Longa Distancia para Outros Estados;
+2020-09-10 16:19:12;    ;1.7;Chamadas de Longa Distancia para Outros Estados;
+2020-09-10 16:48:22;    ;0.8;Chamadas de Longa Distancia para Outros Estados;
+2020-09-11 08:50:18;    ;1.3;Chamadas de Longa Distancia para Outros Estados;
+2020-09-11 11:25:48;    ;0.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-11 14:33:14;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-11 16:19:50;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-11 16:44:44;    ;1.2;Chamadas de Longa Distancia para Outros Estados;
+2020-09-13 21:13:14;    ;2.1;Chamadas de Longa Distancia para Outros Estados;
+2020-09-13 21:25:29;    ;1.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-13 22:36:20;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-13 22:53:32;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-14 09:39:22;    ;1.8;Chamadas de Longa Distancia para Outros Estados;
+2020-09-15 09:45:59;    ;0.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-15 15:51:34;    ;0.7;Chamadas de Longa Distancia para Outros Estados;
+2020-09-15 16:24:47;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-16 08:41:49;    ;6.2;Chamadas de Longa Distancia para Outros Estados;
+2020-09-16 14:34:19;    ;1.8;Chamadas de Longa Distancia para Outros Estados;
+2020-09-16 15:22:08;    ;1.4;Chamadas de Longa Distancia para Outros Estados;
+2020-09-16 16:48:02;    ;1.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-17 07:50:06;    ;2.9;Chamadas de Longa Distancia para Outros Estados;
+2020-09-17 08:40:14;    ;1.4;Chamadas de Longa Distancia para Outros Estados;
+2020-09-17 13:29:52;    ;2.4;Chamadas de Longa Distancia para Outros Estados;
+2020-09-17 15:27:42;    ;1.2;Chamadas de Longa Distancia para Outros Estados;
+2020-09-17 16:28:55;    ;2.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-17 17:19:06;    ;1.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-18 14:15:25;    ;0.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-18 16:48:52;    ;2.8;Chamadas de Longa Distancia para Outros Estados;
+2020-09-19 09:41:55;    ;1.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-21 09:55:56;    ;1.1;Chamadas de Longa Distancia para Outros Estados;
+2020-09-21 15:46:15;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-21 15:56:37;    ;0.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-21 16:36:14;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-21 16:43:12;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-22 09:14:48;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-22 09:22:47;    ;2.2;Chamadas de Longa Distancia para Outros Estados;
+2020-09-22 14:13:52;    ;1.4;Chamadas de Longa Distancia para Outros Estados;
+2020-09-22 15:16:03;    ;2.3;Chamadas de Longa Distancia para Outros Estados;
+2020-09-22 16:40:58;    ;2.4;Chamadas de Longa Distancia para Outros Estados;
+2020-09-22 16:53:04;    ;1.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-23 13:45:28;    ;0.8;Chamadas de Longa Distancia para Outros Estados;
+2020-09-24 08:45:17;    ;8.2;Chamadas de Longa Distancia para Outros Estados;
+2020-09-24 11:30:32;    ;0.8;Chamadas de Longa Distancia para Outros Estados;
+2020-09-24 15:20:48;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-24 15:21:24;    ;1.1;Chamadas de Longa Distancia para Outros Estados;
+2020-09-24 16:36:03;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-25 08:12:57;    ;6.2;Chamadas de Longa Distancia para Outros Estados;
+2020-09-25 08:57:33;    ;2.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-25 10:10:05;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-25 13:47:29;    ;0.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-28 09:03:06;    ;5.2;Chamadas de Longa Distancia para Outros Estados;
+2020-09-28 11:03:43;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-28 13:32:16;    ;3.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-28 13:57:47;    ;13.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-28 14:13:59;    ;13.3;Chamadas de Longa Distancia para Outros Estados;
+2020-09-28 14:33:32;    ;8.2;Chamadas de Longa Distancia para Outros Estados;
+2020-09-28 15:48:40;    ;3.6;Chamadas de Longa Distancia para Outros Estados;
+2020-09-28 16:10:35;    ;2.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-29 09:27:17;    ;1.9;Chamadas de Longa Distancia para Outros Estados;
+2020-09-29 11:25:38;    ;4.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-29 14:53:23;    ;2.1;Chamadas de Longa Distancia para Outros Estados;
+2020-09-29 14:58:09;    ;3.4;Chamadas de Longa Distancia para Outros Estados;
+2020-09-29 16:07:49;    ;4.7;Chamadas de Longa Distancia para Outros Estados;
+2020-09-29 16:27:13;    ;2.0;Chamadas de Longa Distancia para Outros Estados;
+2020-09-29 16:31:48;    ;1.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-29 16:49:28;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-30 07:53:44;    ;3.9;Chamadas de Longa Distancia para Outros Estados;
+2020-09-30 08:13:11;    ;1.2;Chamadas de Longa Distancia para Outros Estados;
+2020-09-30 10:22:26;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-30 10:41:14;    ;0.5;Chamadas de Longa Distancia para Outros Estados;
+2020-09-02 13:23:52;51  996781699;0.0;Adicional por Ligacoes Realizadas;
+2020-09-02 13:46:33;98  988168841;0.0;Adicional por Ligacoes Realizadas;
+2020-09-03 09:40:17;51  996781699;0.0;Adicional por Ligacoes Realizadas;
+2020-09-03 17:41:30;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-03 17:45:34;51  992592841;0.0;Adicional por Ligacoes Realizadas;
+2020-09-03 21:40:45;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-04 16:34:18;98  988168841;0.0;Adicional por Ligacoes Realizadas;
+2020-09-05 01:08:38;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-05 01:09:55;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-05 11:33:27;51  992592841;0.0;Adicional por Ligacoes Realizadas;
+2020-09-05 17:54:37;51  992592841;0.0;Adicional por Ligacoes Realizadas;
+2020-09-07 11:07:40;08  007216527;0.0;Adicional por Ligacoes Realizadas;
+2020-09-07 11:13:03;08  007216527;0.0;Adicional por Ligacoes Realizadas;
+2020-09-07 11:16:00;51  992592871;0.0;Adicional por Ligacoes Realizadas;
+2020-09-07 14:38:12;51  992592871;0.0;Adicional por Ligacoes Realizadas;
+2020-09-07 19:00:42;51  992592871;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 07:47:16;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 07:50:56;51  992592958;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 10:08:13;63  984281952;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 10:12:07;55  984476580;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 10:17:19;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 13:39:39;63  984281952;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 13:44:10;14  998926086;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 13:58:44;14  998926086;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 14:06:10;14  998926086;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 14:32:55;63  984281952;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 16:29:58;14  998926086;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 16:51:12;14  998926086;0.0;Adicional por Ligacoes Realizadas;
+2020-09-09 18:26:32;51  996781699;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 08:35:44;51  996781699;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 08:38:50;98  988635921;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 08:50:26;63  984281952;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 08:53:27;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 08:54:32;51  996781699;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 09:25:59;14  998926086;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 09:36:13;98  988168841;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 09:38:37;14  998926086;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 13:48:54;14  998926086;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 15:45:21;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 15:53:33;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 15:57:49;14  998926086;0.0;Adicional por Ligacoes Realizadas;
+2020-09-10 16:11:23;51  993320336;0.0;Adicional por Ligacoes Realizadas;
+2020-09-11 09:07:18;14  998926086;0.0;Adicional por Ligacoes Realizadas;
+2020-09-11 10:29:22;98  988635921;0.0;Adicional por Ligacoes Realizadas;
+2020-09-11 10:33:18;98  988635921;0.0;Adicional por Ligacoes Realizadas;
+2020-09-11 13:58:02;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-11 14:08:26;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-11 14:09:30;55  991448734;0.0;Adicional por Ligacoes Realizadas;
+2020-09-13 21:35:15;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-28 09:00:24;55  991448734;0.0;Adicional por Ligacoes Realizadas;
+2020-09-28 10:10:51;98  992228383;0.0;Adicional por Ligacoes Realizadas;
+2020-09-28 11:12:04;98  992228383;0.0;Adicional por Ligacoes Realizadas;
+2020-09-28 16:00:20;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-29 07:20:18;51  995838788;0.0;Adicional por Ligacoes Realizadas;
+2020-09-29 09:49:39;51  996781699;0.0;Adicional por Ligacoes Realizadas;
+2020-09-29 13:12:33;55  991448734;0.0;Adicional por Ligacoes Realizadas;
+2020-09-29 13:21:46;51  996781699;0.0;Adicional por Ligacoes Realizadas;
+2020-09-29 16:13:56;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-29 16:24:43;51  992592871;0.0;Adicional por Ligacoes Realizadas;
+2020-09-30 10:19:43;55  991448734;0.0;Adicional por Ligacoes Realizadas;
+2020-09-01 11:00:58;51  993320336;0.0;Adicional por Ligacoes Realizadas;
+2020-09-01 08:58:05;"";1.0;ADICIONAL;0.00
+2020-09-30 10:41:14;"";1.0;ADICIONAL;0.00
+2020-09-30 10:22:26;"";1.0;ADICIONAL;0.00
+2020-09-30 08:13:11;"";1.0;ADICIONAL;0.00
+2020-09-30 07:53:44;"";1.0;ADICIONAL;0.00
+2020-09-29 16:49:28;"";1.0;ADICIONAL;0.00
+2020-09-29 16:31:48;"";1.0;ADICIONAL;0.00
+2020-09-29 16:27:13;"";1.0;ADICIONAL;0.00
+2020-09-29 16:07:49;"";1.0;ADICIONAL;0.00
+2020-09-29 14:58:09;"";1.0;ADICIONAL;0.00
+2020-09-29 14:53:23;"";1.0;ADICIONAL;0.00
+2020-09-29 11:25:38;"";1.0;ADICIONAL;0.00
+2020-09-29 09:27:17;"";1.0;ADICIONAL;0.00
+2020-09-28 16:10:35;"";1.0;ADICIONAL;0.00
+2020-09-28 15:48:40;"";1.0;ADICIONAL;0.00
+2020-09-28 14:33:32;"";1.0;ADICIONAL;0.00
+2020-09-28 14:13:59;"";1.0;ADICIONAL;0.00
+2020-09-28 13:57:47;"";1.0;ADICIONAL;0.00
+2020-09-28 13:32:16;"";1.0;ADICIONAL;0.00
+2020-09-28 11:03:43;"";1.0;ADICIONAL;0.00
+2020-09-28 09:03:06;"";1.0;ADICIONAL;0.00
+2020-09-25 13:47:29;"";1.0;ADICIONAL;0.00
+2020-09-25 10:10:05;"";1.0;ADICIONAL;0.00
+2020-09-25 08:57:33;"";1.0;ADICIONAL;0.00
+2020-09-25 08:12:57;"";1.0;ADICIONAL;0.00
+2020-09-24 16:36:03;"";1.0;ADICIONAL;0.00
+2020-09-24 15:21:24;"";1.0;ADICIONAL;0.00
+2020-09-24 15:20:48;"";1.0;ADICIONAL;0.00
+2020-09-24 11:30:32;"";1.0;ADICIONAL;0.00
+2020-09-24 08:45:17;"";1.0;ADICIONAL;0.00
+2020-09-23 13:45:28;"";1.0;ADICIONAL;0.00
+2020-09-22 16:53:04;"";1.0;ADICIONAL;0.00
+2020-09-22 16:40:58;"";1.0;ADICIONAL;0.00
+2020-09-22 15:16:03;"";1.0;ADICIONAL;0.00
+2020-09-22 14:13:52;"";1.0;ADICIONAL;0.00
+2020-09-22 09:22:47;"";1.0;ADICIONAL;0.00
+2020-09-22 09:14:48;"";1.0;ADICIONAL;0.00
+2020-09-21 16:43:12;"";1.0;ADICIONAL;0.00
+2020-09-21 16:36:14;"";1.0;ADICIONAL;0.00
+2020-09-21 15:56:37;"";1.0;ADICIONAL;0.00
+2020-09-21 15:46:15;"";1.0;ADICIONAL;0.00
+2020-09-21 09:55:56;"";1.0;ADICIONAL;0.00
+2020-09-19 09:41:55;"";1.0;ADICIONAL;0.00
+2020-09-18 16:48:52;"";1.0;ADICIONAL;0.00
+2020-09-18 14:15:25;"";1.0;ADICIONAL;0.00
+2020-09-17 17:19:06;"";1.0;ADICIONAL;0.00
+2020-09-17 16:28:55;"";1.0;ADICIONAL;0.00
+2020-09-17 15:27:42;"";1.0;ADICIONAL;0.00
+2020-09-17 13:29:52;"";1.0;ADICIONAL;0.00
+2020-09-17 08:40:14;"";1.0;ADICIONAL;0.00
+2020-09-17 07:50:06;"";1.0;ADICIONAL;0.00
+2020-09-16 16:48:02;"";1.0;ADICIONAL;0.00
+2020-09-16 15:22:08;"";1.0;ADICIONAL;0.00
+2020-09-16 14:34:19;"";1.0;ADICIONAL;0.00
+2020-09-16 08:41:49;"";1.0;ADICIONAL;0.00
+2020-09-15 16:24:47;"";1.0;ADICIONAL;0.00
+2020-09-15 15:51:34;"";1.0;ADICIONAL;0.00
+2020-09-15 09:45:59;"";1.0;ADICIONAL;0.00
+2020-09-14 09:39:22;"";1.0;ADICIONAL;0.00
+2020-09-13 22:53:32;"";1.0;ADICIONAL;0.00
+2020-09-13 22:36:20;"";1.0;ADICIONAL;0.00
+2020-09-01 11:00:58;51  993320336;1.1;Para Celulares Vivo;
+2020-09-02 13:23:52;51  996781699;0.5;Para Celulares Vivo;
+2020-09-03 09:40:17;51  996781699;2.3;Para Celulares Vivo;
+2020-09-03 17:41:30;51  994053722;0.5;Para Celulares Vivo;
+2020-09-03 17:45:34;51  992592841;0.8;Para Celulares Vivo;
+2020-09-03 21:40:45;51  991813564;0.5;Para Celulares Vivo;
+2020-09-05 01:08:38;51  994053722;0.9;Para Celulares Vivo;
+2020-09-05 01:09:55;51  991813564;1.4;Para Celulares Vivo;
+2020-09-05 11:33:27;51  992592841;0.5;Para Celulares Vivo;
+2020-09-05 17:54:37;51  992592841;0.6;Para Celulares Vivo;
+2020-09-07 11:16:00;51  992592871;1.8;Para Celulares Vivo;
+2020-09-07 14:38:12;51  992592871;0.5;Para Celulares Vivo;
+2020-09-07 19:00:42;51  992592871;2.3;Para Celulares Vivo;
+2020-09-09 07:47:16;51  994053722;0.7;Para Celulares Vivo;
+2020-09-09 07:50:56;51  992592958;7.6;Para Celulares Vivo;
+2020-09-09 10:17:19;51  994053722;1.5;Para Celulares Vivo;
+2020-09-09 13:44:10;14  998926086;0.5;Para Celulares Vivo;
+2020-09-09 13:58:44;14  998926086;0.7;Para Celulares Vivo;
+2020-09-09 14:06:10;14  998926086;0.5;Para Celulares Vivo;
+2020-09-09 16:29:58;14  998926086;0.5;Para Celulares Vivo;
+2020-09-09 16:51:12;14  998926086;0.5;Para Celulares Vivo;
+2020-09-09 18:26:32;51  996781699;0.7;Para Celulares Vivo;
+2020-09-10 08:35:44;51  996781699;2.0;Para Celulares Vivo;
+2020-09-10 08:53:27;51  991813564;0.7;Para Celulares Vivo;
+2020-09-10 08:54:32;51  996781699;0.7;Para Celulares Vivo;
+2020-09-10 09:25:59;14  998926086;0.9;Para Celulares Vivo;
+2020-09-10 09:38:37;14  998926086;0.5;Para Celulares Vivo;
+2020-09-10 13:48:54;14  998926086;0.5;Para Celulares Vivo;
+2020-09-10 15:45:21;51  991813564;1.7;Para Celulares Vivo;
+2020-09-10 15:53:33;51  994053722;1.7;Para Celulares Vivo;
+2020-09-10 15:57:49;14  998926086;0.5;Para Celulares Vivo;
+2020-09-10 16:11:23;51  993320336;6.9;Para Celulares Vivo;
+2020-09-11 09:07:18;14  998926086;0.5;Para Celulares Vivo;
+2020-09-11 13:58:02;51  991813564;0.9;Para Celulares Vivo;
+2020-09-13 21:35:15;51  994053722;2.1;Para Celulares Vivo;
+2020-09-13 21:57:05;51  994053722;1.3;Para Celulares Vivo;
+2020-09-13 22:34:32;51  991813564;0.8;Para Celulares Vivo;
+2020-09-14 09:48:17;51  996781699;7.0;Para Celulares Vivo;
+2020-09-15 10:06:34;51  991223844;0.8;Para Celulares Vivo;
+2020-09-15 14:19:48;51  994053722;3.3;Para Celulares Vivo;
+2020-09-16 10:37:25;51  994053722;0.8;Para Celulares Vivo;
+2020-09-16 17:45:11;51  994053722;1.7;Para Celulares Vivo;
+2020-09-17 07:23:13;51  994053722;4.4;Para Celulares Vivo;
+2020-09-17 12:13:24;51  994053722;1.7;Para Celulares Vivo;
+2020-09-17 15:02:48;51  991813564;0.5;Para Celulares Vivo;
+2020-09-17 16:04:55;51  991813564;3.0;Para Celulares Vivo;
+2020-09-17 17:08:53;51  991813564;1.7;Para Celulares Vivo;
+2020-09-18 16:12:28;51  991813564;3.2;Para Celulares Vivo;
+2020-09-18 16:54:17;51  991813564;3.9;Para Celulares Vivo;
+2020-09-18 16:58:55;51  992592841;0.5;Para Celulares Vivo;
+2020-09-19 10:03:16;51  991813564;2.1;Para Celulares Vivo;
+2020-09-21 11:14:09;51  994053722;0.5;Para Celulares Vivo;
+2020-09-21 16:35:26;51  994053722;1.3;Para Celulares Vivo;
+2020-09-22 09:01:39;51  994053722;1.4;Para Celulares Vivo;
+2020-09-22 15:08:53;51  994053722;0.5;Para Celulares Vivo;
+2020-09-22 17:14:26;51  992592841;0.7;Para Celulares Vivo;
+2020-09-23 10:42:09;51  994053722;2.4;Para Celulares Vivo;
+2020-09-23 10:51:42;51  994053722;2.8;Para Celulares Vivo;
+2020-09-23 12:32:07;51  991813564;1.0;Para Celulares Vivo;
+2020-09-23 17:19:59;51  991813564;1.0;Para Celulares Vivo;
+2020-09-24 14:02:09;51  992592752;1.5;Para Celulares Vivo;
+2020-09-25 08:01:19;51  992592629;1.6;Para Celulares Vivo;
+2020-09-25 17:47:44;51  992592959;0.7;Para Celulares Vivo;
+2020-09-28 08:52:11;51  996781699;3.0;Para Celulares Vivo;
+2020-09-28 16:00:20;51  991813564;0.5;Para Celulares Vivo;
+2020-09-29 07:20:18;51  995838788;6.9;Para Celulares Vivo;
+2020-09-29 09:49:39;51  996781699;3.0;Para Celulares Vivo;
+2020-09-29 13:21:46;51  996781699;0.5;Para Celulares Vivo;
+2020-09-29 16:13:56;51  991813564;1.5;Para Celulares Vivo;
+2020-09-29 16:24:43;51  992592871;0.9;Para Celulares Vivo;
+2020-09-11 14:09:30;55  991448734;0.9;Para Fixo Vivo;
+2020-09-16 10:09:50;51  30418823;0.5;Para Fixo Vivo;
+2020-09-16 11:39:33;51  30418823;5.9;Para Fixo Vivo;
+2020-09-16 15:32:36;55  991448734;0.7;Para Fixo Vivo;
+2020-09-28 09:00:24;55  991448734;1.0;Para Fixo Vivo;
+2020-09-29 13:12:33;55  991448734;0.9;Para Fixo Vivo;
+2020-09-30 10:19:43;55  991448734;0.6;Para Fixo Vivo;
+2020-09-09 10:08:13;63  984281952;0.5;Para Celulares de Outras Operadoras;
+2020-09-09 10:12:07;55  984476580;1.7;Para Celulares de Outras Operadoras;
+2020-09-09 13:39:39;63  984281952;4.2;Para Celulares de Outras Operadoras;
+2020-09-09 14:32:55;63  984281952;1.8;Para Celulares de Outras Operadoras;
+2020-09-10 08:50:26;63  984281952;2.4;Para Celulares de Outras Operadoras;
+2020-09-18 16:59:53;98  992228383;0.7;Para Celulares Vivo;
+2020-09-19 07:49:00;98  992228383;0.8;Para Celulares Vivo;
+2020-09-19 11:23:01;98  992228383;0.5;Para Celulares Vivo;
+2020-09-21 15:59:52;98  992228383;1.1;Para Celulares Vivo;
+2020-09-22 07:39:54;98  992228383;0.7;Para Celulares Vivo;
+2020-09-28 10:10:51;98  992228383;1.2;Para Celulares Vivo;
+2020-09-28 11:12:04;98  992228383;0.5;Para Celulares Vivo;
+2020-09-02 13:46:33;98  988168841;1.0;Para Celulares de Outras Operadoras;
+2020-09-04 16:34:18;98  988168841;0.9;Para Celulares de Outras Operadoras;
+2020-09-10 08:38:50;98  988635921;0.6;Para Celulares de Outras Operadoras;
+2020-09-10 09:36:13;98  988168841;1.5;Para Celulares de Outras Operadoras;
+2020-09-13 21:25:29;"";1.0;ADICIONAL;0.00
+2020-09-13 21:13:14;"";1.0;ADICIONAL;0.00
+2020-09-11 16:44:44;"";1.0;ADICIONAL;0.00
+2020-09-11 16:19:50;"";1.0;ADICIONAL;0.00
+2020-09-11 14:33:14;"";1.0;ADICIONAL;0.00
+2020-09-11 11:25:48;"";1.0;ADICIONAL;0.00
+2020-09-11 08:50:18;"";1.0;ADICIONAL;0.00
+2020-09-10 16:48:22;"";1.0;ADICIONAL;0.00
+2020-09-10 16:19:12;"";1.0;ADICIONAL;0.00
+2020-09-10 16:09:15;"";1.0;ADICIONAL;0.00
+2020-09-10 16:07:59;"";1.0;ADICIONAL;0.00
+2020-09-10 13:19:41;"";1.0;ADICIONAL;0.00
+2020-09-10 10:01:55;"";1.0;ADICIONAL;0.00
+2020-09-10 08:47:44;"";1.0;ADICIONAL;0.00
+2020-09-10 07:57:30;"";1.0;ADICIONAL;0.00
+2020-09-09 18:49:17;"";1.0;ADICIONAL;0.00
+2020-09-09 08:02:35;"";1.0;ADICIONAL;0.00
+2020-09-05 17:46:04;"";1.0;ADICIONAL;0.00
+2020-09-05 16:57:27;"";1.0;ADICIONAL;0.00
+2020-09-03 10:49:31;"";1.0;ADICIONAL;0.00
+2020-09-02 13:48:18;"";1.0;ADICIONAL;0.00
+2020-09-02 13:15:32;"";1.0;ADICIONAL;0.00
+2020-09-02 06:24:15;"";1.0;ADICIONAL;0.00
+2020-09-13 21:57:05;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-13 22:34:32;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-14 09:48:17;51  996781699;0.0;Adicional por Ligacoes Realizadas;
+2020-09-15 10:06:34;51  991223844;0.0;Adicional por Ligacoes Realizadas;
+2020-09-15 14:19:48;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-16 10:09:50;51  30418823;0.0;Adicional por Ligacoes Realizadas;
+2020-09-16 10:37:25;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-16 11:39:33;51  30418823;0.0;Adicional por Ligacoes Realizadas;
+2020-09-16 15:32:36;55  991448734;0.0;Adicional por Ligacoes Realizadas;
+2020-09-16 16:22:56;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-16 17:45:11;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-17 07:23:13;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-17 12:13:24;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-17 15:02:48;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-17 16:04:55;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-17 17:08:53;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-17 17:17:09;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-18 16:12:28;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-18 16:54:17;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-18 16:58:55;51  992592841;0.0;Adicional por Ligacoes Realizadas;
+2020-09-18 16:59:53;98  992228383;0.0;Adicional por Ligacoes Realizadas;
+2020-09-19 07:49:00;98  992228383;0.0;Adicional por Ligacoes Realizadas;
+2020-09-19 10:03:16;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-19 11:23:01;98  992228383;0.0;Adicional por Ligacoes Realizadas;
+2020-09-21 11:14:09;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-21 15:59:52;98  992228383;0.0;Adicional por Ligacoes Realizadas;
+2020-09-21 16:35:26;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-21 17:14:29;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 07:39:54;98  992228383;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 08:20:40;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 09:01:39;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 09:08:41;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 09:09:44;98  988635921;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 09:10:37;98  988635921;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 09:20:01;98  988635921;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 09:46:59;98  988635921;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 09:48:27;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 10:17:27;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 10:36:42;98  988168841;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 11:31:59;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 11:33:04;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 15:08:53;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-22 17:14:26;51  992592841;0.0;Adicional por Ligacoes Realizadas;
+2020-09-23 08:10:40;98  981308654;0.0;Adicional por Ligacoes Realizadas;
+2020-09-23 10:42:09;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-23 10:51:42;51  994053722;0.0;Adicional por Ligacoes Realizadas;
+2020-09-23 12:32:07;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-23 17:19:59;51  991813564;0.0;Adicional por Ligacoes Realizadas;
+2020-09-24 14:02:09;51  992592752;0.0;Adicional por Ligacoes Realizadas;
+2020-09-25 08:01:19;51  992592629;0.0;Adicional por Ligacoes Realizadas;
+2020-09-25 17:47:44;51  992592959;0.0;Adicional por Ligacoes Realizadas;
+2020-09-28 08:52:11;51  996781699;0.0;Adicional por Ligacoes Realizadas;
+2020-08-31;"";15034.8;INTERNET MOVEL 2;0.00
+2020-09-01;"";158240.5;INTERNET MOVEL 2;0.00
+2020-09-02;"";2495.8;INTERNET MOVEL 2;0.00
+2020-09-03;"";87773.9;INTERNET MOVEL 2;0.00
+2020-09-04;"";251802.5;INTERNET MOVEL 2;0.00
+2020-09-05;"";1797.0;INTERNET MOVEL 2;0.00
+2020-09-06;"";928.0;INTERNET MOVEL 2;0.00
+2020-09-07;"";1227.0;INTERNET MOVEL 2;0.00
+2020-09-08;"";1459.0;INTERNET MOVEL 2;0.00
+2020-09-09;"";7048.1;INTERNET MOVEL 2;0.00
+2020-09-10;"";165528.5;INTERNET MOVEL 2;0.00
+2020-09-11;"";230394.4;INTERNET MOVEL 2;0.00
+2020-09-12;"";68909.6;INTERNET MOVEL 2;0.00
+2020-09-13;"";7391.6;INTERNET MOVEL 2;0.00
+2020-09-14;"";210961.0;INTERNET MOVEL 2;0.00
+2020-09-15;"";20336.7;INTERNET MOVEL 2;0.00
+2020-09-16;"";204689.1;INTERNET MOVEL 2;0.00
+2020-09-17;"";235861.8;INTERNET MOVEL 2;0.00
+2020-09-18;"";144455.3;INTERNET MOVEL 2;0.00
+2020-09-19;"";51651.3;INTERNET MOVEL 2;0.00
+2020-09-20;"";138871.6;INTERNET MOVEL 2;0.00
+2020-09-21;"";291073.8;INTERNET MOVEL 2;0.00
+2020-09-22;"";131171.4;INTERNET MOVEL 2;0.00
+2020-09-23;"";190094.4;INTERNET MOVEL 2;0.00
+2020-09-24;"";319725.1;INTERNET MOVEL 2;0.00
+2020-09-25;"";290833.9;INTERNET MOVEL 2;0.00
+2020-09-26;"";220162.0;INTERNET MOVEL 2;0.00
+2020-09-27;"";1892.2;INTERNET MOVEL 2;0.00
+2020-09-28;"";86514.4;INTERNET MOVEL 2;0.00
+2020-09-29;"";144308.1;INTERNET MOVEL 2;0.00
+2020-09-30;"";106257.1;INTERNET MOVEL 2;0.00
