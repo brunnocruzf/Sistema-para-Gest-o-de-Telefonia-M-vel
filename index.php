@@ -10,7 +10,6 @@ use core\Controller;
 
 $route = new PlugRoute(new RouteContainer(), RequestCreator::create());
 
-
 $route->get('/', 'app\controllers\index@login');
 $route->post('/loga', 'app\controllers\index@loga');
 $route->get('/logout', 'app\controllers\index@logout');

@@ -9,7 +9,7 @@ include(MENU_TEMPLATE);
 $_SESSION['menu'] = 'SGT';
 //require_once '../vendor/autoload.php';
 
-use \app\controllers\TelefonesController;
+    use \app\controllers\TelefonesController;
 
 ?>
     <style>
@@ -61,8 +61,6 @@ use \app\controllers\TelefonesController;
                                 <tr>
                                     <td width="7%">
                                         <center>
-                                            <a href="faturas/<?= $telefone['linha'] ?>"><i class="fa fa-file-pdf-o ui-tooltip" aria-hidden="true" style="color:black;"
-                                                                                                  data-toggle="tooltip" data-placement="top" title="Fatura" aria-hidden="true"></i></a>
                                             <a href="edit/<?= $telefone['linha'] ?>" alt="Editar"><i class="fa fa-pencil-square-o ui-tooltip" data-toggle="tooltip" data-placement="top" title="Editar" aria-hidden="true" style="color:black;"></i></a>
                                             <a href="#" ><i onclick="deletar(<?php echo $telefone['linha'] ?>)" class="fa fa-trash ui-tooltip" aria-hidden="true"
                                                                                                  style="color:black; margin-left: 5px; margin-right: 5px;" data-toggle="tooltip" data-placement="top" title="Excluir" aria-hidden="true" ></i></a>
@@ -77,9 +75,7 @@ use \app\controllers\TelefonesController;
                                     <td><?php
                                         $telcontroller = new TelefonesController();
                                         $CCLinha = $telcontroller->buscaCClinha($telefone['linha']);
-
                                             echo $CCLinha['cc']?$CCLinha['cc']:"<p style='color:red'>NÃO POSSUI CENTRO DE CUSTO<P>";
-
                                         ?></td>
                                     <td width="7%"><?php echo $telefone['tipo'] ?></td>
                                     <!-- <td style="display: none"></td>-->
@@ -113,7 +109,6 @@ use \app\controllers\TelefonesController;
                 });
             }
         }
-
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <?php include(FOOTER_TEMPLATE); ?>
