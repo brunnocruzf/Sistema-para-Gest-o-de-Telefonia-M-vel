@@ -30,8 +30,12 @@ $_SESSION['menu'] = 'SGT';
                     <div class="portlet">
                         <div class="panel-body">
                             <div class="row">
-                                <div class="col-xs-6 col-md-6">
+                                <div class="col-xs-6 col-md-1">
                                     <a href="relatorios/faturas" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-list-alt"></span> <br/>Faturas</a>
+                                </div>
+
+                                <div class="col-xs-6 col-md-1">
+                                    <a href="relatorios/maiorConsumo" class="btn btn-default btn-lg" role="button"><i class="fa fa-bar-chart" aria-hidden="true"></i> <br/>Linhas com <br> maior consumo</a>
                                 </div>
                             </div>
                         </div>

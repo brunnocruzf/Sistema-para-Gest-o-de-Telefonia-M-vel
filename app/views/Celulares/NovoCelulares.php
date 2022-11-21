@@ -156,7 +156,7 @@ use \app\controllers\UsuariosController;
                                 <div class="col-md-3">
                                     <div class="col-lg-2">
                                         <label for="">Foto</label>
-                                        <embed id="anexarfoto" src="<?= BASEURL_SGT ?>upload_celular"
+                                        <embed id="anexarfoto" src="<?= BASEURL_SGT ?>upload_foto"
                                                height="25px"></embed>
                                         <div class="progress" id="progressFoto" style="display: none;">
                                             <div class="progress-bar progress-bar-striped active" role="progressbar"
@@ -169,6 +169,7 @@ use \app\controllers\UsuariosController;
                                             <tbody>
                                             <tr>
                                                 <td>
+                                                    <img id="imagem" src=" " width="100%"/>
                                                     <input type="text" readonly name="foto" id="foto" value=" "
                                                            style="display: none;  float: left">
                                                 </td>

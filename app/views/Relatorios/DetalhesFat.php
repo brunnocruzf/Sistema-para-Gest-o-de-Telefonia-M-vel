@@ -94,8 +94,8 @@ include(MENU_TEMPLATE);
                                 <tr>
                                     <th style="background-color: #fafafa">Data vencimento boleto Operadora</th>
                                     <td><?php
-                                        $valorVenc = explode("-", $valTotFat['data_vencimento']);
-                                        echo $valorVenc[2] . "/" . $valorVenc[1] . "/" . $valorVenc[0];
+                                            $valorVenc = explode("-", $valTotFat['data_vencimento']);
+                                            echo $valorVenc[2] . "/" . $valorVenc[1] . "/" . $valorVenc[0];
                                         ?>
                                     </td>
                                 </tr>

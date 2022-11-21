@@ -7,7 +7,6 @@ $_SESSION['menu'] = 'SGT';
 include(ESTILO_TEMPLATE);
 include(HEADER_TEMPLATE);
 include(MENU_TEMPLATE);
-$_SESSION['menu'] = 'SGT';
 
 //require_once '../vendor/autoload.php';
 

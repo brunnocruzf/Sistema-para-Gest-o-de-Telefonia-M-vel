@@ -1,4 +1,5 @@
 <?php
+//error_reporting(0);
 
 require_once 'vendor\autoload.php';
 
@@ -9,6 +10,7 @@ use \PlugRoute\Http\Request;
 use core\Controller;
 
 $route = new PlugRoute(new RouteContainer(), RequestCreator::create());
+
 
 $route->get('/', 'app\controllers\index@login');
 $route->post('/loga', 'app\controllers\index@loga');
@@ -34,6 +36,7 @@ $route->get('/printFatura/{nro}/{date}', 'app\controllers\FaturasController@prin
 //rotas para relatorios
 $route->get('/relatorios', 'app\controllers\RelatoriosController@index');
 $route->get('/relatorios/faturas', 'app\controllers\RelatoriosController@RelatoriosFat');
+$route->get('/relatorios/maiorConsumo', 'app\controllers\RelatoriosController@maiorConsumo');
 $route->get('/relatorios/faturas/{date}', 'app\controllers\RelatoriosController@detalhesFat');
 $route->get('/relatorios/exportRateio/{date}', 'app\controllers\RelatoriosController@exportRateioCC');
 $route->get('/relatorios/exportRH/{date}', 'app\controllers\RelatoriosController@exportRH');
@@ -66,6 +69,8 @@ $route->get('/celulares/buscaPorMatricula/{matricula}', 'app\controllers\Celular
 
 //Rotas para Detalhes
 $route->get('/detalhes/{acesso}/{nro}', 'app\controllers\DetalhesController@detalhes');
+$route->get('/detalhe/{acesso}/{nro}/{user}', 'app\controllers\DetalhesController@detalhesEditUser');
+$route->get('/detalheLinha/{acesso}/{nro}/{user}', 'app\controllers\DetalhesController@detalhesEditLinha');
 
 $route->notFound(function (){
     echo 'Rota não encontrada';

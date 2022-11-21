@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="xampp" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" singleton="false" filter_connections="FILTER" server_name="xampp" session_id="PHPSTORMS">
+    <method v="2">
+      <option name="LaunchBrowser.Before.Run" url="http://localhost/sgt" />
+    </method>
+  </configuration>
+</component>

@@ -5,6 +5,7 @@ use app\models\CelularesModel;
 use core\Controller;
 use \PlugRoute\Http\Request;
 
+
 class CelularesController extends Controller
 {
     function celulares(){

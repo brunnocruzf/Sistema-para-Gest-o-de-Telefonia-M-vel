@@ -6,7 +6,6 @@ $_SESSION['menu'] = 'SGT';
 include(ESTILO_TEMPLATE);
 include(HEADER_TEMPLATE);
 include(MENU_TEMPLATE);
-$_SESSION['menu'] = 'SGT';
 //require_once '../vendor/autoload.php';
 
 use \app\controllers\UsuariosController;
@@ -61,8 +60,10 @@ use \app\controllers\UsuariosController;
                                     <td width="7%">
                                         <center>
                                             <a href="usuarios/edit/<?= $usuario['id']?>"><i class="fa fa-pencil-square-o ui-tooltip" data-toggle="tooltip" data-placement="top" title="Editar" aria-hidden="true" style="color:black;"></i></a>
-                                            <a href="#" ><i onclick="deletar(<?php echo $usuario['id'] ?>)" class="fa fa-trash ui-tooltip" aria-hidden="true"
-                                                            style="color:black; margin-left: 5px; margin-right: 5px;" data-toggle="tooltip" data-placement="top" title="Excluir" aria-hidden="true" ></i></a>
+                                            <a href="#" >
+                                                <i onclick="deletar(<?php echo $usuario['id'] ?>)" class="fa fa-trash ui-tooltip" aria-hidden="true"
+                                                            style="color:black; margin-left: 5px; margin-right: 5px;" data-toggle="tooltip" data-placement="top" title="Excluir" aria-hidden="true" ></i>
+                                            </a>
                                         </center>
                                     </td>
                                     <td>
@@ -77,7 +78,6 @@ use \app\controllers\UsuariosController;
                                     <td width="11%"><?php echo $usuario['email'] ?></td>
                                 </tr>
                             <?php endforeach ?>
-
                             </tbody>
                         </table>
                     </div> <!-- /.portlet -->
@@ -105,7 +105,6 @@ use \app\controllers\UsuariosController;
                 });
             }
         }
-
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <?php include(FOOTER_TEMPLATE); ?><?php

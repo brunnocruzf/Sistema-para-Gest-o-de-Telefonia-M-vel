@@ -19,13 +19,14 @@ class TelefonesController extends Controller
         $this->view("Telefones", ['telefones' => $telefones]);
     }
 
+
     function novoTelefone()
     {
         $mensagem = '';
         if (!empty($_POST)) {
             $telModel = new TelefonesModel();
             $dados = $_POST;
-            //Verifica se numero ja está cadastrado (Retorna quantidade de linhas se > )
+            //Verifica se numero ja está cadastrado (Retorna quantidade de linhas se >)
             $seExiste = $telModel->buscaQntdTelefone($_POST['numero']);
             if ($seExiste == 0) {
                 $mensagem = $telModel->inserirTelefone($dados);

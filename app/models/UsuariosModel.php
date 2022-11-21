@@ -25,6 +25,13 @@ class UsuariosModel
         return $stmt->fetch();
     }
 
+    function todosIdNomes()
+    {
+        $stmt = conectaBanco::getConnection()->prepare('select id, nome from sgt.usuarios');
+        $stmt->execute();
+        return $usuarios = $stmt->fetchALL();
+    }
+
     function buscaPorId($id)
     {
         $stmt = conectaBanco::getConnection()->prepare('select * from sgt.usuarios where id = :id');
@@ -125,7 +132,7 @@ class UsuariosModel
                 ':matricula' => $dados['matricula'],
                 ':login' => $dados['login'],
                 ':email' => $dados['email'],
-                ':senha' => $dados['senha'],
+                ':senha' => md5($dados['senha']),
                 ':foto' => $dados['foto'],
                 ':admin' => $dados['admin']
             ));

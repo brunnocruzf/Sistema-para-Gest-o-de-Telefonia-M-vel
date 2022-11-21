@@ -11,16 +11,40 @@ use core\Controller;
 
 class RelatoriosController extends Controller
 {
+    function instanciaRelModel(){
+        return $relModel = new RelatoriosModel();
+    }
+
     function index()
     {
-        $this->view('Relatorios');
+        $this->view('Relatorios/Relatorios');
     }
 
     function relatoriosFat()
     {
         $relModel = new RelatoriosModel();
         $dadosFat = $relModel->fatGrid();
-        $this->view('RelatoriosFat', ['dadosFat' => $dadosFat]);
+        $this->view('Relatorios/RelatoriosFat', ['dadosFat' => $dadosFat]);
+    }
+
+    function datesFat(){
+        return $this->instanciaRelModel()->datesFat();
+    }
+
+
+
+    function maiorConsumo(){
+        return $this->view('Relatorios/MaiorConsumo',['dates'=>$this->consumos()]);
+    }
+
+    function consumos(){
+        $mes = $this->datesFat();
+        //$this->instanciaRelModel()->topConsumoMes();
+        $consumo = array();
+        foreach ($mes as $m){
+            array_push($consumo, $this->instanciaRelModel()->topConsumoMes($m['date_fat']));
+        }
+        return json_encode($consumo);
     }
 
     function detalhesFat(Request $request)
@@ -30,7 +54,7 @@ class RelatoriosController extends Controller
         $valEmpresa = $relModel->buscaValorEmpresa($date);
         $valParticular = $relModel->buscaValorParticular($date);
         $valTotFat = $relModel->buscaValorTotEVencFat($date);
-        $this->view('DetalhesFat', ['dateFat' => $date, 'valEmpresa' => $valEmpresa, 'valParticular' => $valParticular, 'valEmpresa' => $valEmpresa, 'valTotFat' => $valTotFat]);
+        $this->view('Relatorios/DetalhesFat', ['dateFat' => $date, 'valEmpresa' => $valEmpresa, 'valParticular' => $valParticular, 'valEmpresa' => $valEmpresa, 'valTotFat' => $valTotFat]);
     }
 
     function exportRateioCC(Request $request)

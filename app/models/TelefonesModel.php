@@ -14,6 +14,14 @@ class TelefonesModel
         $stmt->execute();
         return $telefones = $stmt->fetchAll();
     }
+
+    //retorna todas as linhas
+    function todasAsLinhas(){
+        $stmt = conectaBanco::getConnection()->prepare('select linha from sgt.sgt_telefones');
+        $stmt->execute();
+        return $stmt->fetchAll();
+    }
+
     function buscaCC($numero){
         $stmt = conectaBanco::getConnection()->prepare('select cc from sgt.sgt_telefones where linha ='.$numero);
         $stmt->execute();

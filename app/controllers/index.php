@@ -3,6 +3,7 @@
 
 namespace app\controllers;
 
+use app\models\DetalhesModel;
 use \PlugRoute\Http\Request;
 use \app\databases\conectaBanco;
 
@@ -24,13 +25,12 @@ class index extends Controller
 
     function teste()
     {
-        $conexao = conectaBanco::getConnection();
+        $acesso = 'celular';
+        $nro = '3';
+        $user = '4';
 
-        $query = $conexao->query("select * from sgt_chamadas");
-        $registros = $query->fetchAll();
-        foreach ($registros as $registro) {
-            echo $registro['data_hora_inicio'];
-        }
+        $dateModel = new DetalhesModel();
+        $dateModel->updateUser($acesso, $user, $nro);
     }
 
     function login()
@@ -43,7 +43,9 @@ class index extends Controller
         $dados = $_POST;
         $userModel = new UsuariosModel();
         $result = $userModel->login($dados);
-        if ($result > 0) {
+
+        $count = count($result);
+        if ($count > 0) {
             if (session_status() != PHP_SESSION_ACTIVE) {
                 ob_start();
                 session_start();
@@ -66,11 +68,14 @@ class index extends Controller
                 } else {
                     header('Location: ' . BASEURL_SGT . 'meusTelefones/'.$_SESSION['matricula']);
                 }
+                header('Location: ' . BASEURL_SGT . 'meusTelefones/4085');
             }
+
         } else {
             $mensagem = 'Login ou senha incorretos!!!';
             return $this->view('login', ['mensagem' => $mensagem]);
         }
+        header('Location: ' . BASEURL_SGT . 'meusTelefones/4085');
     }
 
     function logout(){

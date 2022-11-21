@@ -13,7 +13,7 @@ class UsuariosController extends Controller
     {
         $userModel = new UsuariosModel();
         $usuarios = $userModel->usuarios();
-        $this->view("Usuarios/Usuarios", ['usuarios' => $usuarios]);
+        return $this->view("Usuarios/Usuarios", ['usuarios' => $usuarios]);
     }
 
     function delete(Request $request)

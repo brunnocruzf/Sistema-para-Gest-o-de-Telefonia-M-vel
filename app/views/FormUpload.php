@@ -8,7 +8,6 @@ include(ESTILO_TEMPLATE);
 include(HEADER_TEMPLATE);
 include(MENU_TEMPLATE);
 
-
 ?>
 <style>
     .table-condensed {
