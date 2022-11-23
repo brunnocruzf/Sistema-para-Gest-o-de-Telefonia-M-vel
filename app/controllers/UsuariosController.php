@@ -70,4 +70,10 @@ class UsuariosController extends Controller
         $user = $userModel->buscaPorMatricula($matricula);
         return json_encode(array('NOME'=>$user['nome'], 'EMAIL'=>$user['email']));
     }
+    function processa(Request $request){
+        $matricula = $request->parameter('matricula');
+        $userModel = new UsuariosModel();
+     $user = $userModel->processa($matricula);
+        return json_encode($user);
+    }
 }

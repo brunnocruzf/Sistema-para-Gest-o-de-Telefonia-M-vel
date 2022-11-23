@@ -1,6 +1,7 @@
 <?php
 
-require_once('C:\xampp\htdocs\sgt\config.php');
+require_once('././config.php');
+
 require_once(DBAPI);
 abresessao();
 $_SESSION['menu'] = 'SGT';
@@ -21,8 +22,8 @@ use \app\controllers\TelefonesController;
     $(document).ready(function () {
         var smatricula = $("#matricula").val();
         $.ajax({
-            type: "POST",
-            url: 'http://portaldev.tmsa.ind.br/portaldev/SIPER/solicitacao/processa.php?matricula=' + smatricula,
+            type: "get",
+            url: '<?php echo BASEURL_SGT?>usuarios/buscaPorMatricula/'+ smatricula,
             dataType: 'json',
             beforeSend: function () {
                 $("#loader").show();
@@ -42,11 +43,13 @@ use \app\controllers\TelefonesController;
         });
         $(function () {
             $('#matricula').change(function (e) {
+                console.log('<?=BASEURL_SGT?>/usuarios/processa/' + smatricula);
+
                 e.preventDefault();
                 var smatricula = $("#matricula").val();
                 $.ajax({
-                    type: "POST",
-                    url: 'http://portaldev.tmsa.ind.br/portaldev/SIPER/solicitacao/processa.php?matricula=' + smatricula,
+                    type: "get",
+                    url:   '<?php echo BASEURL_SGT?>usuarios/buscaPorMatricula/' + smatricula,
                     dataType: 'json',
                     beforeSend: function () {
                         $("#loader").show();

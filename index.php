@@ -55,6 +55,7 @@ $route->post('/upload_foto', 'app\controllers\UsuariosController@foto');
 $route->get('/usuarios/edit/{nro}', 'app\controllers\UsuariosController@editUser');
 $route->post('/usuarios/edit/', 'app\controllers\UsuariosController@editSaveUser');
 $route->get('/usuarios/buscaPorMatricula/{matricula}', 'app\controllers\UsuariosController@buscaPorMatricula');
+$route->get('/usuarios/processa/{matricula}', 'app\controllers\UsuariosController@processa');
 
 //rotas para celulares
 $route->get('/celulares', 'app\controllers\CelularesController@celulares');

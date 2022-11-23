@@ -142,4 +142,12 @@ class UsuariosModel
         }
     }
 
+    function processa($matricula){
+        $stmt = conectaBanco::getConnection()->prepare("select matricula as MATRICULA,nome as NOME,''  as CodCC, cc_descricao as CC, email as EMAIL from sgt.usuarios where matricula =:matricula ");
+        $stmt->execute(array(
+            ':matricula' => $matricula
+        ));
+        return $stmt->fetchObject();
+    }
+
 }

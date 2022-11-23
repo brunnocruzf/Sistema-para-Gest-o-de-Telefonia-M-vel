@@ -44,7 +44,7 @@ class RelatoriosController extends Controller
         foreach ($mes as $m){
             array_push($consumo, $this->instanciaRelModel()->topConsumoMes($m['date_fat']));
         }
-        return json_encode($consumo);
+        return $consumo;
     }
 
     function detalhesFat(Request $request)

@@ -28,7 +28,7 @@ class DetalhesModel extends conectaBanco
                     ':id' => $id
                 ));
                 $retorno = $stmt->fetchAll();
-            
+
                 if (empty($retorno)) {
 
                     $stmt = conectaBanco::getConnection()->prepare('INSERT INTO sgt.sgt_relacao (id_celular) 

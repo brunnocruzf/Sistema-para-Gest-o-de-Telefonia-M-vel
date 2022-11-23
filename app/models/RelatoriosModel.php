@@ -68,7 +68,7 @@ class RelatoriosModel
     function rateioCC($data)
     {
         $empresa = "EMPRESA";
-        $stmt = conectaBanco::getConnection()->prepare('select t.tipo, t.CC, SUM(r.valor) as valorTipo from sgt_telefones as t full outer join      
+        $stmt = conectaBanco::getConnection()->prepare('select t.tipo, t.CC, SUM(r.valor) as valorTipo from sgt.sgt_telefones as t inner join      
                                                                                     sgt.sgt_resumo as r on t.linha = r.linha
                                                                                     where r.date_fat = :data and t.tipo = :empresa group by t.CC, t.tipo;');
         $stmt->execute(array(
@@ -82,7 +82,8 @@ class RelatoriosModel
     {
         $particular = "PARTICULAR";
         $stmt = conectaBanco::getConnection()->
-        prepare('select r.date_fat, t.matricula, r.valor from sgt.sgt_telefones as t full outer join sgt.sgt_resumo as r on t.linha = r.linha where r.date_fat = :data and tipo = :particular;');
+        prepare('select r.date_fat, t.matricula, r.valor from sgt.sgt_telefones as t 
+                            inner join sgt.sgt_resumo as r on t.linha = r.linha where r.date_fat = :data and tipo = :particular');
         $stmt->execute(array(
             ':particular' => $particular,
             ':data' => $data
@@ -93,7 +94,7 @@ class RelatoriosModel
     function valorLinha($data)
     {
         $stmt = conectaBanco::getConnection()->
-        prepare('select t.linha, t.matricula, nome = (select nome from usuarios where matricula = t.matricula),
+        prepare('select t.linha, t.matricula, (select nome from sgt.usuarios where matricula = t.matricula) as nome,
                             t.CC, r.valor, r.data_vencimento
                             from sgt.sgt_telefones as t
                             inner join sgt.sgt_resumo as r on t.linha = r.linha WHERE date_fat = :data');

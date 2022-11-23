@@ -1,6 +1,7 @@
 <?php
 
-require_once('C:\xampp\htdocs\sgt\config.php');
+require_once('./././config.php');
+
 require_once(DBAPI);
 abresessao();
 
