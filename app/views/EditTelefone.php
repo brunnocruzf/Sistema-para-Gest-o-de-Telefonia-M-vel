@@ -43,6 +43,34 @@ use \app\controllers\TelefonesController;
         });
         $(function () {
             $('#matricula').change(function (e) {
+                var exise;
+
+                $.ajax({
+                    type: "get",
+                    url:   '<?php echo BASEURL_SGT?>/detalhe/existeUser/' + smatricula,
+                    dataType: 'json',
+                    beforeSend: function () {
+                        $("#loader").show();
+                    },
+                    success: function (data) {
+                       console.log(data)
+                         if(data <= 0){
+
+                         }
+                         else {
+                             alert("Usuário ja associado.")
+                         }
+                    },
+                    complete: function (data) {
+                        $("#loader").hide();
+                    },
+                    error: function () {
+                        alert("Matricula não localizada!");
+                    }
+                });
+
+                if()
+
                 console.log('<?=BASEURL_SGT?>/usuarios/processa/' + smatricula);
 
                 e.preventDefault();

@@ -51,8 +51,6 @@ class DetalhesController extends Controller
                 $usuario[$e] = $dados[$f];
                 $e++;
             }
-
-
         return $this->view("Detalhes/Detalhes", ["celulares" => $calulares, "telefones" => $telefones, "usuario" => $usuario, "celular" => $nro]);
     }
 
@@ -69,7 +67,6 @@ class DetalhesController extends Controller
         } else {
             return 'erro ao salvar';
         }
-
     }
 
     function detalhesEditLinha(Request $request)
@@ -85,7 +82,6 @@ class DetalhesController extends Controller
         } else {
             return 'erro ao salvar';
         }
-
     }
 
     function dadosLinha()
@@ -98,5 +94,20 @@ class DetalhesController extends Controller
     {
         $userModel = new UsuariosModel();
         return $userModel->todosIdNomes();
+    }
+
+    function removeUserCel(Request $request){
+        $acesso = $request->parameter('id');
+        $this->DetalhesModel()->removeUserCel($acesso);
+    }
+
+    function removeTelCel(Request $request){
+        $acesso = $request->parameter('nro');
+        $this->DetalhesModel()->removeTelCel($acesso);
+    }
+    function existeUser(Request $request){
+        $matricula = $request->parameter('matricula');
+        return $this->DetalhesModel()->buscaUserMat($matricula);
+
     }
 }

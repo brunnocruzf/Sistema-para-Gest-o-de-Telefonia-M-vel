@@ -72,6 +72,10 @@ $route->get('/celulares/buscaPorMatricula/{matricula}', 'app\controllers\Celular
 $route->get('/detalhes/{acesso}/{nro}', 'app\controllers\DetalhesController@detalhes');
 $route->get('/detalhe/{acesso}/{nro}/{user}', 'app\controllers\DetalhesController@detalhesEditUser');
 $route->get('/detalheLinha/{acesso}/{nro}/{user}', 'app\controllers\DetalhesController@detalhesEditLinha');
+$route->get('/detalheLinha/removeUserCel/{id}','app\controllers\DetalhesController@removeUserCel');
+$route->get('/detalheLinha/removeTelCel/{nro}','app\controllers\DetalhesController@removeTelCel');
+$route->get('/detalhe/existeUser/{matricula}','app\controllers\DetalhesController@existeUser');
+
 
 $route->notFound(function (){
     echo 'Rota não encontrada';

@@ -1,5 +1,5 @@
 <?php
-require_once('C:\xampp\htdocs\sgt\config.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'\sgt\config.php');
 require_once(DBAPI);
 abresessao();
 include(ESTILO_TEMPLATE);

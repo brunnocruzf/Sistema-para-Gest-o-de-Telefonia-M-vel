@@ -31,7 +31,7 @@ class CsvController extends Controller
                 $array = explode(".", $file_name[0]);
                 $ext = $array[1];
                 if ($ext == 'zip') {
-                    $path = 'C:\xampp\htdocs\sgt\anexos\csv\\';
+                    $path = $_SERVER['DOCUMENT_ROOT'].'\\sgt\\anexos\\csv\\';
                     $location = $path . $file_name[0];
                     if (move_uploaded_file($_FILES['arquivo']['tmp_name'][0], $location)) {
                         $zip = new ZipArchive;

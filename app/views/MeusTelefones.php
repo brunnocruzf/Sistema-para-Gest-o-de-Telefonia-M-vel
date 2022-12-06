@@ -88,5 +88,6 @@ use \app\controllers\TelefonesController;
             </div> <!-- /.portlet -->
         </div>
     </div> <!-- /#content-container -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <?php include(FOOTER_TEMPLATE); ?><?php

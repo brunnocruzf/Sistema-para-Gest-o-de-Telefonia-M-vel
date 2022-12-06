@@ -48,10 +48,10 @@ class DetalhesModel extends conectaBanco
                         ':id' => $id
                     ));
                     $retorno = $stmt->fetchAll();
-                    return  $retorno;
+                    return $retorno;
 
                 } else {
-                    return  $retorno;
+                    return $retorno;
                 }
                 break;
             case 'telefone':
@@ -68,6 +68,7 @@ class DetalhesModel extends conectaBanco
                 return $stmt->fetchAll();
                 break;
             case 'usuario':
+
                 $stmt = conectaBanco::getConnection()->prepare("SELECT * FROM sgt.sgt_relacao as rl
                                                                         left join sgt.sgt_celular as cel on rl.id_celular = cel.id
                                                                         left join sgt.sgt_telefones as tel on rl.nro_telefone = tel.linha
@@ -88,17 +89,38 @@ class DetalhesModel extends conectaBanco
 
         switch ($acesso) {
             case 'celular':
-                try {
-                    $stmt = conectaBanco::getConnection()->prepare('UPDATE sgt.sgt_relacao SET
-                                                                      id_usuario = :idUser WHERE id_celular = ' . $idWhere);
+                $cont = $this->buscaUser($idUser);
+                if ($cont <= 0) {
+                    try {
+                        $stmt = conectaBanco::getConnection()->prepare('UPDATE sgt.sgt_relacao SET
+                                                                          id_usuario = :idUser WHERE id_celular = ' . $idWhere);
 
-                    $stmt->bindParam(':idUser', $idUser);
+                        $stmt->bindParam(':idUser', $idUser);
 
-                    $stmt->execute();
-                    //$stmt->debugDumpParams();
-                    return 1;
-                } catch (PDOException $e) {
-                    return 2;
+                        $stmt->execute();
+                        //$stmt->debugDumpParams();
+                        return 1;
+                    } catch (PDOException $e) {
+                        return 2;
+                    }
+                } else {
+                    try {
+                        $stmt = conectaBanco::getConnection()->prepare('delete from sgt.sgt_relacao WHERE id_celular = ' . $idWhere);
+                        $stmt->execute();
+
+                        $stmt = conectaBanco::getConnection()->prepare('UPDATE sgt.sgt_relacao SET
+                                                                          id_celular = :idUser WHERE id_usuario  = ' . $idUser);
+
+                        $stmt->bindParam(':idUser', $idWhere);
+
+                        $stmt->execute();
+
+
+                        //$stmt->debugDumpParams();
+                        return 1;
+                    } catch (PDOException $e) {
+                        return 2;
+                    }
                 }
                 break;
             case 'telefone':
@@ -112,22 +134,97 @@ class DetalhesModel extends conectaBanco
 
         switch ($acesso) {
             case 'celular':
-                try {
-                    $stmt = conectaBanco::getConnection()->prepare('UPDATE sgt.sgt_relacao SET
+                $cont = $this->buscaLinha($nro_telefone);
+                if ($cont <= 0) {
+                    try {
+                        $stmt = conectaBanco::getConnection()->prepare('UPDATE sgt.sgt_relacao SET
                                                                       nro_telefone = :nro_telefone WHERE id_celular = ' . $idWhere);
 
-                    $stmt->bindParam(':nro_telefone', $nro_telefone);
+                        $stmt->bindParam(':nro_telefone', $nro_telefone);
 
-                    $stmt->execute();
-                    //$stmt->debugDumpParams();
-                    return 1;
-                } catch (PDOException $e) {
-                    return 2;
+                        $stmt->execute();
+                        //$stmt->debugDumpParams();
+                        return 1;
+                    } catch (PDOException $e) {
+                        return 2;
+                    }
+                } else {
+                    try {
+                        $stmt = conectaBanco::getConnection()->prepare('delete from sgt.sgt_relacao WHERE id_celular = ' . $idWhere);
+                        $stmt->execute();
+
+                        $stmt = conectaBanco::getConnection()->prepare('UPDATE sgt.sgt_relacao SET
+                                                                          id_celular = :idUser WHERE nro_telefone  = ' . $nro_telefone);
+
+                        $stmt->bindParam(':idUser', $idWhere);
+
+                        $stmt->execute();
+
+
+                        //$stmt->debugDumpParams();
+                        return 1;
+                    } catch (PDOException $e) {
+                        return 2;
+                    }
                 }
-                break;
-            case 'telefone':
+                    break;
+                case
+                    'telefone':
 
                 break;
         }
+        }
+
+        function removeUserCel($cel)
+        {
+            $stmt = conectaBanco::getConnection()->prepare('UPDATE sgt.sgt_relacao SET
+                                                                      id_usuario = :nro_telefone WHERE id_celular = ' . $cel);
+            $vazio = " ";
+            $stmt->bindParam(':nro_telefone', $vazio);
+
+            $stmt->execute();
+        }
+
+        function removeTelCel($cel)
+        {
+            $stmt = conectaBanco::getConnection()->prepare('UPDATE sgt.sgt_relacao SET
+                                                                      nro_telefone = :nro_telefone WHERE id_celular = ' . $cel);
+            $vazio = " ";
+            $stmt->bindParam(':nro_telefone', $vazio);
+
+            $stmt->execute();
+        }
+
+        function buscaUser($idUSer)
+        {
+            $stmt = conectaBanco::getConnection()->prepare("SELECT * FROM sgt.sgt_relacao where id_usuario = " . $idUSer);
+            $stmt->execute();
+            return $stmt->rowCount();
+        }
+
+        function buscaUserMat($matricula)
+        {
+            $stmt = conectaBanco::getConnection()->prepare('SELECT id FROM sgt.usuarios where matricula = '.$matricula);
+            $stmt->execute();
+            $idUSer  = $stmt->fetch()['id'];
+
+
+            $stmt = conectaBanco::getConnection()->prepare("SELECT * FROM sgt.sgt_relacao where id_usuario = " . $idUSer);
+            $stmt->execute();
+            return $stmt->rowCount();
+        }
+
+        function buscaLinha($idTelefone)
+        {
+            $stmt = conectaBanco::getConnection()->prepare("SELECT * FROM sgt.sgt_relacao where nro_telefone = " . $idTelefone);
+            $stmt->execute();
+            return $stmt->rowCount();
+        }
+
+        function buscaCel($idCel)
+        {
+            $stmt = conectaBanco::getConnection()->prepare("SELECT * FROM sgt.sgt_relacao where id_celular = " . $idCel);
+            return $stmt->rowCount();
+        }
+
     }
-}

@@ -2,7 +2,7 @@
 
 error_reporting(0);
 
-require_once('C:\xampp\htdocs\sgt\config.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'\sgt\config.php');
 require_once(DBAPI);
 abresessao();
 
@@ -45,7 +45,7 @@ $users = $detalhesController->dadosUser();
                                              alt="...">
                                     </div>
 
-                                    <div class="col-md-8" id="dadosUser">
+                                    <div class="col-md-5" id="dadosUser">
                                         <?php
                                         if (!is_null($usuario[0])):
                                             ?>
@@ -55,6 +55,17 @@ $users = $detalhesController->dadosUser();
                                                 <p class="card-text">Centro de Custo: <?= $usuario[3]; ?></p>
                                                 <p class="card-text"><small class="text-muted">Email do usuário: <?= $usuario[6]; ?></small></p>
                                         </div>
+                                        <div class="col-md-6">
+                                            <button class="btn btn-danger" type="submit" onclick="removeUser(<?=$celulares[0]?>)" id="removeUser" style="padding-top: 3px; padding-bottom: 3px" data-toggle="tooltip"
+                                                    data-placement="top" title="Tooltip on top">
+                                                <i class="fa fa-close" aria-hidden="true"></i>
+                                            </button>
+                                            <button class="btn btn-success" type="submit" id="addUser"  style="padding-top: 3px; padding-bottom: 3px"  data-toggle="tooltip"
+                                                    data-placement="top" title="Tooltip on top">
+                                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                    </div>
                                             <?php
                                                 else:
                                             ?>
@@ -92,6 +103,17 @@ $users = $detalhesController->dadosUser();
                                                 <p class="card-text">Plano: <?= $telefones[5]; ?></p>
                                                 <p class="card-text"><small class="text-muted">Numero: </small></p>
                                             </div>
+                                        <div class="col-md-6">
+                                            <button class="btn btn-danger" type="submit" onclick="removeTel(<?=$celulares[0]?>)" id="removeTelefone" style="padding-top: 3px; padding-bottom: 3px" data-toggle="tooltip"
+                                                    data-placement="top" title="Tooltip on top">
+                                                <i class="fa fa-close" aria-hidden="true"></i>
+                                            </button>
+                                            <button class="btn btn-success" type="submit" id="addLinha"  style="padding-top: 3px; padding-bottom: 3px"  data-toggle="tooltip"
+                                                    data-placement="top" title="Tooltip on top">
+                                                <i class="fa fa-refresh" aria-hidden="true"></i>
+                                            </button>
+                                        </div>
+                                    </div>
                                         <?php
                                         else:
                                             ?>
@@ -130,6 +152,7 @@ $users = $detalhesController->dadosUser();
                                                 <p class="card-text"><small class="text-muted">Nro
                                                         Serie: <?= $celulares[7]; ?></</small></p>
                                             </div>
+
                                         <?php
                                         else:
                                             ?>
@@ -154,7 +177,7 @@ $users = $detalhesController->dadosUser();
     $("#addLinha").click(
         function (){
             $('#addLinha').remove();
-            $('#dadosLinha').append("<select  class='form-control'  id='selAddLinha' data-placeholder='Selecione a cidade' style='width:25%'><option value='#'>Selecione uma Linha!</option>" +
+            $('#dadosLinha').append("<br><br><select  class='form-control'  id='selAddLinha' data-placeholder='Selecione a cidade' style='width:25%'><option value='#'>Selecione uma Linha!</option>" +
                                         <?php foreach ($linhas as $linha):?>
                                         "<option value='<?= $linha['linha']?>'><?= $linha['linha']?></option>"+
                                         <?php endforeach;?>
@@ -188,7 +211,7 @@ $users = $detalhesController->dadosUser();
         function saveUser() {
             var user = $("#selAddUser").val();
             var url = '<?=BASEURL_SGT?>detalhes/celular/<?=$celular?>/'+user
-
+            console.log(url);
             $.ajax({
                 type: "get",
                 url: '<?= BASEURL_SGT ?>detalhe/celular/<?=$celular?>/'+user,
@@ -206,11 +229,53 @@ $users = $detalhesController->dadosUser();
             });
         }
 
+    function removeTel(tel) {
+
+        var url = '<?=BASEURL_SGT?>detalheLinha/removeTelCel/'+tel
+        console.log(url);
+        $.ajax({
+            type: "get",
+            url: '<?=BASEURL_SGT?>detalheLinha/removeTelCel/'+tel,
+            dataType: 'text',
+            beforeSend: function () {
+                $("#loader").show();
+            },
+            success: function (data) {
+                alert('Removido com sucesso!');
+                document.location.reload(true);
+            },
+            error: function () {
+                alert("Erro!");
+            }
+        });
+    }
+
+    function removeUser(tel) {
+
+        var url = '<?=BASEURL_SGT?>detalheLinha/removeUserCel/'+tel
+        console.log(url);
+        $.ajax({
+            type: "get",
+            url: '<?=BASEURL_SGT?>detalheLinha/removeUserCel/'+tel,
+            dataType: 'text',
+            beforeSend: function () {
+                $("#loader").show();
+            },
+            success: function (data) {
+                alert('Removido com sucesso!');
+                document.location.reload(true);
+            },
+            error: function () {
+                alert("Erro!");
+            }
+        });
+    }
+
 
     $("#addUser").click(
         function (){
             $('#addUser').remove();
-            $('#dadosUser').append("<select  class='form-control'  id='selAddUser' data-placeholder='Seleciona um usuario' style='width:25%'><option value='#'>Selecione um usuário!</option>" +
+            $('#dadosUser').append("<br><br><select  class='form-control'  id='selAddUser' data-placeholder='Seleciona um usuario' style='width:25%'><option value='#'>Selecione um usuário!</option>" +
                                     <?php
                                         foreach ($users as $user):
                                     ?>

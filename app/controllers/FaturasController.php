@@ -25,7 +25,7 @@ class FaturasController extends Controller
         $dadosTel = $tel->buscaTelefone($numero);
         $telTipo = $dadosTel['tipo'];
 
-        $this->view("GridFaturas", ['numero' => $grid, 'telTipo' => $telTipo]);
+        $this->view("Relatorios\GridFaturas", ['numero' => $grid, 'telTipo' => $telTipo]);
     }
 
     function qtdePlanos($numero, $date)
@@ -41,7 +41,12 @@ class FaturasController extends Controller
         $date = $request->parameter('date');
 
         $fatModel = new FaturasModel();
-        $dados = $fatModel->buscaChamadas($numero, $date);
+     //   $dados = $fatModel->buscaChamadas($numero, $date);
+        if(count($fatModel->buscaChamadas($numero, $date))> 0){
+            $dados = $fatModel->buscaChamadas($numero, $date);
+        }else{
+            $dados = "Sem registros de consumo";
+        }
         $valorTotal = $fatModel->buscaValorTotal($numero, $date);
         $infoPlano = $fatModel->buscaInfoPlano($numero, $date);
         $resumoPlano = $fatModel->buscaResumo($numero, $date);
@@ -51,12 +56,12 @@ class FaturasController extends Controller
         $dadosTel = $telModel->buscaTelefone($numero);
 
         $userModel = new UsuariosModel();
-        if($matricula[0] != 0){
+        if($matricula <> false){
             $nomeUser = $userModel->buscaNome($matricula[0]);
         }else{
             $nomeUser = "Nome não informado.";
         }
-        $this->view("fatura", ['chamadas' => $dados, 'nomeUser' => $nomeUser, 'valorTotal' => $valorTotal, 'infoPlano' => $infoPlano, 'resumoPlano' => $resumoPlano, 'dadosTel' => $dadosTel]);
+        $this->view("Relatorios/fatura", ['date'=>$date,'numero'=>$numero,'chamadas' => $dados, 'nomeUser' => $nomeUser, 'valorTotal' => $valorTotal, 'infoPlano' => $infoPlano, 'resumoPlano' => $resumoPlano, 'dadosTel' => $dadosTel]);
     }
 
     function printFatura(Request $request)

@@ -1,5 +1,5 @@
 <?php
-require_once('C:\xampp\htdocs\sgt\config.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'\sgt\config.php');
 require_once(DBAPI);
 abresessao();
 $_SESSION['menu'] = 'SGT';
@@ -23,7 +23,7 @@ include(MENU_TEMPLATE);
                 <div class="portlet-header">
                     <h3>
                         <i class="fa fa-file-pdf-o"></i>
-                        Fatura - <?php echo formataTelefone($chamadas[0]['linha']) ?>
+                        Fatura - <?php echo formataTelefone($numero) ?>
                     </h3>
                 </div> <!-- /.portlet-header -->
                 <div class="portlet-content">
@@ -186,8 +186,8 @@ include(MENU_TEMPLATE);
                                                         <nobr>Período de Referência:</nobr>
                                                     </td>
                                                     <td><b>
-                                                            <?php $mes = substr($chamadas[0]['date_fat'], -2);
-                                                            $ano = substr($chamadas[0]['date_fat'], 0, 4);
+                                                            <?php $mes = substr($date, -2);
+                                                            $ano = substr($date, 0, 4);
 
                                                             if($mes == 12){
                                                                 $proxMes = 01;
@@ -212,19 +212,23 @@ include(MENU_TEMPLATE);
                                                 <tr>
                                                     <td>Mês de referência:</td>
                                                     <td><b>
-                                                            <?php $mes = substr($chamadas[0]['date_fat'], -2);
-                                                            $ano = substr($chamadas[0]['date_fat'], 0, 4);
+                                                            <?php $mes = substr($date, -2);
+                                                            $ano = substr($date, 0, 4);
                                                             echo $mes . "/" . $ano;
                                                             ?>
                                                         </b></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Número:</td>
-                                                    <td><b><?php echo formataTelefone($chamadas[0]['linha']) ?></b></td>
+                                                    <td><b><?php echo formataTelefone($numero) ?></b></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Nome:</td>
-                                                    <td><b><?php echo $nomeUser['nome']?$nomeUser['nome']: "Nome não informado."; ?></b></td>
+                                                    <td><b><?php  if($nomeUser== "Nome não informado."){
+                                                              echo "Nome não informado.";
+                                                            } else{
+                                                                  echo $nomeUser['nome'];
+                                                            } ?></b></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Valor Total da Fatura:</td>
@@ -269,6 +273,10 @@ include(MENU_TEMPLATE);
                                 <tr>
                                     <td colspan='5' class='titulo2'>INFORMAÇÕES DO PLANO</td>
                                 </tr>
+                                <?php if($chamadas == "Sem registros de consumo"):
+                                            echo "<tr><td class='titulo3'> Sem registros de consumo</td></tr>";
+                                        else:
+                                ?>
                                 <tr>
                                     <td class='titulo3' colspan='2' align='left' width='45%'>Nome</td>
                                     <td class='titulo3' align='left' width='25%'>Período</td>
@@ -320,6 +328,9 @@ include(MENU_TEMPLATE);
                                 </tr>
 
                                 </tbody>
+                                <?php
+                                    endif;
+                                ?>
                             </table>
 
 
@@ -461,7 +472,10 @@ include(MENU_TEMPLATE);
                                         DETALHAMENTO DE CONSUMO DA FATURA
                                     </td>
                                 </tr>
-
+                                <?php if($chamadas == "Sem registros de consumo"):
+                                    echo "<tr><td class='titulo3'> Sem registros de consumo</td></tr>";
+                                else:
+                                ?>
                                 <tr>
                                     <td class='titulo3' align='left'>Data/hora início</td>
                                     <td class='titulo3' align='center'>Tipo</td>
@@ -517,7 +531,7 @@ include(MENU_TEMPLATE);
                                 </tr>
                                 </tbody>
                             </table>
-
+                            <?php endif;?>
 
                         </div>
                         <div class='clear'></div>

@@ -36,7 +36,7 @@ if (isset($_FILES['arquivoComprovante'])) {
     $extensoes = array(".dwg", ".txt", ".pdf", ".docx", ".jpg",".xlsx",".png",".doc",".msg");
     // $caminho = "\\tm-ws\\anexosComprovantes\\";
 
-    $caminho = 'C:\\xampp\htdocs\sgt\\app\\views\\fotos\\';
+    $caminho =   $_SERVER['DOCUMENT_ROOT'].'\\sgt\\app\\views\\fotos\\';
     // alterar para portal
 
 
