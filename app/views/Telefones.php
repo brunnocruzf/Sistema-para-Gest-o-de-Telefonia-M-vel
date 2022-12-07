@@ -10,7 +10,7 @@ include(MENU_TEMPLATE);
 $_SESSION['menu'] = 'SGT';
 //require_once '../vendor/autoload.php';
 
-    use \app\controllers\TelefonesController;
+use \app\controllers\TelefonesController;
 
 ?>
     <style>
