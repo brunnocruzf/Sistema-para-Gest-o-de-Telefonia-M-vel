@@ -149,5 +149,12 @@ class UsuariosModel
         ));
         return $stmt->fetchObject();
     }
+    function buscaIdMatricula($matricula){
+        $stmt = conectaBanco::getConnection()->prepare("select id from sgt.usuarios where matricula =:matricula ");
+        $stmt->execute(array(
+            ':matricula' => $matricula
+        ));
+        return $stmt->fetch();
+    }
 
 }

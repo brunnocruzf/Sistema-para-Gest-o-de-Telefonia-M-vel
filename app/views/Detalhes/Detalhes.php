@@ -52,6 +52,7 @@ $users = $detalhesController->dadosUser();
                                         <div class="card-body">
 
                                                 <h5 class="card-title">Nome do usuário: <?= $usuario[2]; ?></h5>
+                                                <p class="card-text">Matricula: <?= $usuario[4]; ?></p>
                                                 <p class="card-text">Centro de Custo: <?= $usuario[3]; ?></p>
                                                 <p class="card-text"><small class="text-muted">Email do usuário: <?= $usuario[6]; ?></small></p>
                                         </div>
@@ -101,7 +102,8 @@ $users = $detalhesController->dadosUser();
                                             <div class="card-body">
                                                 <h5 class="card-title">Número da linha: <?= $telefones[3]; ?></h5>
                                                 <p class="card-text">Plano: <?= $telefones[5]; ?></p>
-                                                <p class="card-text"><small class="text-muted">Numero: </small></p>
+                                                <p class="card-text"  style="font-size: 12px; margin-bottom: 0px">Conta: <?= $telefones[2]; ?></p>
+                                                <p class="card-text"  style="font-size: 12px; margin-bottom: 0px">Tipo da linha: <?= $telefones[6]; ?></p>
                                             </div>
                                         <div class="col-md-6">
                                             <button class="btn btn-danger" type="submit" onclick="removeTel(<?=$celulares[0]?>)" id="removeTelefone" style="padding-top: 3px; padding-bottom: 3px" data-toggle="tooltip"
@@ -149,8 +151,11 @@ $users = $detalhesController->dadosUser();
                                             <div class="card-body">
                                                 <h5 class="card-title">Marca: <?= $celulares[1]; ?></</h5>
                                                 <p class="card-text">Modelo: <?= $celulares[2]; ?></</p>
-                                                <p class="card-text"><small class="text-muted">Nro
-                                                        Serie: <?= $celulares[7]; ?></</small></p>
+                                                <p class="card-text"  style="font-size: 13px">Imei 1: <?= $celulares[3]; ?></p>
+                                                <p class="card-text"  style="font-size: 13px">Imei 2: <?= $celulares[5]; ?></p>
+                                                <p class="card-text"  style="font-size: 13px">ICCID1: <?= $celulares[4]; ?></p>
+                                                <p class="card-text"><small class="text">Nro Serie: <?= $celulares[7]; ?></p>
+                                                <p class="card-text">Observações: <?= $celulares[6]; ?></p>
                                             </div>
 
                                         <?php

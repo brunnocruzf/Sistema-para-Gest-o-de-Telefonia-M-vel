@@ -34,7 +34,6 @@ use \app\controllers\TelefonesController;
                     </h3>
                 </div> <!-- /.portlet-header -->
                 <div class="portlet-content">
-
                     <div class="portlet">
                         <table
                             class="table table-striped table-bordered table-hover table-highlight table-checkable"

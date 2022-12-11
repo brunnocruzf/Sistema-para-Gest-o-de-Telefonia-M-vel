@@ -146,8 +146,8 @@ use \app\controllers\UsuariosController;
                                             <select class="form-control" name="empresa" id="empresa">
                                                 <option selected
                                                         value="<?= $user['empresa'] ?>"><?= $user['empresa'] ?></option>
-                                                <option value="EmpresaA">Empresa A</option>
-                                                <option value="EmpresaB">Empresa B</option>
+                                                <option value="EmpresaA">ACME SA</option>
+
                                             </select>
                                         </div>
                                     </div>
@@ -255,8 +255,9 @@ use \app\controllers\UsuariosController;
     <script>
         $('#remove-foto').click(function () {
             $('#foto').css('display', 'none');
+            $('#foto').val(" ")
             $('#remove-foto').css('display', 'none');
-            $('#foto').val('');
+
             $('#anexarfoto').css('display', 'block');
             $('#imagem').attr('src', '');
 

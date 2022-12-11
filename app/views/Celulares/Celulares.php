@@ -47,13 +47,13 @@ use \app\controllers\UsuariosController;
                             <thead>
                             <tr>
                                 <th data-filterable="false" data-sortable="false">Opções</th>
+                                <th data-filterable="false" data-sortable="false"></th>
                                 <th data-filterable="true" data-sortable="true" data-direction="asc"width="20%">Marca</th>
                                 <th data-filterable="true" data-sortable="true" data-direction="asc"width="20%">Modelo</th>
                                 <th data-filterable="true" data-sortable="true" data-direction="asc"width="15%" >IMEI1</th>
-                                <th data-filterable="true" data-sortable="true" data-direction="asc"width="15%" >ICCID1</th>
                                 <th data-filterable="true" data-sortable="true" data-direction="asc"width="15%" >IMEI2</th>
-                                <th data-filterable="true" data-sortable="true" data-direction="asc"width="15%" >ICCID2</th>
                                 <th data-filterable="true" data-sortable="true" data-direction="asc"width="15%" >Numero de Série</th>
+                                <th data-filterable="true" data-sortable="true" data-direction="asc"width="15%" >Usuário</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -68,13 +68,22 @@ use \app\controllers\UsuariosController;
                                                             style="color:black; margin-left: 5px; margin-right: 5px;" data-toggle="tooltip" data-placement="top" title="Excluir" aria-hidden="true" ></i></a>
                                         </center>
                                     </td>
+                                    <td>
+                                    <?php if(strlen($celular['foto'])>5): ?>
+                                        <center><img src="<?= BASEURL_SGT.'app/views/fotos/'.$celular['foto'] ?>" style="border-radius:50%;  width: 35px; height: 45px;"></center>
+                                    <?php else: ?>
+                                        <span></span>
+                                    <?php endif;?>
                                     <td><?php echo $celular['marca'] ?></td>
                                     <td><?php echo $celular['modelo'] ?></td>
                                     <td><?php echo $celular['IMEI1'] ?></td>
-                                    <td><?php echo $celular['ICCID1'] ?></td>
                                     <td><?php echo $celular['IMEI2'] ?></td>
-                                    <td><?php echo $celular['ICCID2'] ?></td>
                                     <td><?php echo $celular['nroSerie'] ?></td>
+                                    <td><?php if(empty($celular['nome'])){
+                                            echo '<spam style="color: #4cae4c">Disponível</spam>';
+                                        }else{
+                                            echo $celular['nome'];
+                                        } ?></td>
                                 </tr>
                             <?php endforeach ?>
 

@@ -123,42 +123,43 @@ use \app\controllers\UsuariosController;
                                 <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="select-input">Modelo</label>
-                                        <input type="text" id="modelo" name="modelo" value="<?= $celulares['modelo'] ?>" class="form-control">
+                                        <input type="text" id="modelo" name="modelo" value="<?= $celulares['modelo'] ?>" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="col-md-2">
                                     <div class="form-group">
                                         <label for="select-input">IMEI1</label>
-                                        <input type="text" id="IMEI1" name="IMEI1" value="<?= $celulares['IMEI1'] ?>" class="form-control">
+                                        <input type="text" id="IMEI1" name="IMEI1" value="<?= $celulares['IMEI1'] ?>" class="form-control"required>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
-                                    <label for="select-input">ICCID1</label>
-                                    <input type="text" id="ICCID1" name="ICCID1" value="<?= $celulares['ICCID1'] ?>" class="form-control" required>
-                                </div>
-                                <div class="clearfix"></div>
+
                                 <div class="col-md-2">
                                     <div class="form-group">
                                         <label for="select-input">IMEI2</label>
                                         <input type="text" id="IMEI2" name="IMEI2" value="<?= $celulares['IMEI2'] ?>" class="form-control">
                                     </div>
                                 </div>
-                                <div class="col-md-3">
-                                    <label for="select-input">ICCID2</label>
-                                    <input type="text" id="ICCID2" name="ICCID2" value="<?= $celulares['ICCID2'] ?>" class="form-control" required>
-                                </div>
                                 <div class="clearfix"></div>
+                                <div class="col-md-2">
+                                    <label for="select-input">ICCID1</label>
+                                    <input type="text" id="ICCID1" name="ICCID1" value="<?= $celulares['ICCID1'] ?>" class="form-control">
+                                </div>
+
                                 <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="senha">Numero de serie</label>
                                         <input type="text" id="nroSerie" name="nroSerie" value="<?= $celulares['nroSerie'] ?>" class="form-control">
                                     </div>
                                 </div>
+                                <div class="clearfix"></div>
+                                <div class="col-md-3">
+                                    <label for="select-input">Observação</label>
+                                    <textarea rows="6" name="ICCID2" class="form-control"><?= $celulares['ICCID2'] ?></textarea>
+                                </div>
                                 <div class="col-md-3">
                                     <div class="col-lg-2">
                                         <label for="">Foto</label>
-
                                         <embed id="anexarfoto" src="<?= BASEURL_SGT ?>upload_foto"
                                                height="25px"  style="display: <?php echo strlen($celulares['foto']) > 5? 'none':'flex' ?> ; padding-top: 7%; float: left; cursor: pointer"></embed>
                                         <div class="progress" id="progressFoto" style="display: none;">

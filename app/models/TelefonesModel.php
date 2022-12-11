@@ -3,7 +3,7 @@
 
 namespace app\models;
 use \app\databases\conectaBanco;
-
+use app\models\DetalhesModel;
 //require_once '../vendor/autoload.php';
 
 class TelefonesModel
@@ -104,10 +104,21 @@ class TelefonesModel
                 ':cota' => $dados['cota'],
                 ':CC' => $dados['CC']
             ));
+
+            if(!empty($dados['matricula'])){
+                $detalhes = new DetalhesModel();
+                //busca a linha
+                //update where linha
+
+                $detalhes->updateUser('linha', $dados['matricula'], $dados['numero']);
+            }
+
             return "<div class='alert alert-success' role='alert'>".$dados['numero']." Alterado com sucesso!</div>";
         } catch (PDOException $e) {
             return "<div class='alert alert-success' role='alert'>Error: ".$e->getMessage()."</div>";
         }
+
+
     }
 
     function deleteTelefone($numero){

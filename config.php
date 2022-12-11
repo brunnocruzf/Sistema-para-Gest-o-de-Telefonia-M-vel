@@ -44,14 +44,17 @@ define('__DIR__','sgt');
 /*define time zone*/
 date_default_timezone_set('America/Sao_Paulo');
 
-function formataTelefone($numero){
-    if(strlen($numero) == 10){
-        $novo = substr_replace($numero, '(', 0, 0);
-        $novo = substr_replace($novo, '9', 3, 0);
-        $novo = substr_replace($novo, ')', 3, 0);
-    }else{
-        $novo = substr_replace($numero, '(', 0, 0);
-        $novo = substr_replace($novo, ')', 3, 0);
+if (!function_exists('formataTelefone')) {
+    function formataTelefone($numero)
+    {
+        if (strlen($numero) == 10) {
+            $novo = substr_replace($numero, '(', 0, 0);
+            $novo = substr_replace($novo, '9', 3, 0);
+            $novo = substr_replace($novo, ')', 3, 0);
+        } else {
+            $novo = substr_replace($numero, '(', 0, 0);
+            $novo = substr_replace($novo, ')', 3, 0);
+        }
+        return $novo;
     }
-    return $novo;
 }

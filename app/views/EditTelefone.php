@@ -39,39 +39,13 @@ use \app\controllers\TelefonesController;
             },
             error: function () {
                 alert("Matricula não localizada!");
+                $("#matricula").val('');
+                $("#nome").val('');
+                $("#email").val('');
             }
         });
         $(function () {
             $('#matricula').change(function (e) {
-                var exise;
-
-                $.ajax({
-                    type: "get",
-                    url:   '<?php echo BASEURL_SGT?>/detalhe/existeUser/' + smatricula,
-                    dataType: 'json',
-                    beforeSend: function () {
-                        $("#loader").show();
-                    },
-                    success: function (data) {
-                       console.log(data)
-                         if(data <= 0){
-
-                         }
-                         else {
-                             alert("Usuário ja associado.")
-                         }
-                    },
-                    complete: function (data) {
-                        $("#loader").hide();
-                    },
-                    error: function () {
-                        alert("Matricula não localizada!");
-                    }
-                });
-
-                if()
-
-                console.log('<?=BASEURL_SGT?>/usuarios/processa/' + smatricula);
 
                 e.preventDefault();
                 var smatricula = $("#matricula").val();
@@ -93,6 +67,9 @@ use \app\controllers\TelefonesController;
                     },
                     error: function () {
                         alert("Matricula não localizada!");
+                        $("#matricula").val('');
+                        $("#nome").val('');
+                        $("#email").val('');
                     }
                 });
             });
@@ -116,6 +93,7 @@ use \app\controllers\TelefonesController;
             return false;
         }else{
             return true;
+            document.location.reload(true);
         }
     }
 
@@ -159,7 +137,7 @@ use \app\controllers\TelefonesController;
                                         <label for="select-input">Empresa referente *</label>
                                         <select class="form-control" name="empresa" value="teste" required>
                                             <option value="<?php echo $telefone['empresa'] ?>"><?php echo $telefone['empresa'] ?></option>
-                                            <option value="TMSA">TMSA</option>
+                                            <option value="Acme">Acme</option>
                                         </select>
                                     </div>
                                 </div>
@@ -168,7 +146,7 @@ use \app\controllers\TelefonesController;
                                         <label for="select-input">Conta referente *</label>
                                         <select class="form-control" name="conta">
                                             <option value="<?php echo $telefone['conta'] ?>"><?php echo $telefone['conta'] ?></option>
-                                            <option value="AXOON TMSA">AXOON TMSA</option>
+                                            <option value="Conta 1">Conta 1</option>
                                         </select>
                                     </div>
                                 </div>
@@ -210,7 +188,7 @@ use \app\controllers\TelefonesController;
                                             }
                                             $CCs = $telcontroller->buscaCC();
                                             foreach ($CCs as $CC){
-                                                echo "<option value='".$CC['cc']." - " .$CC['cc_descricao']."'>".$CC['cc']." - ".$CC['cc_descricao']."</option>";
+                                                echo "<option value='".$CC['cc_descricao']."'>".$CC['cc_descricao']."</option>";
                                             }
                                             ?>
                                         </select>

@@ -139,8 +139,7 @@ use \app\controllers\UsuariosController;
                                         <label for="select-input">Empresa</label>
                                         <select class="form-control" name="empresa" id="empresa">
                                             <option value="Selecione">Selecione</option>
-                                            <option value="EmpresaA">Empresa A</option>
-                                            <option value="EmpresaB">Empresa B</option>
+                                            <option value="EmpresaA">ACME SA</option>
                                         </select>
                                     </div>
                                 </div>

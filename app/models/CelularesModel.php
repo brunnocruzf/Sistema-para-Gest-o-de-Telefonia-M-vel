@@ -8,7 +8,9 @@ class CelularesModel
 {
     function celulares()
     {
-        $stmt = conectaBanco::getConnection()->prepare('select * from sgt.sgt_celular;');
+        $stmt = conectaBanco::getConnection()->prepare('SELECT cel.*, usa.nome FROM sgt.sgt_celular as cel
+                                                                    left join sgt.sgt_relacao as rel on rel.id_celular = cel.id
+                                                                    left join sgt.usuarios as usa on rel.id_usuario = usa.id;');
         $stmt->execute();
         return $stmt->fetchALL();
     }

@@ -57,15 +57,15 @@ include(MENU_TEMPLATE);
                                 </tr>
                                 <tr>
                                     <th style="background-color: #fafafa">Empresa referente</th>
-                                    <td>TMSA</td>
+                                    <td>ACME SA</td>
                                 </tr>
                                 <tr>
                                     <th style="background-color: #fafafa">Conta referente</th>
-                                    <td>AXXON TMSA</td>
+                                    <td>Conta 1</td>
                                 </tr>
                                 <tr>
                                     <th style="background-color: #fafafa">Valor total da fatura</th>
-                                    <td><?php echo $valTotFat['valor_total']; ?></td>
+                                    <td><?php echo  "R$ ".$valTotFat['valor_total']; ?></td>
                                 </tr>
                                 <tr>
                                     <th style="background-color: #fafafa">Valor Fatura Particular</th>
@@ -74,7 +74,7 @@ include(MENU_TEMPLATE);
                                             if(empty($valParticular['valorTipo'])){
                                                 echo 'N/A';
                                             }else{
-                                                echo  $valParticular['valorTipo'];
+                                                echo  "R$ ".$valParticular['valorTipo'];
                                             }
                                         ?>
                                     </td>
@@ -86,7 +86,7 @@ include(MENU_TEMPLATE);
                                             if(empty($valParticular['valorTipo'])){
                                                 echo 'N/A';
                                             }else{
-                                                echo  $valParticular['valorTipo'];
+                                                echo  "R$ ".($valTotFat['valor_total'] - $valParticular['valorTipo']);
                                             }
                                         ?>
                                     </td>

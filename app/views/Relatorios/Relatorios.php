@@ -31,11 +31,19 @@ $_SESSION['menu'] = 'SGT';
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-xs-6 col-md-1">
-                                    <a href="relatorios/faturas" class="btn btn-default btn-lg" role="button"><span class="glyphicon glyphicon-list-alt"></span> <br/>Faturas</a>
+                                    <a href="relatorios/faturas" class="btn btn-default btn-lg" role="button"><i class="glyphicon glyphicon-list-alt"></i> <br/>Relatorio de <br/> Faturas<br/></a>
                                 </div>
 
-                                <div class="col-xs-6 col-md-1">
+                                <div class="col-lg-1"></div>
+
+                                <div class="col-xs-6 col-md-1" style="padding-left: 0px;">
                                     <a href="relatorios/maiorConsumo" class="btn btn-default btn-lg" role="button"><i class="fa fa-bar-chart" aria-hidden="true"></i> <br/>Linhas com <br> maior consumo</a>
+                                </div>
+
+                                <div class="col-lg-1"></div>
+
+                                <div class="col-xs-6 col-md-1">
+                                    <a href="relatorios/celularesporcc" class="btn btn-default btn-lg" role="button"><i class="fa fa-bar-chart" aria-hidden="true"></i> <br/>Quantidade de<br> Celulares por CC</a>
                                 </div>
                             </div>
                         </div>

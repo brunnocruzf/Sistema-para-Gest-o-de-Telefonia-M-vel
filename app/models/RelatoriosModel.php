@@ -18,7 +18,7 @@ class RelatoriosModel
 
     function datesFat()
     {
-        $stmt = conectaBanco::getConnection()->prepare('SELECT date_fat FROM sgt.sgt_resumo group by date_fat;');
+        $stmt = conectaBanco::getConnection()->prepare('SELECT date_fat FROM sgt.sgt_resumo group by date_fat order by date_fat desc;');
         $stmt->execute();
         return $stmt->fetchAll();
     }
@@ -29,6 +29,16 @@ class RelatoriosModel
         $stmt->execute(array(
             ':data' => $m
         ));
+        return $stmt->fetchAll();
+    }
+
+    function celularesporcc()
+    {
+        $stmt = conectaBanco::getConnection()->prepare('SELECT count(id_celular) as qtde, cc_descricao FROM sgt.sgt_relacao as rel
+                                                                inner join sgt.usuarios as us on rel.id_usuario = us.id
+                                                                where id_celular is not null
+                                                                group by cc_descricao');
+        $stmt->execute();
         return $stmt->fetchAll();
     }
 

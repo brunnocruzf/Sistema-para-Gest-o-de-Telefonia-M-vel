@@ -131,27 +131,30 @@ use \app\controllers\UsuariosController;
                                     </div>
                                 </div>
                                 <div class="col-md-3">
-                                    <label for="select-input">ICCID1</label>
-                                    <input type="text" id="ICCID1" name="ICCID1" class="form-control" required>
-                                </div>
-                                <div class="clearfix"></div>
-                                <div class="col-md-2">
                                     <div class="form-group">
                                         <label for="select-input">IMEI2</label>
                                         <input type="text" id="IMEI2" name="IMEI2" class="form-control">
                                     </div>
                                 </div>
-                                <div class="col-md-3">
-                                    <label for="select-input">ICCID2</label>
-                                    <input type="text" id="ICCID2" name="ICCID2" class="form-control" required>
-                                </div>
                                 <div class="clearfix"></div>
+                                <div class="col-md-2">
+                                    <label for="select-input">ICCID1</label>
+                                    <input type="text" id="ICCID1" name="ICCID1" class="form-control" required>
+                                </div>
+
                                 <div class="col-md-3">
                                     <div class="form-group">
                                         <label for="senha">Numero de serie</label>
                                         <input type="text" id="nroSerie" name="nroSerie" class="form-control">
                                     </div>
                                 </div>
+                                <div class="clearfix"></div>
+
+                                <div class="col-md-3">
+                                    <label for="select-input">Observação</label>
+                                    <textarea rows="5" id="ICCID2" name="ICCID2" class="form-control"></textarea>
+                                </div>
+
                                 <div class="col-md-3">
                                     <div class="col-lg-2">
                                         <label for="">Foto</label>

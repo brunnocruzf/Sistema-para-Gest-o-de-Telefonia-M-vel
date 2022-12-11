@@ -30,14 +30,14 @@ use \app\controllers\UsuariosController;
             <div class="portlet">
                 <div class="portlet-header">
                     <h3>
-                        <i class="fa fa-phone-square" style="transform: rotate(90deg);"></i>
-                        Telefones
+                        <i class="fa fa-users" ></i>
+                        Usuários
                     </h3>
                 </div> <!-- /.portlet-header -->
                 <div class="portlet-content">
 
                     <div class="portlet">
-                        <table
+                        <table id="usuario"
                             class="table table-striped table-bordered table-hover table-highlight table-checkable"
                             data-provide="datatable"
                             data-display-rows="15"
@@ -52,6 +52,8 @@ use \app\controllers\UsuariosController;
                                 <th data-filterable="true" data-sortable="true" data-direction="asc"width="20%" >Matricula</th>
                                 <th data-filterable="true" data-sortable="true" data-direction="asc"width="20%" >Login</th>
                                 <th data-filterable="true" data-sortable="true" data-direction="asc"width="20%" >E-mail</th>
+                                <th data-filterable="true" data-sortable="true" data-direction="asc"width="20%" >Centro de Custo</th>
+
                             </tr>
                             </thead>
                             <tbody>
@@ -76,6 +78,7 @@ use \app\controllers\UsuariosController;
                                     <td><?php echo $usuario['matricula'] ?></td>
                                     <td width="7%"><?php echo  $usuario['login']   ?></td>
                                     <td width="11%"><?php echo $usuario['email'] ?></td>
+                                    <td width="11%"><?php echo $usuario['cc_descricao'] ?></td>
                                 </tr>
                             <?php endforeach ?>
                             </tbody>
@@ -105,6 +108,18 @@ use \app\controllers\UsuariosController;
                 });
             }
         }
+
+        $(document).ready(function() {
+            $('#usuario').DataTable( {
+                dom: 'Bfrtip',
+                buttons: [
+                    'copyHtml5',
+                    'excelHtml5',
+                    'csvHtml5',
+                    'pdfHtml5'
+                ]
+            } );
+        } );
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <?php include(FOOTER_TEMPLATE); ?><?php

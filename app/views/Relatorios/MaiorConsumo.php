@@ -24,8 +24,11 @@ $_SESSION['menu'] = 'Telefonia';
                     SISTEMA DE GESTÃO DE TELEFONIA
                 </h3>
             </div> <!-- /.portlet-header -->
+
+            <div class="v-graficos"></div>
             <div class="portlet-content">
-                <div class="portlet" id="portlet">
+                <center><h1>TOP 5 Maiores consumos</h1></center>
+                <div style="margin-left: 250px" class="portlet" id="portlet">
                     <?php
                     //  echo json_encode($dates[0]);
                     //    echo  json_encode($dates);
@@ -65,7 +68,7 @@ $_SESSION['menu'] = 'Telefonia';
             $i++;
         ?>
 
-        var json = <?php echo json_encode($data);?>;
+        var json = <?php echo json_encode($data[0]);?>;
         var dates = [];
         var sums = [];
         var junta = [['Linha', 'Valor']];
@@ -80,15 +83,25 @@ $_SESSION['menu'] = 'Telefonia';
 
             junta.push(["'" + parseInt(i['linha']) + "'", parseFloat(i["valor"])]);
         }
-        console.log(dates);
-        console.log(sums);
+        //console.log(dates);
+        //console.log(sums);
+        console.log(junta);
 
+        var tudo = <?= $data[1][0] ?>;
+
+        var mes = tudo.toString().slice(4);
+        var ano = tudo.toString().substr(0,4);
+        console.log(ano);
+        console.log(mes);
+        console.log(tudo);
+
+        var dataExibir = mes+"/"+ano;
 
         var data = google.visualization.arrayToDataTable(junta);
 
         var materialOptions = {
             chart: {
-                title: '',
+                title: dataExibir,
                 subtitle: ''
             },
             hAxis: {
@@ -100,16 +113,13 @@ $_SESSION['menu'] = 'Telefonia';
             },
             bars: 'horizontal'
         };
-        document.getElementById("portlet").innerHTML = "<div id='chart_div<?=$i?>'></div>";
+        document.getElementById("portlet").insertAdjacentHTML("beforeEnd", "<div style='width: 80%;' id='chart_div<?=$i?>'></div><br><br><br>");
         var materialChart = new google.charts.Bar(document.getElementById('chart_div<?=$i?>'));
 
+        materialChart.draw(data, materialOptions);
 
-        setTimeout(function () {
-            materialChart.draw(data, materialOptions);
-        }, 500);
         <?php endforeach;?>
     }
-
 
 
 </script>

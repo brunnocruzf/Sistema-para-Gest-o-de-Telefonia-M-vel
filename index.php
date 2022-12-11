@@ -11,7 +11,6 @@ use core\Controller;
 
 $route = new PlugRoute(new RouteContainer(), RequestCreator::create());
 
-
 $route->get('/', 'app\controllers\index@login');
 $route->post('/loga', 'app\controllers\index@loga');
 $route->get('/logout', 'app\controllers\index@logout');
@@ -41,6 +40,8 @@ $route->get('/relatorios/faturas/{date}', 'app\controllers\RelatoriosController@
 $route->get('/relatorios/exportRateio/{date}', 'app\controllers\RelatoriosController@exportRateioCC');
 $route->get('/relatorios/exportRH/{date}', 'app\controllers\RelatoriosController@exportRH');
 $route->get('/relatorios/valorLinha/{date}', 'app\controllers\RelatoriosController@valorLinha');
+
+$route->get('/relatorios/celularesporcc', 'app\controllers\RelatoriosController@celularesporcc');
 
 //rotas para meus telefones
 $route->get('/meusTelefones/{mat}', 'app\controllers\MeusTelefonesController@index');

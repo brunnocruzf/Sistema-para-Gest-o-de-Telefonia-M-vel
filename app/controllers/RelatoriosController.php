@@ -20,6 +20,12 @@ class RelatoriosController extends Controller
         $this->view('Relatorios/Relatorios');
     }
 
+    function celularesporcc(){
+        $dados = $this->instanciaRelModel()->celularesporcc();
+
+        return $this->view('Relatorios/celularesporcc', ['dados'=>$dados]);
+    }
+
     function relatoriosFat()
     {
         $relModel = new RelatoriosModel();
@@ -31,8 +37,6 @@ class RelatoriosController extends Controller
         return $this->instanciaRelModel()->datesFat();
     }
 
-
-
     function maiorConsumo(){
         return $this->view('Relatorios/MaiorConsumo',['dates'=>$this->consumos()]);
     }
@@ -42,7 +46,7 @@ class RelatoriosController extends Controller
         //$this->instanciaRelModel()->topConsumoMes();
         $consumo = array();
         foreach ($mes as $m){
-            array_push($consumo, $this->instanciaRelModel()->topConsumoMes($m['date_fat']));
+            array_push($consumo, [$this->instanciaRelModel()->topConsumoMes($m['date_fat']), $m]);
         }
         return $consumo;
     }
@@ -150,6 +154,5 @@ class RelatoriosController extends Controller
             ]);
         }
         $csv->output('ValorLinha_' . $date . '.csv');
-
     }
 }

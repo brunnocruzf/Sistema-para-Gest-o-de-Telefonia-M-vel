@@ -3,6 +3,7 @@
 namespace app\models;
 
 use app\databases\conectaBanco;
+use app\models\UsuariosModel;
 
 class DetalhesModel extends conectaBanco
 {
@@ -123,8 +124,35 @@ class DetalhesModel extends conectaBanco
                     }
                 }
                 break;
-            case 'telefone':
+            case 'linha':
+                $cont = $this->buscaLinha($idWhere);
 
+                $userModel = new \app\models\UsuariosModel();
+                $idUsuario = $userModel->buscaIdMatricula($idUser)['id'];
+
+                if($cont <= 0){
+
+                    $stmt = conectaBanco::getConnection()->prepare('INSERT INTO sgt.sgt_relacao (id_usuario , nro_telefone) 
+                                                            VALUES(:id_user, :id_celular)');
+                    $stmt->execute(array(
+                        ':id_user' => $idUsuario,
+                        ':id_celular' => $idWhere,
+                    ));
+
+                }else{
+                    try {
+                        $stmt = conectaBanco::getConnection()->prepare('UPDATE sgt.sgt_relacao SET
+                                                                          id_usuario = :idUser WHERE nro_telefone = ' . $idWhere);
+
+                        $stmt->bindParam(':idUser', $idUsuario);
+
+                        $stmt->execute();
+                        //$stmt->debugDumpParams();
+                        return 1;
+                    } catch (PDOException $e) {
+                        return 2;
+                    }
+                }
                 break;
         }
     }

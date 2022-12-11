@@ -39,8 +39,8 @@ use \app\controllers\TelefonesController;
                 <div class="portlet-content">
 
                     <div class="portlet">
-                        <table
-                                class="table table-striped table-bordered table-hover table-highlight table-checkable"
+                        <table id="linhas"
+                                class="table display table-striped table-bordered table-hover table-highlight table-checkable"
                                 data-provide="datatable"
                                 data-display-rows="15"
                                 data-info="true"
@@ -50,10 +50,10 @@ use \app\controllers\TelefonesController;
                             <tr>
                                 <th data-filterable="false" data-sortable="false">Opções</th>
                                 <th data-filterable="true" data-sortable="true" width="1%">Número</th>
-                                <th data-filterable="true" data-sortable="true" data-direction="asc"width="20%" >Nome</th>
+                                <th data-filterable="true" data-sortable="true" data-direction="desc"width="20%" >Nome</th>
                                 <th data-filterable="true" data-sortable="true" width="5%">Matricula</th>
                                 <th data-filterable="true" data-sortable="true">Plano</th>
-                                <th data-filterable="true" data-sortable="true" width="22%">CC</th>
+                                <th data-filterable="true" data-sortable="true" width="22%">Centro de Custo</th>
                                 <th data-filterable="true" data-sortable="true">Tipo</th>
                             </tr>
                             </thead>
@@ -110,6 +110,17 @@ use \app\controllers\TelefonesController;
                 });
             }
         }
+        $(document).ready(function() {
+            $('#linhas').DataTable( {
+                dom: 'Bfrtip',
+                buttons: [
+                    'copyHtml5',
+                    'excelHtml5',
+                    'csvHtml5',
+                    'pdfHtml5'
+                ]
+            } );
+        } );
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <?php include(FOOTER_TEMPLATE); ?>

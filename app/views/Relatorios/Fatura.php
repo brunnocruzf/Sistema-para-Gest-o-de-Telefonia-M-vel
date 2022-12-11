@@ -173,10 +173,10 @@ include(MENU_TEMPLATE);
                                 <tr>
                                     <td colspan='2'>
                                         <div class='dados_cliente'>
-                                            AXOON TMSA<br>
-                                            Av. Bernardino S. Pastoriza, 710<br>
-                                            Sarandi<br>
-                                            91160310 AXOON TMSA - RS
+                                            Conta 1<br>
+                                            Av. Rua da. Empresa, 710<br>
+                                            Bairro<br>
+                                            91130210 ACME - RS
                                         </div>
                                         <div class='dados_conta'>
                                             <table class='cabecalho'>

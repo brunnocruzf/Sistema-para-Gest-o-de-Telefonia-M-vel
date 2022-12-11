@@ -22,9 +22,12 @@ class CsvModel
         set_time_limit(900);
 
         foreach ($registros as $registro) {
-            if($registro['valor_ligacao']==''){
-                $registro['valor_ligacao']=0;
+
+            if($registro['valor']==''){
+                $registro['valor']=0;
             }
+
+
             try {
                 $stmt = $this->getConexao()->prepare('INSERT INTO sgt.sgt_chamadas (date_fat, linha, data_hora_inicio,nro_telefone_chamado, duracao_ligacao,desc_categoria,valor_ligacao)
                                                             VALUES(:date_fat, :linha, :data_hora_inicio, :nro_telefone_chamado, :duracao_ligacao, :desc_categoria, :valor_ligacao)');
@@ -35,7 +38,7 @@ class CsvModel
                     ':nro_telefone_chamado' => str_replace(' ', '', $registro['nro_telefone_chamado']),
                     ':duracao_ligacao' => $registro['duracao_ligacao'],
                     ':desc_categoria' => $registro['desc_categoria'],
-                    ':valor_ligacao' => $registro['valor_ligacao']
+                    ':valor_ligacao' => $registro['valor']
                 ));
             } catch (PDOException $e) {
                 echo 'Error: ' . $e->getMessage();

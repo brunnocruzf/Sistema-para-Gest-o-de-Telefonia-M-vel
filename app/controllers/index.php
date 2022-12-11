@@ -44,12 +44,17 @@ class index extends Controller
         $userModel = new UsuariosModel();
         $result = $userModel->login($dados);
 
-        $count = count($result);
+        if($result == false){
+            $count = 0;
+        }elseif ($result <> false){
+            $count = count($result);
+        }
+
         if ($count > 0) {
             if (session_status() != PHP_SESSION_ACTIVE) {
                 ob_start();
                 session_start();
-                session_cache_expire(60);
+                session_cache_expire(600000);
                 $_SESSION['conectado'] = true;
                 $_SESSION['menu'] = "sgt";
 
@@ -68,18 +73,18 @@ class index extends Controller
                 } else {
                     header('Location: ' . BASEURL_SGT . 'meusTelefones/'.$_SESSION['matricula']);
                 }
-                header('Location: ' . BASEURL_SGT . 'meusTelefones/4085');
+              //  header('Location: ' . BASEURL_SGT . 'meusTelefones/4085');
             }
 
         } else {
             $mensagem = 'Login ou senha incorretos!!!';
             return $this->view('login', ['mensagem' => $mensagem]);
         }
-        header('Location: ' . BASEURL_SGT . 'meusTelefones/4085');
+     //   header('Location: ' . BASEURL_SGT . 'meusTelefones/4085');
     }
 
     function logout(){
-            session_start();
+       //     session_start();
             session_unset();
             unset($_SESSION);
             session_destroy();
