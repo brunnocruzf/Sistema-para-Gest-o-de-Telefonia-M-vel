@@ -2,7 +2,7 @@
 
 error_reporting(0);
 
-require_once($_SERVER['DOCUMENT_ROOT'].'\sgt\config.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/sgt/config.php');
 require_once(DBAPI);
 abresessao();
 
