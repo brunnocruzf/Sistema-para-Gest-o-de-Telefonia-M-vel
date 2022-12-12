@@ -58,7 +58,7 @@ $_SESSION['menu'] = 'SGT';
                                         ?>
                                     </td>
                                     <td>
-                                        <?php echo 'R$ '.$dados['valor_total']; ?>
+                                        <?php echo 'R$ '.number_format($dados['valor_total'],2,",","."); ?>
                                     </td>
                                     <td>
                                         <?php echo $dados['qntlinhas']; ?>

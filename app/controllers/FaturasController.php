@@ -25,7 +25,7 @@ class FaturasController extends Controller
         $dadosTel = $tel->buscaTelefone($numero);
         $telTipo = $dadosTel['tipo'];
 
-        $this->view("Relatorios\GridFaturas", ['numero' => $grid, 'telTipo' => $telTipo]);
+        $this->view("Relatorios/GridFaturas", ['numero' => $grid, 'telTipo' => $telTipo]);
     }
 
     function qtdePlanos($numero, $date)
