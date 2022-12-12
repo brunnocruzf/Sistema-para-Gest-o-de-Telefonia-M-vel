@@ -54,7 +54,7 @@ class TelefonesController extends Controller
         $numero = $_POST['numero'];
         $telefone = $telModel->buscaTelefone($numero);
         $mensagem = $telModel->editarTelefone($dados);
-        $this->view("editTelefone", ['telefone' => $telefone, 'mensagem' => $mensagem]);
+        $this->view("EditTelefone", ['telefone' => $telefone, 'mensagem' => $mensagem]);
     }
 
     function deleteTelefone(Request $request)
