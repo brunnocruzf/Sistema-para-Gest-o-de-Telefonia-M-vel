@@ -61,7 +61,7 @@ use \app\controllers\TelefonesController;
                                             <a href="<?php echo BASEURL ?>faturas/<?php echo $telefone['linha'] ?>"><i class="fa fa-file-pdf-o" aria-hidden="true" style="color:black;"></i></a>
                                         </center>
                                     </td>
-                                    <td><input type="hidden" value="" id="numero"><?php echo $telefone['linha'] ?></td>
+                                    <td><input type="hidden" value="" id="numero"><?php echo formataTelefone($telefone['linha']) ?></td>
                                     <td><?php echo $telefone['nome'] ?></td>
                                     <td><?php echo $telefone['matricula'] ?></td>
                                     <td><?php echo $telefone['plano'] ?></td>
