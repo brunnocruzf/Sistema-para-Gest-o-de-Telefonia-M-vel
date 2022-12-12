@@ -61,7 +61,7 @@ class FaturasController extends Controller
         }else{
             $nomeUser = "Nome não informado.";
         }
-        $this->view("Relatorios/fatura", ['date'=>$date,'numero'=>$numero,'chamadas' => $dados, 'nomeUser' => $nomeUser, 'valorTotal' => $valorTotal, 'infoPlano' => $infoPlano, 'resumoPlano' => $resumoPlano, 'dadosTel' => $dadosTel]);
+        $this->view("Relatorios/Fatura", ['date'=>$date,'numero'=>$numero,'chamadas' => $dados, 'nomeUser' => $nomeUser, 'valorTotal' => $valorTotal, 'infoPlano' => $infoPlano, 'resumoPlano' => $resumoPlano, 'dadosTel' => $dadosTel]);
     }
 
     function printFatura(Request $request)
