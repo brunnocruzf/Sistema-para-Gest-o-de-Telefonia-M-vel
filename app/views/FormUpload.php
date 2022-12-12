@@ -20,7 +20,7 @@ include(MENU_TEMPLATE);
 
 
     <div id="content-header">
-        <h1>SISTEMA DE GESTÃO DE TELEFONIA</h1>
+        <h1>SGT - SISTEMA PARA GESTÃO DE TELEFONIA MÓVEL</h1>
     </div> <!-- #content-header -->
 
 

@@ -21,7 +21,7 @@ use \app\controllers\TelefonesController;
     </style>
     <div id="content">
         <div id="content-header">
-            <h1>SISTEMA DE GESTÃO DE TELEFONIA</h1>
+            <h1>SGT - SISTEMA PARA GESTÃO DE TELEFONIA MÓVEL</h1>
         </div> <!-- #content-header -->
 
         <div id="content-container">
@@ -30,7 +30,7 @@ use \app\controllers\TelefonesController;
                 <div class="portlet-header">
                     <h3>
                         <i class="fa fa-phone-square" style="transform: rotate(90deg);"></i>
-                        Telefones
+                            Minhas Linhas
                     </h3>
                 </div> <!-- /.portlet-header -->
                 <div class="portlet-content">

@@ -15,7 +15,7 @@ include(MENU_TEMPLATE);
     </style>
     <div id="content">
         <div id="content-header">
-            <h1>SISTEMA DE GESTÃO DE TELEFONIA</h1>
+            <h1>SGT - SISTEMA PARA GESTÃO DE TELEFONIA MÓVEL</h1>
         </div> <!-- #content-header -->
         <div id="content-container">
             <button type="button" id="imprime" style="margin-bottom: 20px" class="btn btn-light"><i class="fa fa-print" style="margin-right: 7px" aria-hidden="true"></i>Imprimir</button>
@@ -193,7 +193,7 @@ include(MENU_TEMPLATE);
                                                                 $proxMes = 01;
                                                                 $proxAno = ($ano + 1);
                                                             }else{
-                                                                $proxMes = ($mes + 1);
+                                                                $proxMes = ($mes - 1);
                                                                 $proxAno = $ano;
                                                             }
 
@@ -205,7 +205,7 @@ include(MENU_TEMPLATE);
                                                             }
 
 
-                                                            echo "02/" . $mes . "/" . $ano . " a 01/" .$proxMes. "/" . $proxAno;
+                                                            echo "02/" . $proxMes . "/" . $ano . " a 01/" .$mes. "/" . $proxAno;
                                                             ?>
                                                         </b></td>
                                                 </tr>

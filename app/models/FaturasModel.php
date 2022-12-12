@@ -21,7 +21,7 @@ class FaturasModel
         return $stmt->fetch();
     }
     function buscaChamadas($numero, $data){
-        $stmt = conectaBanco::getConnection()->prepare('select * from sgt.sgt_chamadas where date_fat = :data and linha = :numero order by desc_categoria;');
+        $stmt = conectaBanco::getConnection()->prepare('select * from sgt.sgt_chamadas where date_fat = :data and linha = :numero order by data_hora_inicio desc;');
         $stmt->execute(array(
             ':numero'=>$numero,
             ':data'=>$data

@@ -16,9 +16,10 @@ $loguser = $_SESSION['login'];
                 <li>
                     <a href="<?php echo BASEURL_SGT; ?>meusTelefones/<?php echo $_SESSION['matricula']; ?>"><i
                                 class="fa fa-phone" aria-hidden="true" style="transform: rotate(90deg);"></i>
-                        Meus Telefones
+                        Minhas Linhas
                     </a>
                 </li>
+                <?php if($_SESSION['admin'] == "1"): ?>
                 <li>
                     <a href="<?php echo BASEURL_SGT; ?>celulares"><i class="fa fa-phone-square" aria-hidden="true"
                                                                      style="transform: rotate(90deg);"></i>
@@ -46,6 +47,7 @@ $loguser = $_SESSION['login'];
                         Importar dados
                     </a>
                 </li>
+                <?php endif;?>
             </ul>
 
 

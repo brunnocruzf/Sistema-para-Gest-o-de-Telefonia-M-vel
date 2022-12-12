@@ -16,7 +16,7 @@ $_SESSION['menu'] = 'SGT';
     </style>
     <div id="content">
         <div id="content-header">
-            <h1>SISTEMA DE GESTÃO DE TELEFONIA</h1>
+            <h1>SGT - SISTEMA PARA GESTÃO DE TELEFONIA MÓVEL</h1>
         </div> <!-- #content-header -->
         <div id="content-container">
             <div class="portlet">
@@ -31,7 +31,7 @@ $_SESSION['menu'] = 'SGT';
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-xs-6 col-md-1">
-                                    <a href="relatorios/faturas" class="btn btn-default btn-lg" role="button"><i class="glyphicon glyphicon-list-alt"></i> <br/>Relatorio de <br/> Faturas<br/></a>
+                                    <a href="relatorios/faturas" class="btn btn-default btn-lg" role="button"><i class="glyphicon glyphicon-list-alt"></i> <br/>Relatórios de <br/> Faturas<br/></a>
                                 </div>
 
                                 <div class="col-lg-1"></div>
@@ -43,7 +43,7 @@ $_SESSION['menu'] = 'SGT';
                                 <div class="col-lg-1"></div>
 
                                 <div class="col-xs-6 col-md-1">
-                                    <a href="relatorios/celularesporcc" class="btn btn-default btn-lg" role="button"><i class="fa fa-bar-chart" aria-hidden="true"></i> <br/>Quantidade de<br> Celulares por CC</a>
+                                    <a href="relatorios/celularesporcc" class="btn btn-default btn-lg" role="button"><i class="fa fa-mobile" aria-hidden="true"></i> <br/>Quantidade de<br> Celulares por CC</a>
                                 </div>
                             </div>
                         </div>

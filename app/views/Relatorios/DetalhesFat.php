@@ -15,7 +15,7 @@ include(MENU_TEMPLATE);
     </style>
     <div id="content">
         <div id="content-header">
-            <h1>SISTEMA DE GESTÃO DE TELEFONIA</h1>
+            <h1>SGT - SISTEMA PARA GESTÃO DE TELEFONIA MÓVEL</h1>
         </div> <!-- #content-header -->
         <div id="content-container">
             <a href="../exportRateio/<?php echo $dateFat; ?>" class="btn btn-sm btn-success" style="margin-bottom: 15px"><i class="fa fa-file-excel-o" style="margin-right: 10px"></i>Exportar Rateio CC</a>
@@ -51,7 +51,7 @@ include(MENU_TEMPLATE);
                                         <?php
                                         $mes = substr($dateFat, -2);
                                         $ano = substr($dateFat, 0, 4);
-                                        echo "02/" . $mes . "/" . $ano . " a 01/" . ($mes + 1) . "/" . $ano;
+                                        echo "02/" . str_pad(($mes - 1),2 , '0' , STR_PAD_LEFT) . "/" . $ano . " a 01/" . $mes . "/" . $ano;
                                         ?>
                                     </td>
                                 </tr>
@@ -65,7 +65,7 @@ include(MENU_TEMPLATE);
                                 </tr>
                                 <tr>
                                     <th style="background-color: #fafafa">Valor total da fatura</th>
-                                    <td><?php echo  "R$ ".$valTotFat['valor_total']; ?></td>
+                                    <td><?php echo  "R$ ".number_format($valTotFat['valor_total'],2,",","."); ?></td>
                                 </tr>
                                 <tr>
                                     <th style="background-color: #fafafa">Valor Fatura Particular</th>
@@ -74,7 +74,7 @@ include(MENU_TEMPLATE);
                                             if(empty($valParticular['valorTipo'])){
                                                 echo 'N/A';
                                             }else{
-                                                echo  "R$ ".$valParticular['valorTipo'];
+                                                echo  "R$ ".number_format($valParticular['valorTipo'],2,",",".");
                                             }
                                         ?>
                                     </td>
@@ -86,7 +86,7 @@ include(MENU_TEMPLATE);
                                             if(empty($valParticular['valorTipo'])){
                                                 echo 'N/A';
                                             }else{
-                                                echo  "R$ ".($valTotFat['valor_total'] - $valParticular['valorTipo']);
+                                                echo  "R$ ".number_format(($valTotFat['valor_total'] - $valParticular['valorTipo']),2,",",".");
                                             }
                                         ?>
                                     </td>

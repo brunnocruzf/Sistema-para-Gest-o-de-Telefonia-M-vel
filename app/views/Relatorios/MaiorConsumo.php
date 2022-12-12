@@ -14,14 +14,14 @@ $_SESSION['menu'] = 'Telefonia';
 </style>
 <div id="content">
     <div id="content-header">
-        <h1>SISTEMA DE GESTÃO DE TELEFONIA</h1>
+        <h1>SGT - SISTEMA PARA GESTÃO DE TELEFONIA MÓVEL</h1>
     </div> <!-- #content-header -->
     <div id="content-container">
         <div class="portlet">
             <div class="portlet-header">
                 <h3>
                     <i class="fa fa-table"></i>
-                    SISTEMA DE GESTÃO DE TELEFONIA
+                    SGT - SISTEMA PARA GESTÃO DE TELEFONIA MÓVEL
                 </h3>
             </div> <!-- /.portlet-header -->
 
