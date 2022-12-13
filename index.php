@@ -40,6 +40,7 @@ $route->get('/relatorios/faturas/{date}', 'app\controllers\RelatoriosController@
 $route->get('/relatorios/exportRateio/{date}', 'app\controllers\RelatoriosController@exportRateioCC');
 $route->get('/relatorios/exportRH/{date}', 'app\controllers\RelatoriosController@exportRH');
 $route->get('/relatorios/valorLinha/{date}', 'app\controllers\RelatoriosController@valorLinha');
+$route->get('/relatorios/contratos', 'app\controllers\RelatoriosController@contratos');
 
 $route->get('/relatorios/celularesporcc', 'app\controllers\RelatoriosController@celularesporcc');
 

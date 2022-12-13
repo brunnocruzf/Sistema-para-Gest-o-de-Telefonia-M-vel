@@ -45,6 +45,11 @@ $_SESSION['menu'] = 'SGT';
                                 <div class="col-xs-6 col-md-1">
                                     <a href="relatorios/celularesporcc" class="btn btn-default btn-lg" role="button"><i class="fa fa-mobile" aria-hidden="true"></i> <br/>Quantidade de<br> Celulares por CC</a>
                                 </div>
+
+                                <div class="col-lg-1"></div>
+                                <div class="col-xs-6 col-md-1">
+                                    <a href="relatorios/contratos" class="btn btn-default btn-lg" role="button"><i class="glyphicon glyphicon-list-alt" aria-hidden="true"></i> <br/>Contratos <br/>de telefonia móvel</a>
+                                </div>
                             </div>
                         </div>
                     </div> <!-- /.portlet -->

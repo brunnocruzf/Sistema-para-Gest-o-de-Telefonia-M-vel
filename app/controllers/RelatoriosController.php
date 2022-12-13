@@ -26,6 +26,10 @@ class RelatoriosController extends Controller
         return $this->view('Relatorios/celularesporcc', ['dados'=>$dados]);
     }
 
+    function contratos(){
+        return $this->view('Relatorios\contratos');
+    }
+
     function relatoriosFat()
     {
         $relModel = new RelatoriosModel();

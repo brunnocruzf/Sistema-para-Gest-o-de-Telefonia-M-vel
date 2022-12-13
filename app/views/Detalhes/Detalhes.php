@@ -100,7 +100,7 @@ $users = $detalhesController->dadosUser();
                                         if (!is_null($telefones[0])):
                                             ?>
                                             <div class="card-body">
-                                                <h5 class="card-title">Número da linha: <?= $telefones[3]; ?></h5>
+                                                <h5 class="card-title">Número da linha: <?= formataTelefone($telefones[3]); ?></h5>
                                                 <p class="card-text">Plano: <?= $telefones[5]; ?></p>
                                                 <p class="card-text"  style="font-size: 12px; margin-bottom: 0px">Conta: <?= $telefones[2]; ?></p>
                                                 <p class="card-text"  style="font-size: 12px; margin-bottom: 0px">Tipo da linha: <?= $telefones[6]; ?></p>
