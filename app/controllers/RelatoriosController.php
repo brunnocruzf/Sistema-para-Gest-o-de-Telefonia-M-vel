@@ -27,7 +27,7 @@ class RelatoriosController extends Controller
     }
 
     function contratos(){
-        return $this->view('Relatorios\contratos');
+        return $this->view('Relatorios/contratos');
     }
 
     function relatoriosFat()
