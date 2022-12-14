@@ -21,7 +21,7 @@ include(MENU_TEMPLATE);
             <button type="button" id="imprime" style="margin-bottom: 20px" class="btn btn-light"><i class="fa fa-print" style="margin-right: 7px" aria-hidden="true"></i>Imprimir</button>
             <div class="portlet">
                 <div class="portlet-header">
-                    <h3>
+                    <h3><span  class="badge" style="background-color: #bdbdbd; padding-left: 11px; padding: 5px" onclick="history.back()"><i class="fa fa-arrow-left"></i></span>
                         <i class="fa fa-file-pdf-o"></i>
                         Fatura - <?php echo formataTelefone($numero) ?>
                     </h3>

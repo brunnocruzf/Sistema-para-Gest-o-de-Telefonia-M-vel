@@ -20,7 +20,7 @@ $_SESSION['menu'] = 'SGT';
         <div id="content-container">
             <div class="portlet">
                 <div class="portlet-header">
-                    <h3>
+                    <h3><span  class="badge" style="background-color: #bdbdbd; padding-left: 11px; padding: 5px" onclick="history.back()"><i class="fa fa-arrow-left"></i></span>
                         <i class="fa fa-line-chart"></i>
                         SGT - SISTEMA PARA GESTÃO DE TELEFONIA MÓVEL
                     </h3>

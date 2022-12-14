@@ -4,9 +4,6 @@
 //** Conexao com banco de dados PORTAL
 //** --------------------------------------------- */
 
-/** O nome do banco de dados*/
-define('DB_NAME', 'sgt');
-
 /** Usuário do banco de dados SQL */
 define('DB_USER', 'root');
 
@@ -17,6 +14,8 @@ define('DB_PASSWORD', '');
 define('DB_HOST', 'localhost');
 /** nome do driver do SQL */
 define('DB_DRIVER', 'mysql');
+
+define('DB_NAME', 'sgt');
 
 /** caminho absoluto para a pasta do sistema **/
 if ( !defined('ABSPATH') )

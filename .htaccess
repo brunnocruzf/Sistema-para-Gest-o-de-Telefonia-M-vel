@@ -26,7 +26,7 @@ DirectoryIndex index.php
     RewriteRule ^css/(.*)$ /app/view/css/$1 [NC,L]
 
 RewriteCond %{REQUEST_URI} !(assets/|css)
-RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt)$ [NC]
+RewriteCond %{REQUEST_URI} !(\.css|\.js|\.png|\.jpg|\.gif|robots\.txt|\.pdf)$ [NC]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule .*\.(js|css)$ - [F]

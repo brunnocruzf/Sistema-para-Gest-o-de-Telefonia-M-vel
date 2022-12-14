@@ -31,7 +31,7 @@ use \app\controllers\TelefonesController;
             <?php endif; ?>
             <div class="portlet">
                 <div class="portlet-header">
-                    <h3>
+                    <h3><span  class="badge" style="background-color: #bdbdbd; padding-left: 11px; padding: 5px" onclick="history.back()"><i class="fa fa-arrow-left"></i></span>
                         <i class="fa fa-wifi" style="transform: rotate(90deg);"></i>
                         Linhas
                     </h3>

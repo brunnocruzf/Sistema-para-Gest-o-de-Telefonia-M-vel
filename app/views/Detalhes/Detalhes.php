@@ -22,14 +22,18 @@ $users = $detalhesController->dadosUser();
         <div id="content-header">
             <h1>SGT - SISTEMA PARA GESTÃO DE TELEFONIA MÓVEL</h1>
         </div> <!-- #content-header -->
+
         <div id="content-container">
             <div class="portlet">
+
+
                 <div class="portlet-header">
-                    <h3>
+                    <h3><span  class="badge" style="background-color: #bdbdbd; padding-left: 11px; padding: 5px" onclick="history.back()"><i class="fa fa-arrow-left"></i></span>
                         <i class="fa fa-table"></i>
                         SGT - SISTEMA PARA GESTÃO DE TELEFONIA MÓVEL
                     </h3>
                 </div> <!-- /.portlet-header -->
+
                 <div class="portlet-content">
                     <div class="portlet">
                         <?php
@@ -40,9 +44,13 @@ $users = $detalhesController->dadosUser();
                                 <div class="row g-0">
 
                                     <div class="col-md-4">
+                                        <?php
+                                        if (!is_null($usuario[0])):
+                                        ?>
                                         <img src="<?= BASEURL_SGT . 'app/views/fotos/' . $usuario[8] ?>"
                                              style="width: 65px; float: right" class="img-fluid rounded-start"
                                              alt="...">
+                                        <?php endif;?>
                                     </div>
 
                                     <div class="col-md-5" id="dadosUser">
@@ -70,8 +78,7 @@ $users = $detalhesController->dadosUser();
                                             <?php
                                                 else:
                                             ?>
-
-
+                                                <p>Relacionar usuário</p>
                                         <button class="btn btn-success" type="submit" id="addUser" data-toggle="tooltip"
                                                 data-placement="top" title="Tooltip on top">
                                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
@@ -119,6 +126,7 @@ $users = $detalhesController->dadosUser();
                                         <?php
                                         else:
                                             ?>
+                                            <p>Relacionar linha</p>
                                             <button class="btn btn-success" type="submit" id="addLinha" data-toggle="tooltip"
                                                     data-placement="top" title="Tooltip on top">
                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>

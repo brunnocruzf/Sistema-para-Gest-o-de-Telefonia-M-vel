@@ -23,7 +23,7 @@ include(MENU_TEMPLATE);
             <a href="../valorLinha/<?php echo $dateFat; ?>" class="btn btn-sm btn-success" style="margin-bottom: 15px"><i class="fa fa-file-excel-o" style="margin-right: 10px"></i>Exportar Valor por linha</a>
             <div class="portlet">
                 <div class="portlet-header">
-                    <h3>
+                    <h3><span  class="badge" style="background-color: #bdbdbd; padding-left: 11px; padding: 5px" onclick="history.back()"><i class="fa fa-arrow-left"></i></span>
                         <i class="fa fa-table"></i>
                         Fatura - <?php $mes = substr($dateFat, -2);
                         $ano = substr($dateFat, 0, 4);

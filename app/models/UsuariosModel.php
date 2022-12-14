@@ -27,7 +27,7 @@ class UsuariosModel
 
     function todosIdNomes()
     {
-        $stmt = conectaBanco::getConnection()->prepare('select id, nome from sgt.usuarios');
+        $stmt = conectaBanco::getConnection()->prepare('select id, nome from sgt.usuarios order by nome');
         $stmt->execute();
         return $usuarios = $stmt->fetchALL();
     }
